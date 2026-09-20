@@ -1,0 +1,10 @@
+data/
+__pycache__/
+*.pyc
+*.h5
+*.keras
+*.pth
+*.pt
+*.tflite
+.env
+.ipynb_checkpoints/
