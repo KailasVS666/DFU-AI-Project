@@ -1,19 +1,19 @@
 # Dataset Split Summary
 
 ## train
-- Abnormal(Ulcer): 351
-- Normal(Healthy skin): 375
-- Total: 726
+- Abnormal(Ulcer): 327
+- Normal(Healthy skin): 167
+- Total: 494
 
 ## val
-- Abnormal(Ulcer): 81
-- Normal(Healthy skin): 81
-- Total: 162
+- Abnormal(Ulcer): 70
+- Normal(Healthy skin): 35
+- Total: 105
 
 ## test
-- Abnormal(Ulcer): 80
-- Normal(Healthy skin): 87
-- Total: 167
+- Abnormal(Ulcer): 71
+- Normal(Healthy skin): 37
+- Total: 108
 
 ## Overall Total
-- 1055
+- 707
