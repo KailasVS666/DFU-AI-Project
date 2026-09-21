@@ -1,0 +1,1431 @@
+group_id,group_type,phash_hamming_threshold,sha256_or_min_pair_hamming,filename
+exact-0001,exact,,afca2b9f347607856da567d51643ff5330f22fabc6ceba501f4c0f0f8587efb2,data/DFU/Original Images/40122541_323962865037457_6905035766640934912_n.jpg
+exact-0001,exact,,afca2b9f347607856da567d51643ff5330f22fabc6ceba501f4c0f0f8587efb2,data/DFU/Original Images/40684551_286268405533991_382919273858727936_n.jpg
+exact-0002,exact,,305fdc91c7822908546485df322ac8068f6c959c99339455c2416074ca564f39,data/DFU/Original Images/40160148_1009679235868898_597659929192431616_n.jpg
+exact-0002,exact,,305fdc91c7822908546485df322ac8068f6c959c99339455c2416074ca564f39,data/DFU/Original Images/40912870_252777755375304_1806555513480019968_n.jpg
+exact-0003,exact,,d70c944428f353e574adcd1b7ffc7856cedafa5024d5a47bdcd9e45333a1b0ad,data/DFU/Original Images/40202761_2200092363606091_776051438781464576_n (1).jpg
+exact-0003,exact,,d70c944428f353e574adcd1b7ffc7856cedafa5024d5a47bdcd9e45333a1b0ad,data/DFU/Original Images/40202761_2200092363606091_776051438781464576_n.jpg
+exact-0004,exact,,cbf997fc606d0f0950c173327edddb57d36496a4c827d869757dbb20118308ba,data/DFU/Original Images/51603050_631379107291077_7939632421186568192_n (1).jpg
+exact-0004,exact,,cbf997fc606d0f0950c173327edddb57d36496a4c827d869757dbb20118308ba,data/DFU/Original Images/51603050_631379107291077_7939632421186568192_n.jpg
+exact-0005,exact,,46f3e9603b5ee28f5bd3bb1a466528afda723b89d54c5fcd47355c49b5d8f7ae,data/DFU/Original Images/51807866_518159225254663_1461266681484541952_n (1).jpg
+exact-0005,exact,,46f3e9603b5ee28f5bd3bb1a466528afda723b89d54c5fcd47355c49b5d8f7ae,data/DFU/Original Images/51807866_518159225254663_1461266681484541952_n.jpg
+exact-0006,exact,,8f355f66b30b38c5d91ebe4b395888c4dc1eb494803d32ca5cdbde828212bc4a,data/DFU/Original Images/51820014_412392489525783_8714311587852189696_n (1).jpg
+exact-0006,exact,,8f355f66b30b38c5d91ebe4b395888c4dc1eb494803d32ca5cdbde828212bc4a,data/DFU/Original Images/51820014_412392489525783_8714311587852189696_n.jpg
+exact-0007,exact,,0765eebb37a3f7e0a6178298d1f7134e93352d59a678d4d2d6e1aa903a420ef3,data/DFU/Original Images/51828322_1996656233961387_5287593504359317504_n (1).jpg
+exact-0007,exact,,0765eebb37a3f7e0a6178298d1f7134e93352d59a678d4d2d6e1aa903a420ef3,data/DFU/Original Images/51828322_1996656233961387_5287593504359317504_n.jpg
+exact-0008,exact,,7222bdd78936296215cd1b822aa38336c94cc5519ac531b0b9d52b6a4befff22,data/DFU/Original Images/52105034_238230050394719_8462553318063865856_n (1).jpg
+exact-0008,exact,,7222bdd78936296215cd1b822aa38336c94cc5519ac531b0b9d52b6a4befff22,data/DFU/Original Images/52105034_238230050394719_8462553318063865856_n.jpg
+exact-0009,exact,,fe0df2b006cf28707fd82e025dd511b9d3085b56737ec02085e54c27b793b35b,data/DFU/Original Images/52696033_298924264128196_4032774948626890752_n (1).jpg
+exact-0009,exact,,fe0df2b006cf28707fd82e025dd511b9d3085b56737ec02085e54c27b793b35b,data/DFU/Original Images/52696033_298924264128196_4032774948626890752_n.jpg
+exact-0010,exact,,d38dd99cf423b7c4cdda0ce2a3658cbc7ef83e1389e85e98f6facca946d7e562,data/DFU/Original Images/52926505_673999489716443_8799253933454262272_n (1).jpg
+exact-0010,exact,,d38dd99cf423b7c4cdda0ce2a3658cbc7ef83e1389e85e98f6facca946d7e562,data/DFU/Original Images/52926505_673999489716443_8799253933454262272_n.jpg
+exact-0011,exact,,be993fd0e32ef59e316f27ea30d7890eea3a44424444ae6b54ca78a93825311c,data/DFU/Original Images/52953564_1224061387745809_986999367409860608_n (1).jpg
+exact-0011,exact,,be993fd0e32ef59e316f27ea30d7890eea3a44424444ae6b54ca78a93825311c,data/DFU/Original Images/52953564_1224061387745809_986999367409860608_n.jpg
+exact-0012,exact,,c95950c39511fd23e6ef48c04fa369a2c3cadaf65cd37d4ee18130a59eab5d39,data/DFU/Original Images/53306460_351795955419517_1052700465684283392_n (1).jpg
+exact-0012,exact,,c95950c39511fd23e6ef48c04fa369a2c3cadaf65cd37d4ee18130a59eab5d39,data/DFU/Original Images/53306460_351795955419517_1052700465684283392_n.jpg
+exact-0013,exact,,df18b10b54f9cca4db34466395cc250e944c8c1bd46ebe318be64fe961b0c22f,data/DFU/Original Images/53478419_566182507230235_8348464280714084352_n (1).jpg
+exact-0013,exact,,df18b10b54f9cca4db34466395cc250e944c8c1bd46ebe318be64fe961b0c22f,data/DFU/Original Images/53478419_566182507230235_8348464280714084352_n.jpg
+exact-0014,exact,,0dac772be6f21e3e255c689c966b10dbd3f35a885e5fd4b64ad907198f0bafae,data/DFU/Original Images/53509473_2142419722735378_2914221158142312448_n (1).jpg
+exact-0014,exact,,0dac772be6f21e3e255c689c966b10dbd3f35a885e5fd4b64ad907198f0bafae,data/DFU/Original Images/53509473_2142419722735378_2914221158142312448_n.jpg
+exact-0015,exact,,4037b4250278cc4696972f4a59fa79011e456344de28e85ec34469fdb3703745,data/DFU/Original Images/53678725_2361119687255293_7023792471368794112_n (1).jpg
+exact-0015,exact,,4037b4250278cc4696972f4a59fa79011e456344de28e85ec34469fdb3703745,data/DFU/Original Images/53678725_2361119687255293_7023792471368794112_n.jpg
+exact-0016,exact,,2ad88aae38bbcda92db66475ba5b3f1641a13909985d20a79548726515379062,data/DFU/Patches/Abnormal(Ulcer)/106.jpg
+exact-0016,exact,,2ad88aae38bbcda92db66475ba5b3f1641a13909985d20a79548726515379062,data/DFU/Patches/Abnormal(Ulcer)/294.jpg
+exact-0017,exact,,dc2958c1fe86279feca738d2cee80fcdc471c144e362835c7c4d98f485531392,data/DFU/Patches/Abnormal(Ulcer)/110.jpg
+exact-0017,exact,,dc2958c1fe86279feca738d2cee80fcdc471c144e362835c7c4d98f485531392,data/DFU/Patches/Abnormal(Ulcer)/296.jpg
+exact-0018,exact,,1976d4585d970cca7904a8de9450b23d58e706ba65f9f724275f5fe4ce39b5fa,data/DFU/Patches/Abnormal(Ulcer)/123.jpg
+exact-0018,exact,,1976d4585d970cca7904a8de9450b23d58e706ba65f9f724275f5fe4ce39b5fa,data/DFU/Patches/Abnormal(Ulcer)/295.jpg
+exact-0019,exact,,5a34f9999ad00ce542f7575a41ef1543f11c894404f6e42db414a351e08dd18b,data/DFU/Patches/Abnormal(Ulcer)/130.jpg
+exact-0019,exact,,5a34f9999ad00ce542f7575a41ef1543f11c894404f6e42db414a351e08dd18b,data/DFU/Patches/Abnormal(Ulcer)/297.jpg
+exact-0020,exact,,05aa274c1c80d0e1933797622f728bd08674529ae9e458bc79774ffa4be16472,data/DFU/Patches/Abnormal(Ulcer)/16.jpg
+exact-0020,exact,,05aa274c1c80d0e1933797622f728bd08674529ae9e458bc79774ffa4be16472,data/DFU/Patches/Abnormal(Ulcer)/286.jpg
+exact-0021,exact,,f3b3f540c47654187dc950293fd99e9c0f044d7960a404692a039b01de0c4734,data/DFU/Patches/Abnormal(Ulcer)/162.jpg
+exact-0021,exact,,f3b3f540c47654187dc950293fd99e9c0f044d7960a404692a039b01de0c4734,data/DFU/Patches/Abnormal(Ulcer)/298.jpg
+exact-0022,exact,,084dd87bd191d3ea044eb62ceda27926c1b717220fb22591059c856580fb3d05,data/DFU/Patches/Abnormal(Ulcer)/175.jpg
+exact-0022,exact,,084dd87bd191d3ea044eb62ceda27926c1b717220fb22591059c856580fb3d05,data/DFU/Patches/Abnormal(Ulcer)/300.jpg
+exact-0023,exact,,11dc359dd0bd875cc448ef5929383fb0b76c39652a3a375e71c564356f39a25e,data/DFU/Patches/Abnormal(Ulcer)/176.jpg
+exact-0023,exact,,11dc359dd0bd875cc448ef5929383fb0b76c39652a3a375e71c564356f39a25e,data/DFU/Patches/Abnormal(Ulcer)/381.jpg
+exact-0024,exact,,7ef27e516cdf5b1d2de59b12d955b8ea100412f6c9723e06d38884febc392b0d,data/DFU/Patches/Abnormal(Ulcer)/178.jpg
+exact-0024,exact,,7ef27e516cdf5b1d2de59b12d955b8ea100412f6c9723e06d38884febc392b0d,data/DFU/Patches/Abnormal(Ulcer)/228.jpg
+exact-0025,exact,,7c3c8495049a4b9ea8e3656d13458a7a7ab36e9974846142329a0bfaaaeca69e,data/DFU/Patches/Abnormal(Ulcer)/18.jpg
+exact-0025,exact,,7c3c8495049a4b9ea8e3656d13458a7a7ab36e9974846142329a0bfaaaeca69e,data/DFU/Patches/Abnormal(Ulcer)/287.jpg
+exact-0026,exact,,b96ef24e1460b741e15b165d19063b9c81503452cfced2cbd231d11baf9ed2cc,data/DFU/Patches/Abnormal(Ulcer)/192.jpg
+exact-0026,exact,,b96ef24e1460b741e15b165d19063b9c81503452cfced2cbd231d11baf9ed2cc,data/DFU/Patches/Abnormal(Ulcer)/383.jpg
+exact-0027,exact,,c775ccb92d5807a3702fb91a8a3ecd40a6ca474dfc0e24438089dbd60dbb60ce,data/DFU/Patches/Abnormal(Ulcer)/197.jpg
+exact-0027,exact,,c775ccb92d5807a3702fb91a8a3ecd40a6ca474dfc0e24438089dbd60dbb60ce,data/DFU/Patches/Abnormal(Ulcer)/299.jpg
+exact-0028,exact,,a56e9bde6edfdce589e148cbdd860599bc0f7bb9e7418775ff96619a33febcd8,data/DFU/Patches/Abnormal(Ulcer)/20.jpg
+exact-0028,exact,,a56e9bde6edfdce589e148cbdd860599bc0f7bb9e7418775ff96619a33febcd8,data/DFU/Patches/Abnormal(Ulcer)/289.jpg
+exact-0028,exact,,a56e9bde6edfdce589e148cbdd860599bc0f7bb9e7418775ff96619a33febcd8,data/DFU/Patches/Abnormal(Ulcer)/393.jpg
+exact-0029,exact,,86775645674fa2df3b0c048e06ee275dc53bffc7c13661a8825a3b6a36d3ff7c,data/DFU/Patches/Abnormal(Ulcer)/202.jpg
+exact-0029,exact,,86775645674fa2df3b0c048e06ee275dc53bffc7c13661a8825a3b6a36d3ff7c,data/DFU/Patches/Abnormal(Ulcer)/382.jpg
+exact-0030,exact,,b4ce6f73f5ae09843e5ffee71e4f0f9b5bfffd5a284afc7f8cc7d67458086da6,data/DFU/Patches/Abnormal(Ulcer)/204.jpg
+exact-0030,exact,,b4ce6f73f5ae09843e5ffee71e4f0f9b5bfffd5a284afc7f8cc7d67458086da6,data/DFU/Patches/Abnormal(Ulcer)/385.jpg
+exact-0031,exact,,9910b65e1c664ed9dd1e7d2939856084f86107caa0f7f863aca5296eaffd6ddc,data/DFU/Patches/Abnormal(Ulcer)/221.jpg
+exact-0031,exact,,9910b65e1c664ed9dd1e7d2939856084f86107caa0f7f863aca5296eaffd6ddc,data/DFU/Patches/Abnormal(Ulcer)/384.jpg
+exact-0032,exact,,cd670348a4e52c1451c91bad03ff0b33e6c32f006e2c6950513249f7388aac80,data/DFU/Patches/Abnormal(Ulcer)/222.jpg
+exact-0032,exact,,cd670348a4e52c1451c91bad03ff0b33e6c32f006e2c6950513249f7388aac80,data/DFU/Patches/Abnormal(Ulcer)/388.jpg
+exact-0033,exact,,271c211eea5f25cbd9fb19c291c7157e3fd21e1335aa231d30759c1a4ac820ae,data/DFU/Patches/Abnormal(Ulcer)/223.jpg
+exact-0033,exact,,271c211eea5f25cbd9fb19c291c7157e3fd21e1335aa231d30759c1a4ac820ae,data/DFU/Patches/Abnormal(Ulcer)/285.jpg
+exact-0033,exact,,271c211eea5f25cbd9fb19c291c7157e3fd21e1335aa231d30759c1a4ac820ae,data/DFU/Patches/Abnormal(Ulcer)/390.jpg
+exact-0034,exact,,65ecc920d9fb2eec6d3f9c11a14eed9a39788f022578277a0c75de9c017559b1,data/DFU/Patches/Abnormal(Ulcer)/245.jpg
+exact-0034,exact,,65ecc920d9fb2eec6d3f9c11a14eed9a39788f022578277a0c75de9c017559b1,data/DFU/Patches/Abnormal(Ulcer)/386.jpg
+exact-0035,exact,,56c032fc04dc6c9f5dc7dd3e0fedcd8f485eaf1cdf9f3700de6a9f4f0906a428,data/DFU/Patches/Abnormal(Ulcer)/247.jpg
+exact-0035,exact,,56c032fc04dc6c9f5dc7dd3e0fedcd8f485eaf1cdf9f3700de6a9f4f0906a428,data/DFU/Patches/Abnormal(Ulcer)/389.jpg
+exact-0036,exact,,888980a8b0cb2aa70f1e04ef945d2a11454012b73a5bdff9dfffc1503930f47f,data/DFU/Patches/Abnormal(Ulcer)/266.jpg
+exact-0036,exact,,888980a8b0cb2aa70f1e04ef945d2a11454012b73a5bdff9dfffc1503930f47f,data/DFU/Patches/Abnormal(Ulcer)/392.jpg
+exact-0037,exact,,318e1711e06599733e0dc679631847d4afd82d536534937d2b1b4abf50eecc5b,data/DFU/Patches/Abnormal(Ulcer)/275.jpg
+exact-0037,exact,,318e1711e06599733e0dc679631847d4afd82d536534937d2b1b4abf50eecc5b,data/DFU/Patches/Abnormal(Ulcer)/387.jpg
+exact-0038,exact,,2c383b1a98bcd13bb8d7b0ae1bff21392772f5de0298d5afc602b982176b1eba,data/DFU/Patches/Abnormal(Ulcer)/276.jpg
+exact-0038,exact,,2c383b1a98bcd13bb8d7b0ae1bff21392772f5de0298d5afc602b982176b1eba,data/DFU/Patches/Abnormal(Ulcer)/391.jpg
+exact-0039,exact,,fd1473568a5b4582d801ae5aec87c10ee982f3613af2831dfb0c090701a96223,data/DFU/Patches/Abnormal(Ulcer)/281.jpg
+exact-0039,exact,,fd1473568a5b4582d801ae5aec87c10ee982f3613af2831dfb0c090701a96223,data/DFU/Patches/Abnormal(Ulcer)/394.jpg
+exact-0040,exact,,ce12dbb52fc0e7e899fd3f5ec2026e8f5e49bd1380ec5d4475715885e06e61b3,data/DFU/Patches/Abnormal(Ulcer)/288.jpg
+exact-0040,exact,,ce12dbb52fc0e7e899fd3f5ec2026e8f5e49bd1380ec5d4475715885e06e61b3,data/DFU/Patches/Abnormal(Ulcer)/38.jpg
+exact-0041,exact,,88ab8d13f46efb98a2551d6b7dcc3f6cc6d0bb32597a9ed6933318ee3a095707,data/DFU/Patches/Abnormal(Ulcer)/290.jpg
+exact-0041,exact,,88ab8d13f46efb98a2551d6b7dcc3f6cc6d0bb32597a9ed6933318ee3a095707,data/DFU/Patches/Abnormal(Ulcer)/58.jpg
+exact-0042,exact,,68a28686a45981a27bff15b09cc8963a88fe6fe1c211f443f6d5f1ccde34dd14,data/DFU/Patches/Abnormal(Ulcer)/291.jpg
+exact-0042,exact,,68a28686a45981a27bff15b09cc8963a88fe6fe1c211f443f6d5f1ccde34dd14,data/DFU/Patches/Abnormal(Ulcer)/55.jpg
+exact-0043,exact,,d1954e2697f895853e10558bc6d4827a08d6e44d37348ffa534b3aeac8540af6,data/DFU/Patches/Abnormal(Ulcer)/292.jpg
+exact-0043,exact,,d1954e2697f895853e10558bc6d4827a08d6e44d37348ffa534b3aeac8540af6,data/DFU/Patches/Abnormal(Ulcer)/87.jpg
+exact-0044,exact,,08e2ca674ce1e169fa793f192974c6fcf1de73419189eddced2c7f56e4be924a,data/DFU/Patches/Abnormal(Ulcer)/293.jpg
+exact-0044,exact,,08e2ca674ce1e169fa793f192974c6fcf1de73419189eddced2c7f56e4be924a,data/DFU/Patches/Abnormal(Ulcer)/395.jpg
+exact-0044,exact,,08e2ca674ce1e169fa793f192974c6fcf1de73419189eddced2c7f56e4be924a,data/DFU/Patches/Abnormal(Ulcer)/75.jpg
+exact-0045,exact,,d208002d93c95cacb429e76b9e2d675f9e1204b01196ccd7123c6285afeada1f,data/DFU/Patches/Abnormal(Ulcer)/30.jpg
+exact-0045,exact,,d208002d93c95cacb429e76b9e2d675f9e1204b01196ccd7123c6285afeada1f,data/DFU/Patches/Abnormal(Ulcer)/48.jpg
+exact-0046,exact,,350aff0c7f0199afdb0647f60ff129bcb8da1fb1fe5588e539f6758ef6714395,data/DFU/Patches/Abnormal(Ulcer)/308.jpg
+exact-0046,exact,,350aff0c7f0199afdb0647f60ff129bcb8da1fb1fe5588e539f6758ef6714395,data/DFU/Patches/Abnormal(Ulcer)/396.jpg
+exact-0047,exact,,651d030bfce28acb1f2e36769670381cec08d31c62746f5de35f2df5c5a7ff31,data/DFU/Patches/Abnormal(Ulcer)/311.jpg
+exact-0047,exact,,651d030bfce28acb1f2e36769670381cec08d31c62746f5de35f2df5c5a7ff31,data/DFU/Patches/Abnormal(Ulcer)/398.jpg
+exact-0048,exact,,f5f4e008bf72a9189e06c2b2ef1698cd42909da76e4d63c541807d45098db176,data/DFU/Patches/Abnormal(Ulcer)/316.jpg
+exact-0048,exact,,f5f4e008bf72a9189e06c2b2ef1698cd42909da76e4d63c541807d45098db176,data/DFU/Patches/Abnormal(Ulcer)/397.jpg
+exact-0049,exact,,1b6056f1764396d7217d3af689c287c163fc60f4a07a8db50eaca22e85e04e9b,data/DFU/Patches/Abnormal(Ulcer)/327.jpg
+exact-0049,exact,,1b6056f1764396d7217d3af689c287c163fc60f4a07a8db50eaca22e85e04e9b,data/DFU/Patches/Abnormal(Ulcer)/400.jpg
+exact-0050,exact,,42b28a7cdecb6b952569a1fb76b93d19e28444d0ab9bbb1328211fbb539d0253,data/DFU/Patches/Abnormal(Ulcer)/342.jpg
+exact-0050,exact,,42b28a7cdecb6b952569a1fb76b93d19e28444d0ab9bbb1328211fbb539d0253,data/DFU/Patches/Abnormal(Ulcer)/399.jpg
+exact-0051,exact,,5f7a06325e0c9e4a5d37513c68384c80e961a4ee807e77cf0c287e9cc798d0a4,data/DFU/Patches/Abnormal(Ulcer)/36.jpg
+exact-0051,exact,,5f7a06325e0c9e4a5d37513c68384c80e961a4ee807e77cf0c287e9cc798d0a4,data/DFU/Patches/Abnormal(Ulcer)/46.jpg
+exact-0052,exact,,b76e4ae1fa645b3f32379ee322cb0f0f0b47f7add07d28f6529704f9823b64b6,data/DFU/Patches/Normal(Healthy skin)/10.jpg
+exact-0052,exact,,b76e4ae1fa645b3f32379ee322cb0f0f0b47f7add07d28f6529704f9823b64b6,data/DFU/Patches/Normal(Healthy skin)/23.jpg
+exact-0052,exact,,b76e4ae1fa645b3f32379ee322cb0f0f0b47f7add07d28f6529704f9823b64b6,data/DFU/Patches/Normal(Healthy skin)/290.jpg
+exact-0052,exact,,b76e4ae1fa645b3f32379ee322cb0f0f0b47f7add07d28f6529704f9823b64b6,data/DFU/Patches/Normal(Healthy skin)/303.jpg
+exact-0053,exact,,d49c0ea18fd74a2144b85f109911b2f69dd7d764d68a43434b5eb31d9cf0ea10,data/DFU/Patches/Normal(Healthy skin)/100.jpg
+exact-0053,exact,,d49c0ea18fd74a2144b85f109911b2f69dd7d764d68a43434b5eb31d9cf0ea10,data/DFU/Patches/Normal(Healthy skin)/369.jpg
+exact-0054,exact,,54df4bbaaa10d71431fcec94071ed2afee4c65d768ebecd59cd531ec534aeb0c,data/DFU/Patches/Normal(Healthy skin)/102.jpg
+exact-0054,exact,,54df4bbaaa10d71431fcec94071ed2afee4c65d768ebecd59cd531ec534aeb0c,data/DFU/Patches/Normal(Healthy skin)/371.jpg
+exact-0055,exact,,d215e40945d6c98f733f788b2afe452773b13d5cd0ef6da6d2cf03f74be00a33,data/DFU/Patches/Normal(Healthy skin)/103.jpg
+exact-0055,exact,,d215e40945d6c98f733f788b2afe452773b13d5cd0ef6da6d2cf03f74be00a33,data/DFU/Patches/Normal(Healthy skin)/372.jpg
+exact-0056,exact,,cb7ef01ee280f772d8c975b56bdf2bbd956b92992402c859fd4b11a65587d912,data/DFU/Patches/Normal(Healthy skin)/104.jpg
+exact-0056,exact,,cb7ef01ee280f772d8c975b56bdf2bbd956b92992402c859fd4b11a65587d912,data/DFU/Patches/Normal(Healthy skin)/407.jpg
+exact-0057,exact,,5022517aae081e9712e32e9c310a5ee0e305e7c5ecfc277d4ffc0e80f5d09e08,data/DFU/Patches/Normal(Healthy skin)/105.jpg
+exact-0057,exact,,5022517aae081e9712e32e9c310a5ee0e305e7c5ecfc277d4ffc0e80f5d09e08,data/DFU/Patches/Normal(Healthy skin)/148.jpg
+exact-0057,exact,,5022517aae081e9712e32e9c310a5ee0e305e7c5ecfc277d4ffc0e80f5d09e08,data/DFU/Patches/Normal(Healthy skin)/380.jpg
+exact-0057,exact,,5022517aae081e9712e32e9c310a5ee0e305e7c5ecfc277d4ffc0e80f5d09e08,data/DFU/Patches/Normal(Healthy skin)/404.jpg
+exact-0058,exact,,75d778fb6eb5f5810f240c5ca6ce96de1eb2569bc356191076bfa68df282699f,data/DFU/Patches/Normal(Healthy skin)/106.jpg
+exact-0058,exact,,75d778fb6eb5f5810f240c5ca6ce96de1eb2569bc356191076bfa68df282699f,data/DFU/Patches/Normal(Healthy skin)/149.jpg
+exact-0058,exact,,75d778fb6eb5f5810f240c5ca6ce96de1eb2569bc356191076bfa68df282699f,data/DFU/Patches/Normal(Healthy skin)/367.jpg
+exact-0058,exact,,75d778fb6eb5f5810f240c5ca6ce96de1eb2569bc356191076bfa68df282699f,data/DFU/Patches/Normal(Healthy skin)/414.jpg
+exact-0059,exact,,eaf33f1dad812bbfb75bf92f24a5aa9731e03f695b746e22342e1b3403ab4b9d,data/DFU/Patches/Normal(Healthy skin)/107.jpg
+exact-0059,exact,,eaf33f1dad812bbfb75bf92f24a5aa9731e03f695b746e22342e1b3403ab4b9d,data/DFU/Patches/Normal(Healthy skin)/351.jpg
+exact-0060,exact,,72d15085b04383a4dec6998a41619ced56e2f212923afc6e60a2738195e6eb75,data/DFU/Patches/Normal(Healthy skin)/108.jpg
+exact-0060,exact,,72d15085b04383a4dec6998a41619ced56e2f212923afc6e60a2738195e6eb75,data/DFU/Patches/Normal(Healthy skin)/410.jpg
+exact-0061,exact,,2bc7ea350d1f413372d8931bd33f7b8bb60ffd27d93dd615f3aa3282c4dba61b,data/DFU/Patches/Normal(Healthy skin)/109.jpg
+exact-0061,exact,,2bc7ea350d1f413372d8931bd33f7b8bb60ffd27d93dd615f3aa3282c4dba61b,data/DFU/Patches/Normal(Healthy skin)/352.jpg
+exact-0062,exact,,69960fcb0526105b20dd5be5d30fd7495da87c8f8240cd5aa54b220d113d8e6d,data/DFU/Patches/Normal(Healthy skin)/110.jpg
+exact-0062,exact,,69960fcb0526105b20dd5be5d30fd7495da87c8f8240cd5aa54b220d113d8e6d,data/DFU/Patches/Normal(Healthy skin)/391.jpg
+exact-0063,exact,,4ba837745dce575984053414495276e79760112066c20d960ed7510751c01b0d,data/DFU/Patches/Normal(Healthy skin)/111.jpg
+exact-0063,exact,,4ba837745dce575984053414495276e79760112066c20d960ed7510751c01b0d,data/DFU/Patches/Normal(Healthy skin)/401.jpg
+exact-0064,exact,,aa0c6421a794ff4a0293730a66521ba5aa113b95b1114fde73f5e2bc5756cf6b,data/DFU/Patches/Normal(Healthy skin)/112.jpg
+exact-0064,exact,,aa0c6421a794ff4a0293730a66521ba5aa113b95b1114fde73f5e2bc5756cf6b,data/DFU/Patches/Normal(Healthy skin)/392.jpg
+exact-0065,exact,,f56136cf51ed434500ea2846f50ee188ee804ba25277f1e480814ce1eac57cef,data/DFU/Patches/Normal(Healthy skin)/113.jpg
+exact-0065,exact,,f56136cf51ed434500ea2846f50ee188ee804ba25277f1e480814ce1eac57cef,data/DFU/Patches/Normal(Healthy skin)/150.jpg
+exact-0065,exact,,f56136cf51ed434500ea2846f50ee188ee804ba25277f1e480814ce1eac57cef,data/DFU/Patches/Normal(Healthy skin)/360.jpg
+exact-0065,exact,,f56136cf51ed434500ea2846f50ee188ee804ba25277f1e480814ce1eac57cef,data/DFU/Patches/Normal(Healthy skin)/453.jpg
+exact-0066,exact,,670167ef4890ad00ca7bcc30a7df71752025130126746a6cf794244977a1bd65,data/DFU/Patches/Normal(Healthy skin)/114.jpg
+exact-0066,exact,,670167ef4890ad00ca7bcc30a7df71752025130126746a6cf794244977a1bd65,data/DFU/Patches/Normal(Healthy skin)/357.jpg
+exact-0067,exact,,5f0ba2069c50e83878df8a2c859be34cb63f1571b9cf2cd8dfab232363596bb2,data/DFU/Patches/Normal(Healthy skin)/115.jpg
+exact-0067,exact,,5f0ba2069c50e83878df8a2c859be34cb63f1571b9cf2cd8dfab232363596bb2,data/DFU/Patches/Normal(Healthy skin)/385.jpg
+exact-0068,exact,,a040268254851c4c3a864cd18cc52638724a3e765949ca86e76727dfe1ddbd15,data/DFU/Patches/Normal(Healthy skin)/117.jpg
+exact-0068,exact,,a040268254851c4c3a864cd18cc52638724a3e765949ca86e76727dfe1ddbd15,data/DFU/Patches/Normal(Healthy skin)/384.jpg
+exact-0069,exact,,c2e360eed1019685818a0c76be0eb220d4401f9ad6fb50e85e65a768aa7bcaa0,data/DFU/Patches/Normal(Healthy skin)/118.jpg
+exact-0069,exact,,c2e360eed1019685818a0c76be0eb220d4401f9ad6fb50e85e65a768aa7bcaa0,data/DFU/Patches/Normal(Healthy skin)/406.jpg
+exact-0070,exact,,74399bd3a0dd0253df3c3087f37654b778f3ec84545e7dd1b5f2ebedce220659,data/DFU/Patches/Normal(Healthy skin)/119.jpg
+exact-0070,exact,,74399bd3a0dd0253df3c3087f37654b778f3ec84545e7dd1b5f2ebedce220659,data/DFU/Patches/Normal(Healthy skin)/381.jpg
+exact-0071,exact,,c3c3ea7e85e216aab1b06ffdfb863ce31babaa91b76925e60b7307b37b7c2395,data/DFU/Patches/Normal(Healthy skin)/12.jpg
+exact-0071,exact,,c3c3ea7e85e216aab1b06ffdfb863ce31babaa91b76925e60b7307b37b7c2395,data/DFU/Patches/Normal(Healthy skin)/24.jpg
+exact-0071,exact,,c3c3ea7e85e216aab1b06ffdfb863ce31babaa91b76925e60b7307b37b7c2395,data/DFU/Patches/Normal(Healthy skin)/291.jpg
+exact-0071,exact,,c3c3ea7e85e216aab1b06ffdfb863ce31babaa91b76925e60b7307b37b7c2395,data/DFU/Patches/Normal(Healthy skin)/302.jpg
+exact-0072,exact,,b36ea4ab89daf45c1d63d3a99ec1767225a41ac61e6c831a356703fe90d71454,data/DFU/Patches/Normal(Healthy skin)/121.jpg
+exact-0072,exact,,b36ea4ab89daf45c1d63d3a99ec1767225a41ac61e6c831a356703fe90d71454,data/DFU/Patches/Normal(Healthy skin)/2.jpg
+exact-0072,exact,,b36ea4ab89daf45c1d63d3a99ec1767225a41ac61e6c831a356703fe90d71454,data/DFU/Patches/Normal(Healthy skin)/281.jpg
+exact-0072,exact,,b36ea4ab89daf45c1d63d3a99ec1767225a41ac61e6c831a356703fe90d71454,data/DFU/Patches/Normal(Healthy skin)/405.jpg
+exact-0073,exact,,7bb9185e5ffc4dcd7e7bcd3349ab80360d4f313cdb3ed0ec7b32cb445bf52179,data/DFU/Patches/Normal(Healthy skin)/122.jpg
+exact-0073,exact,,7bb9185e5ffc4dcd7e7bcd3349ab80360d4f313cdb3ed0ec7b32cb445bf52179,data/DFU/Patches/Normal(Healthy skin)/284.jpg
+exact-0073,exact,,7bb9185e5ffc4dcd7e7bcd3349ab80360d4f313cdb3ed0ec7b32cb445bf52179,data/DFU/Patches/Normal(Healthy skin)/3.jpg
+exact-0073,exact,,7bb9185e5ffc4dcd7e7bcd3349ab80360d4f313cdb3ed0ec7b32cb445bf52179,data/DFU/Patches/Normal(Healthy skin)/382.jpg
+exact-0074,exact,,089ab6bd8564f3a19d8f7459eef7d39d463ad2a96d50c140f751b2b9b2aa1711,data/DFU/Patches/Normal(Healthy skin)/123.jpg
+exact-0074,exact,,089ab6bd8564f3a19d8f7459eef7d39d463ad2a96d50c140f751b2b9b2aa1711,data/DFU/Patches/Normal(Healthy skin)/283.jpg
+exact-0074,exact,,089ab6bd8564f3a19d8f7459eef7d39d463ad2a96d50c140f751b2b9b2aa1711,data/DFU/Patches/Normal(Healthy skin)/398.jpg
+exact-0074,exact,,089ab6bd8564f3a19d8f7459eef7d39d463ad2a96d50c140f751b2b9b2aa1711,data/DFU/Patches/Normal(Healthy skin)/4.jpg
+exact-0075,exact,,90a2b8735b7f1d98b133985273daf0f4f199e63f819c07ed4349d6f54a5ccc7b,data/DFU/Patches/Normal(Healthy skin)/124.jpg
+exact-0075,exact,,90a2b8735b7f1d98b133985273daf0f4f199e63f819c07ed4349d6f54a5ccc7b,data/DFU/Patches/Normal(Healthy skin)/285.jpg
+exact-0075,exact,,90a2b8735b7f1d98b133985273daf0f4f199e63f819c07ed4349d6f54a5ccc7b,data/DFU/Patches/Normal(Healthy skin)/426.jpg
+exact-0075,exact,,90a2b8735b7f1d98b133985273daf0f4f199e63f819c07ed4349d6f54a5ccc7b,data/DFU/Patches/Normal(Healthy skin)/6.jpg
+exact-0076,exact,,877ee75f0c92d4cf6a696731d29458aa44e7329dd17a1de3bcfbf73b78bc7a98,data/DFU/Patches/Normal(Healthy skin)/125.jpg
+exact-0076,exact,,877ee75f0c92d4cf6a696731d29458aa44e7329dd17a1de3bcfbf73b78bc7a98,data/DFU/Patches/Normal(Healthy skin)/128.jpg
+exact-0076,exact,,877ee75f0c92d4cf6a696731d29458aa44e7329dd17a1de3bcfbf73b78bc7a98,data/DFU/Patches/Normal(Healthy skin)/21.jpg
+exact-0076,exact,,877ee75f0c92d4cf6a696731d29458aa44e7329dd17a1de3bcfbf73b78bc7a98,data/DFU/Patches/Normal(Healthy skin)/287.jpg
+exact-0076,exact,,877ee75f0c92d4cf6a696731d29458aa44e7329dd17a1de3bcfbf73b78bc7a98,data/DFU/Patches/Normal(Healthy skin)/301.jpg
+exact-0076,exact,,877ee75f0c92d4cf6a696731d29458aa44e7329dd17a1de3bcfbf73b78bc7a98,data/DFU/Patches/Normal(Healthy skin)/394.jpg
+exact-0076,exact,,877ee75f0c92d4cf6a696731d29458aa44e7329dd17a1de3bcfbf73b78bc7a98,data/DFU/Patches/Normal(Healthy skin)/396.jpg
+exact-0076,exact,,877ee75f0c92d4cf6a696731d29458aa44e7329dd17a1de3bcfbf73b78bc7a98,data/DFU/Patches/Normal(Healthy skin)/8.jpg
+exact-0077,exact,,324448b4f20f228c8a177fa74c3da5810136cf664831fa9779c38431ebaa1a30,data/DFU/Patches/Normal(Healthy skin)/126.jpg
+exact-0077,exact,,324448b4f20f228c8a177fa74c3da5810136cf664831fa9779c38431ebaa1a30,data/DFU/Patches/Normal(Healthy skin)/16.jpg
+exact-0077,exact,,324448b4f20f228c8a177fa74c3da5810136cf664831fa9779c38431ebaa1a30,data/DFU/Patches/Normal(Healthy skin)/288.jpg
+exact-0077,exact,,324448b4f20f228c8a177fa74c3da5810136cf664831fa9779c38431ebaa1a30,data/DFU/Patches/Normal(Healthy skin)/298.jpg
+exact-0077,exact,,324448b4f20f228c8a177fa74c3da5810136cf664831fa9779c38431ebaa1a30,data/DFU/Patches/Normal(Healthy skin)/390.jpg
+exact-0077,exact,,324448b4f20f228c8a177fa74c3da5810136cf664831fa9779c38431ebaa1a30,data/DFU/Patches/Normal(Healthy skin)/7.jpg
+exact-0078,exact,,ddcf9667e86a46fcf0127dc5fc77a5f069adf7de9c7a52efbbe94a9515b36f7f,data/DFU/Patches/Normal(Healthy skin)/127.jpg
+exact-0078,exact,,ddcf9667e86a46fcf0127dc5fc77a5f069adf7de9c7a52efbbe94a9515b36f7f,data/DFU/Patches/Normal(Healthy skin)/133.jpg
+exact-0078,exact,,ddcf9667e86a46fcf0127dc5fc77a5f069adf7de9c7a52efbbe94a9515b36f7f,data/DFU/Patches/Normal(Healthy skin)/19.jpg
+exact-0078,exact,,ddcf9667e86a46fcf0127dc5fc77a5f069adf7de9c7a52efbbe94a9515b36f7f,data/DFU/Patches/Normal(Healthy skin)/299.jpg
+exact-0078,exact,,ddcf9667e86a46fcf0127dc5fc77a5f069adf7de9c7a52efbbe94a9515b36f7f,data/DFU/Patches/Normal(Healthy skin)/312.jpg
+exact-0078,exact,,ddcf9667e86a46fcf0127dc5fc77a5f069adf7de9c7a52efbbe94a9515b36f7f,data/DFU/Patches/Normal(Healthy skin)/35.jpg
+exact-0078,exact,,ddcf9667e86a46fcf0127dc5fc77a5f069adf7de9c7a52efbbe94a9515b36f7f,data/DFU/Patches/Normal(Healthy skin)/373.jpg
+exact-0078,exact,,ddcf9667e86a46fcf0127dc5fc77a5f069adf7de9c7a52efbbe94a9515b36f7f,data/DFU/Patches/Normal(Healthy skin)/379.jpg
+exact-0079,exact,,9b4550cb519b709d91799bf118520367a866a079ee482f5dce7f536a5c208eb0,data/DFU/Patches/Normal(Healthy skin)/129.jpg
+exact-0079,exact,,9b4550cb519b709d91799bf118520367a866a079ee482f5dce7f536a5c208eb0,data/DFU/Patches/Normal(Healthy skin)/22.jpg
+exact-0079,exact,,9b4550cb519b709d91799bf118520367a866a079ee482f5dce7f536a5c208eb0,data/DFU/Patches/Normal(Healthy skin)/289.jpg
+exact-0079,exact,,9b4550cb519b709d91799bf118520367a866a079ee482f5dce7f536a5c208eb0,data/DFU/Patches/Normal(Healthy skin)/300.jpg
+exact-0079,exact,,9b4550cb519b709d91799bf118520367a866a079ee482f5dce7f536a5c208eb0,data/DFU/Patches/Normal(Healthy skin)/411.jpg
+exact-0079,exact,,9b4550cb519b709d91799bf118520367a866a079ee482f5dce7f536a5c208eb0,data/DFU/Patches/Normal(Healthy skin)/9.jpg
+exact-0080,exact,,93213c1cff7770a5c6c848cc3807df1a887f4f2ff55ad46a98672619b15718de,data/DFU/Patches/Normal(Healthy skin)/13.jpg
+exact-0080,exact,,93213c1cff7770a5c6c848cc3807df1a887f4f2ff55ad46a98672619b15718de,data/DFU/Patches/Normal(Healthy skin)/130.jpg
+exact-0080,exact,,93213c1cff7770a5c6c848cc3807df1a887f4f2ff55ad46a98672619b15718de,data/DFU/Patches/Normal(Healthy skin)/25.jpg
+exact-0080,exact,,93213c1cff7770a5c6c848cc3807df1a887f4f2ff55ad46a98672619b15718de,data/DFU/Patches/Normal(Healthy skin)/292.jpg
+exact-0080,exact,,93213c1cff7770a5c6c848cc3807df1a887f4f2ff55ad46a98672619b15718de,data/DFU/Patches/Normal(Healthy skin)/305.jpg
+exact-0080,exact,,93213c1cff7770a5c6c848cc3807df1a887f4f2ff55ad46a98672619b15718de,data/DFU/Patches/Normal(Healthy skin)/375.jpg
+exact-0081,exact,,33979016c895b9bc82058620354117d9d8fefe7ec8cf04086c83b93840dfe3b8,data/DFU/Patches/Normal(Healthy skin)/131.jpg
+exact-0081,exact,,33979016c895b9bc82058620354117d9d8fefe7ec8cf04086c83b93840dfe3b8,data/DFU/Patches/Normal(Healthy skin)/30.jpg
+exact-0081,exact,,33979016c895b9bc82058620354117d9d8fefe7ec8cf04086c83b93840dfe3b8,data/DFU/Patches/Normal(Healthy skin)/308.jpg
+exact-0081,exact,,33979016c895b9bc82058620354117d9d8fefe7ec8cf04086c83b93840dfe3b8,data/DFU/Patches/Normal(Healthy skin)/417.jpg
+exact-0082,exact,,03c8cf1567d143337eddbc39eec6a9ad48e001510fbb5da0aa7e3ecbad68d47d,data/DFU/Patches/Normal(Healthy skin)/132.jpg
+exact-0082,exact,,03c8cf1567d143337eddbc39eec6a9ad48e001510fbb5da0aa7e3ecbad68d47d,data/DFU/Patches/Normal(Healthy skin)/26.jpg
+exact-0082,exact,,03c8cf1567d143337eddbc39eec6a9ad48e001510fbb5da0aa7e3ecbad68d47d,data/DFU/Patches/Normal(Healthy skin)/304.jpg
+exact-0082,exact,,03c8cf1567d143337eddbc39eec6a9ad48e001510fbb5da0aa7e3ecbad68d47d,data/DFU/Patches/Normal(Healthy skin)/389.jpg
+exact-0083,exact,,48f7f4525a9dd9ad3bcf79758f4d2224c986af9a43d3730120dcb90425b6865f,data/DFU/Patches/Normal(Healthy skin)/134.jpg
+exact-0083,exact,,48f7f4525a9dd9ad3bcf79758f4d2224c986af9a43d3730120dcb90425b6865f,data/DFU/Patches/Normal(Healthy skin)/17.jpg
+exact-0083,exact,,48f7f4525a9dd9ad3bcf79758f4d2224c986af9a43d3730120dcb90425b6865f,data/DFU/Patches/Normal(Healthy skin)/295.jpg
+exact-0083,exact,,48f7f4525a9dd9ad3bcf79758f4d2224c986af9a43d3730120dcb90425b6865f,data/DFU/Patches/Normal(Healthy skin)/314 - Copy.jpg
+exact-0083,exact,,48f7f4525a9dd9ad3bcf79758f4d2224c986af9a43d3730120dcb90425b6865f,data/DFU/Patches/Normal(Healthy skin)/314.jpg
+exact-0083,exact,,48f7f4525a9dd9ad3bcf79758f4d2224c986af9a43d3730120dcb90425b6865f,data/DFU/Patches/Normal(Healthy skin)/33.jpg
+exact-0083,exact,,48f7f4525a9dd9ad3bcf79758f4d2224c986af9a43d3730120dcb90425b6865f,data/DFU/Patches/Normal(Healthy skin)/374.jpg
+exact-0084,exact,,f3ff631f1df48ce53adef9b61c71b138514c20f239fa6c9ff3452ee6d3f5a321,data/DFU/Patches/Normal(Healthy skin)/135.jpg
+exact-0084,exact,,f3ff631f1df48ce53adef9b61c71b138514c20f239fa6c9ff3452ee6d3f5a321,data/DFU/Patches/Normal(Healthy skin)/317 - Copy.jpg
+exact-0084,exact,,f3ff631f1df48ce53adef9b61c71b138514c20f239fa6c9ff3452ee6d3f5a321,data/DFU/Patches/Normal(Healthy skin)/317.jpg
+exact-0084,exact,,f3ff631f1df48ce53adef9b61c71b138514c20f239fa6c9ff3452ee6d3f5a321,data/DFU/Patches/Normal(Healthy skin)/378.jpg
+exact-0084,exact,,f3ff631f1df48ce53adef9b61c71b138514c20f239fa6c9ff3452ee6d3f5a321,data/DFU/Patches/Normal(Healthy skin)/39.jpg
+exact-0085,exact,,84c55fdd2bcacb9db5b4d134aaaa51a9b85d7a5b0f7b05cee7bcb114d887b5f4,data/DFU/Patches/Normal(Healthy skin)/136.jpg
+exact-0085,exact,,84c55fdd2bcacb9db5b4d134aaaa51a9b85d7a5b0f7b05cee7bcb114d887b5f4,data/DFU/Patches/Normal(Healthy skin)/313.jpg
+exact-0085,exact,,84c55fdd2bcacb9db5b4d134aaaa51a9b85d7a5b0f7b05cee7bcb114d887b5f4,data/DFU/Patches/Normal(Healthy skin)/36.jpg
+exact-0085,exact,,84c55fdd2bcacb9db5b4d134aaaa51a9b85d7a5b0f7b05cee7bcb114d887b5f4,data/DFU/Patches/Normal(Healthy skin)/377.jpg
+exact-0086,exact,,6685de1acf475eb8ca113ca90844ad9d9e10f0474bd3cca6e91eebd944d7b659,data/DFU/Patches/Normal(Healthy skin)/137.jpg
+exact-0086,exact,,6685de1acf475eb8ca113ca90844ad9d9e10f0474bd3cca6e91eebd944d7b659,data/DFU/Patches/Normal(Healthy skin)/328.jpg
+exact-0086,exact,,6685de1acf475eb8ca113ca90844ad9d9e10f0474bd3cca6e91eebd944d7b659,data/DFU/Patches/Normal(Healthy skin)/387.jpg
+exact-0086,exact,,6685de1acf475eb8ca113ca90844ad9d9e10f0474bd3cca6e91eebd944d7b659,data/DFU/Patches/Normal(Healthy skin)/57.jpg
+exact-0087,exact,,dd8e83ab28e35b25c2eafadb7415851968f85f5b1655398ecf218d16324cb2f5,data/DFU/Patches/Normal(Healthy skin)/138.jpg
+exact-0087,exact,,dd8e83ab28e35b25c2eafadb7415851968f85f5b1655398ecf218d16324cb2f5,data/DFU/Patches/Normal(Healthy skin)/327.jpg
+exact-0087,exact,,dd8e83ab28e35b25c2eafadb7415851968f85f5b1655398ecf218d16324cb2f5,data/DFU/Patches/Normal(Healthy skin)/438.jpg
+exact-0087,exact,,dd8e83ab28e35b25c2eafadb7415851968f85f5b1655398ecf218d16324cb2f5,data/DFU/Patches/Normal(Healthy skin)/54.jpg
+exact-0088,exact,,200a741bd8ed1171fa60fdfbd6e29cf8ac2c4d74fc4bc76b828d4095ccf37d59,data/DFU/Patches/Normal(Healthy skin)/139.jpg
+exact-0088,exact,,200a741bd8ed1171fa60fdfbd6e29cf8ac2c4d74fc4bc76b828d4095ccf37d59,data/DFU/Patches/Normal(Healthy skin)/333.jpg
+exact-0088,exact,,200a741bd8ed1171fa60fdfbd6e29cf8ac2c4d74fc4bc76b828d4095ccf37d59,data/DFU/Patches/Normal(Healthy skin)/386.jpg
+exact-0088,exact,,200a741bd8ed1171fa60fdfbd6e29cf8ac2c4d74fc4bc76b828d4095ccf37d59,data/DFU/Patches/Normal(Healthy skin)/64.jpg
+exact-0089,exact,,0d7ce339ce9dfaeb7233ea102b665710466238b712e81124859c25dc3faf766a,data/DFU/Patches/Normal(Healthy skin)/140.jpg
+exact-0089,exact,,0d7ce339ce9dfaeb7233ea102b665710466238b712e81124859c25dc3faf766a,data/DFU/Patches/Normal(Healthy skin)/334.jpg
+exact-0089,exact,,0d7ce339ce9dfaeb7233ea102b665710466238b712e81124859c25dc3faf766a,data/DFU/Patches/Normal(Healthy skin)/418.jpg
+exact-0089,exact,,0d7ce339ce9dfaeb7233ea102b665710466238b712e81124859c25dc3faf766a,data/DFU/Patches/Normal(Healthy skin)/62.jpg
+exact-0090,exact,,b85cf1a19c4024afd6399e78fe151b9b6cb3cca16101d545b150bb2012aa86df,data/DFU/Patches/Normal(Healthy skin)/141.jpg
+exact-0090,exact,,b85cf1a19c4024afd6399e78fe151b9b6cb3cca16101d545b150bb2012aa86df,data/DFU/Patches/Normal(Healthy skin)/335.jpg
+exact-0090,exact,,b85cf1a19c4024afd6399e78fe151b9b6cb3cca16101d545b150bb2012aa86df,data/DFU/Patches/Normal(Healthy skin)/397.jpg
+exact-0090,exact,,b85cf1a19c4024afd6399e78fe151b9b6cb3cca16101d545b150bb2012aa86df,data/DFU/Patches/Normal(Healthy skin)/66.jpg
+exact-0091,exact,,f8ff4fc8e39b6096e63de366005fa93d82e56ca89c391a01c392c76f52bbfd72,data/DFU/Patches/Normal(Healthy skin)/142.jpg
+exact-0091,exact,,f8ff4fc8e39b6096e63de366005fa93d82e56ca89c391a01c392c76f52bbfd72,data/DFU/Patches/Normal(Healthy skin)/338.jpg
+exact-0091,exact,,f8ff4fc8e39b6096e63de366005fa93d82e56ca89c391a01c392c76f52bbfd72,data/DFU/Patches/Normal(Healthy skin)/402.jpg
+exact-0091,exact,,f8ff4fc8e39b6096e63de366005fa93d82e56ca89c391a01c392c76f52bbfd72,data/DFU/Patches/Normal(Healthy skin)/67.jpg
+exact-0092,exact,,5b23fb9ecf470cbd6c67f46b0ecfe4c0928583668b5f8592b3dd8deefa813127,data/DFU/Patches/Normal(Healthy skin)/143.jpg
+exact-0092,exact,,5b23fb9ecf470cbd6c67f46b0ecfe4c0928583668b5f8592b3dd8deefa813127,data/DFU/Patches/Normal(Healthy skin)/340.jpg
+exact-0092,exact,,5b23fb9ecf470cbd6c67f46b0ecfe4c0928583668b5f8592b3dd8deefa813127,data/DFU/Patches/Normal(Healthy skin)/383.jpg
+exact-0092,exact,,5b23fb9ecf470cbd6c67f46b0ecfe4c0928583668b5f8592b3dd8deefa813127,data/DFU/Patches/Normal(Healthy skin)/69.jpg
+exact-0093,exact,,a5689d56717c00e1a6df421e5eefda03dcbcf72a006999aaf0983b7efcaf4958,data/DFU/Patches/Normal(Healthy skin)/144.jpg
+exact-0093,exact,,a5689d56717c00e1a6df421e5eefda03dcbcf72a006999aaf0983b7efcaf4958,data/DFU/Patches/Normal(Healthy skin)/348.jpg
+exact-0093,exact,,a5689d56717c00e1a6df421e5eefda03dcbcf72a006999aaf0983b7efcaf4958,data/DFU/Patches/Normal(Healthy skin)/395.jpg
+exact-0093,exact,,a5689d56717c00e1a6df421e5eefda03dcbcf72a006999aaf0983b7efcaf4958,data/DFU/Patches/Normal(Healthy skin)/82 - Copy.jpg
+exact-0093,exact,,a5689d56717c00e1a6df421e5eefda03dcbcf72a006999aaf0983b7efcaf4958,data/DFU/Patches/Normal(Healthy skin)/82.jpg
+exact-0094,exact,,cc0a8a3b9c65112736f99067029b9b553adcb011b6bcefd4ec4f6194c893e3a4,data/DFU/Patches/Normal(Healthy skin)/145.jpg
+exact-0094,exact,,cc0a8a3b9c65112736f99067029b9b553adcb011b6bcefd4ec4f6194c893e3a4,data/DFU/Patches/Normal(Healthy skin)/365.jpg
+exact-0094,exact,,cc0a8a3b9c65112736f99067029b9b553adcb011b6bcefd4ec4f6194c893e3a4,data/DFU/Patches/Normal(Healthy skin)/393.jpg
+exact-0094,exact,,cc0a8a3b9c65112736f99067029b9b553adcb011b6bcefd4ec4f6194c893e3a4,data/DFU/Patches/Normal(Healthy skin)/87.jpg
+exact-0095,exact,,7cb9d3fcd1e06f5f0fb30b2dc341415592cedc93e6e6da2e175b88bb6fac848e,data/DFU/Patches/Normal(Healthy skin)/146.jpg
+exact-0095,exact,,7cb9d3fcd1e06f5f0fb30b2dc341415592cedc93e6e6da2e175b88bb6fac848e,data/DFU/Patches/Normal(Healthy skin)/364.jpg
+exact-0095,exact,,7cb9d3fcd1e06f5f0fb30b2dc341415592cedc93e6e6da2e175b88bb6fac848e,data/DFU/Patches/Normal(Healthy skin)/431.jpg
+exact-0095,exact,,7cb9d3fcd1e06f5f0fb30b2dc341415592cedc93e6e6da2e175b88bb6fac848e,data/DFU/Patches/Normal(Healthy skin)/95.jpg
+exact-0096,exact,,6e3851a775acbc10dce8c9c7e8289ec6913a1c9f4b600dbb060360535af581b1,data/DFU/Patches/Normal(Healthy skin)/147.jpg
+exact-0096,exact,,6e3851a775acbc10dce8c9c7e8289ec6913a1c9f4b600dbb060360535af581b1,data/DFU/Patches/Normal(Healthy skin)/356.jpg
+exact-0096,exact,,6e3851a775acbc10dce8c9c7e8289ec6913a1c9f4b600dbb060360535af581b1,data/DFU/Patches/Normal(Healthy skin)/437.jpg
+exact-0096,exact,,6e3851a775acbc10dce8c9c7e8289ec6913a1c9f4b600dbb060360535af581b1,data/DFU/Patches/Normal(Healthy skin)/99.jpg
+exact-0097,exact,,221a36b77e2a8d0387b111ed0c43d2e3dfa94d7ceb9549d4179d33de471b0991,data/DFU/Patches/Normal(Healthy skin)/15.jpg
+exact-0097,exact,,221a36b77e2a8d0387b111ed0c43d2e3dfa94d7ceb9549d4179d33de471b0991,data/DFU/Patches/Normal(Healthy skin)/293.jpg
+exact-0097,exact,,221a36b77e2a8d0387b111ed0c43d2e3dfa94d7ceb9549d4179d33de471b0991,data/DFU/Patches/Normal(Healthy skin)/31.jpg
+exact-0097,exact,,221a36b77e2a8d0387b111ed0c43d2e3dfa94d7ceb9549d4179d33de471b0991,data/DFU/Patches/Normal(Healthy skin)/310.jpg
+exact-0098,exact,,f4bcab5376db97c84289401b538ef210b963dfe5a043da76d9ac0a1b8505edda,data/DFU/Patches/Normal(Healthy skin)/151.jpg
+exact-0098,exact,,f4bcab5376db97c84289401b538ef210b963dfe5a043da76d9ac0a1b8505edda,data/DFU/Patches/Normal(Healthy skin)/412.jpg
+exact-0099,exact,,a78c0f7beb1421494d125a32980cbd1037d707b8943bc88dabdef9bc4d0b4174,data/DFU/Patches/Normal(Healthy skin)/152.jpg
+exact-0099,exact,,a78c0f7beb1421494d125a32980cbd1037d707b8943bc88dabdef9bc4d0b4174,data/DFU/Patches/Normal(Healthy skin)/413.jpg
+exact-0100,exact,,0b6ac7f119e8397ebad772f280e66cb1eb89e40dd5a943054e5d29231bc44eac,data/DFU/Patches/Normal(Healthy skin)/153.jpg
+exact-0100,exact,,0b6ac7f119e8397ebad772f280e66cb1eb89e40dd5a943054e5d29231bc44eac,data/DFU/Patches/Normal(Healthy skin)/444.jpg
+exact-0101,exact,,aadf85d858e2591609dc69ec4f2bae7015a6e30689c2e0c53e93533cc9de05eb,data/DFU/Patches/Normal(Healthy skin)/154.jpg
+exact-0101,exact,,aadf85d858e2591609dc69ec4f2bae7015a6e30689c2e0c53e93533cc9de05eb,data/DFU/Patches/Normal(Healthy skin)/439.jpg
+exact-0102,exact,,43367be8afc1fcaae61164c6e3932f02103344f756e901231f8d159eed6147ed,data/DFU/Patches/Normal(Healthy skin)/155.jpg
+exact-0102,exact,,43367be8afc1fcaae61164c6e3932f02103344f756e901231f8d159eed6147ed,data/DFU/Patches/Normal(Healthy skin)/443.jpg
+exact-0103,exact,,f7a3c0e705543393e8b159652fe499fbc58bbbc78b218dbfec572b53bbb11c2c,data/DFU/Patches/Normal(Healthy skin)/156.jpg
+exact-0103,exact,,f7a3c0e705543393e8b159652fe499fbc58bbbc78b218dbfec572b53bbb11c2c,data/DFU/Patches/Normal(Healthy skin)/425.jpg
+exact-0104,exact,,867f55df80880567bca1c43cc2fccbe377ee9917bb92639936d39ac8ece27d67,data/DFU/Patches/Normal(Healthy skin)/157.jpg
+exact-0104,exact,,867f55df80880567bca1c43cc2fccbe377ee9917bb92639936d39ac8ece27d67,data/DFU/Patches/Normal(Healthy skin)/409.jpg
+exact-0105,exact,,49e0835b81d73caafb6178beb9f45b0617592c61bd49d6c4fda4c5fa65661d28,data/DFU/Patches/Normal(Healthy skin)/158.jpg
+exact-0105,exact,,49e0835b81d73caafb6178beb9f45b0617592c61bd49d6c4fda4c5fa65661d28,data/DFU/Patches/Normal(Healthy skin)/403.jpg
+exact-0106,exact,,31ad4fababcebf8b7f61d968a79c86ee7c7a5230397d32fdb8f4fbc56d1a4ebe,data/DFU/Patches/Normal(Healthy skin)/159.jpg
+exact-0106,exact,,31ad4fababcebf8b7f61d968a79c86ee7c7a5230397d32fdb8f4fbc56d1a4ebe,data/DFU/Patches/Normal(Healthy skin)/400.jpg
+exact-0107,exact,,8d3ff91d9fd8bd7ddadf9fe3fe0552e1e5b68928460d4489844514be43f797ef,data/DFU/Patches/Normal(Healthy skin)/160.jpg
+exact-0107,exact,,8d3ff91d9fd8bd7ddadf9fe3fe0552e1e5b68928460d4489844514be43f797ef,data/DFU/Patches/Normal(Healthy skin)/459.jpg
+exact-0108,exact,,18f2ebe3c2e1fa889f6af389af23b5e102b543ef4fb4f771d3bfb15ffb7a9661,data/DFU/Patches/Normal(Healthy skin)/161.jpg
+exact-0108,exact,,18f2ebe3c2e1fa889f6af389af23b5e102b543ef4fb4f771d3bfb15ffb7a9661,data/DFU/Patches/Normal(Healthy skin)/419.jpg
+exact-0109,exact,,69d74a02e132bf2a388fb11a9de24a9b74f9abb3180f2bfb5a84ae339f806abc,data/DFU/Patches/Normal(Healthy skin)/162.jpg
+exact-0109,exact,,69d74a02e132bf2a388fb11a9de24a9b74f9abb3180f2bfb5a84ae339f806abc,data/DFU/Patches/Normal(Healthy skin)/480.jpg
+exact-0110,exact,,4f548209a08493cbbd6d6e120f08431a4bcb09346a01642e3e9cedd0e6489b5c,data/DFU/Patches/Normal(Healthy skin)/163.jpg
+exact-0110,exact,,4f548209a08493cbbd6d6e120f08431a4bcb09346a01642e3e9cedd0e6489b5c,data/DFU/Patches/Normal(Healthy skin)/421.jpg
+exact-0111,exact,,ddd3f3952d23051d725847ee96ab9d7ca8df8a76c11e7a2b67c6d0f6fa9c6bb5,data/DFU/Patches/Normal(Healthy skin)/164.jpg
+exact-0111,exact,,ddd3f3952d23051d725847ee96ab9d7ca8df8a76c11e7a2b67c6d0f6fa9c6bb5,data/DFU/Patches/Normal(Healthy skin)/440.jpg
+exact-0112,exact,,4396427259be54e3f4f732660f4259e3c38262b750a9aee5f6fd407980a11883,data/DFU/Patches/Normal(Healthy skin)/165.jpg
+exact-0112,exact,,4396427259be54e3f4f732660f4259e3c38262b750a9aee5f6fd407980a11883,data/DFU/Patches/Normal(Healthy skin)/399.jpg
+exact-0113,exact,,ace2a232743701174408cf89ccac7d640edfdeb53548acada18e36e39c13ae8e,data/DFU/Patches/Normal(Healthy skin)/166.jpg
+exact-0113,exact,,ace2a232743701174408cf89ccac7d640edfdeb53548acada18e36e39c13ae8e,data/DFU/Patches/Normal(Healthy skin)/416.jpg
+exact-0114,exact,,c285332b75c7116814ae4bf94450c603c14e7bae81c767a966a9f8658936f0e3,data/DFU/Patches/Normal(Healthy skin)/167.jpg
+exact-0114,exact,,c285332b75c7116814ae4bf94450c603c14e7bae81c767a966a9f8658936f0e3,data/DFU/Patches/Normal(Healthy skin)/408.jpg
+exact-0115,exact,,d355d02ee008d4acfcb80b2c66346bd0c2954bb06c71c04e38c47da4f8b50b69,data/DFU/Patches/Normal(Healthy skin)/168.jpg
+exact-0115,exact,,d355d02ee008d4acfcb80b2c66346bd0c2954bb06c71c04e38c47da4f8b50b69,data/DFU/Patches/Normal(Healthy skin)/441.jpg
+exact-0116,exact,,9397a77137a077e8e84d068b804eebff2f9638cf528ee19b30c97bdd6091fef7,data/DFU/Patches/Normal(Healthy skin)/172.jpg
+exact-0116,exact,,9397a77137a077e8e84d068b804eebff2f9638cf528ee19b30c97bdd6091fef7,data/DFU/Patches/Normal(Healthy skin)/442.jpg
+exact-0117,exact,,bb7b56d21eabf5e2af770dfa648dfe16916dbb34de96cd75e08c58bd6044e99b,data/DFU/Patches/Normal(Healthy skin)/173.jpg
+exact-0117,exact,,bb7b56d21eabf5e2af770dfa648dfe16916dbb34de96cd75e08c58bd6044e99b,data/DFU/Patches/Normal(Healthy skin)/423.jpg
+exact-0118,exact,,682ad7e216c98df15a2ed4b2baa2b08f54b822f237bfb1573269e3969e13a10e,data/DFU/Patches/Normal(Healthy skin)/174.jpg
+exact-0118,exact,,682ad7e216c98df15a2ed4b2baa2b08f54b822f237bfb1573269e3969e13a10e,data/DFU/Patches/Normal(Healthy skin)/458.jpg
+exact-0119,exact,,eb3105088df552b3601bd276e889054e0f82e3975c371861b0174cf480c1c2e4,data/DFU/Patches/Normal(Healthy skin)/175.jpg
+exact-0119,exact,,eb3105088df552b3601bd276e889054e0f82e3975c371861b0174cf480c1c2e4,data/DFU/Patches/Normal(Healthy skin)/465.jpg
+exact-0120,exact,,68487181c0f85a4b6cbfacfefddd483f5c2d37da0b78f78d756309b4ce7db354,data/DFU/Patches/Normal(Healthy skin)/176.jpg
+exact-0120,exact,,68487181c0f85a4b6cbfacfefddd483f5c2d37da0b78f78d756309b4ce7db354,data/DFU/Patches/Normal(Healthy skin)/494.jpg
+exact-0121,exact,,1609f99414dc8625cdbb95e94c999f524387b3deae3cb5e454f736a9252b0d52,data/DFU/Patches/Normal(Healthy skin)/177.jpg
+exact-0121,exact,,1609f99414dc8625cdbb95e94c999f524387b3deae3cb5e454f736a9252b0d52,data/DFU/Patches/Normal(Healthy skin)/429.jpg
+exact-0122,exact,,9ef020f48317f70b4565dc70f65dacb1d1e637e167342799479a9173c247351b,data/DFU/Patches/Normal(Healthy skin)/178.jpg
+exact-0122,exact,,9ef020f48317f70b4565dc70f65dacb1d1e637e167342799479a9173c247351b,data/DFU/Patches/Normal(Healthy skin)/432.jpg
+exact-0123,exact,,368037e98b67a4e49a07a4a8696b16f58abd5fef2795af75f3ebd0c305af735e,data/DFU/Patches/Normal(Healthy skin)/179.jpg
+exact-0123,exact,,368037e98b67a4e49a07a4a8696b16f58abd5fef2795af75f3ebd0c305af735e,data/DFU/Patches/Normal(Healthy skin)/420.jpg
+exact-0124,exact,,0cfd8e0736ea55cb719faa75adcb6ed49355a71385add6dd1fc993ba414b0216,data/DFU/Patches/Normal(Healthy skin)/18.jpg
+exact-0124,exact,,0cfd8e0736ea55cb719faa75adcb6ed49355a71385add6dd1fc993ba414b0216,data/DFU/Patches/Normal(Healthy skin)/296.jpg
+exact-0124,exact,,0cfd8e0736ea55cb719faa75adcb6ed49355a71385add6dd1fc993ba414b0216,data/DFU/Patches/Normal(Healthy skin)/34.jpg
+exact-0125,exact,,6a04f8f172214f3497207035005e895bce40b29f3f46c9678387162dcf3b1fc4,data/DFU/Patches/Normal(Healthy skin)/180.jpg
+exact-0125,exact,,6a04f8f172214f3497207035005e895bce40b29f3f46c9678387162dcf3b1fc4,data/DFU/Patches/Normal(Healthy skin)/473.jpg
+exact-0126,exact,,90b654611dd9237a2e9566bc19103942f6ebf0878c037859d24def0b015b834c,data/DFU/Patches/Normal(Healthy skin)/181.jpg
+exact-0126,exact,,90b654611dd9237a2e9566bc19103942f6ebf0878c037859d24def0b015b834c,data/DFU/Patches/Normal(Healthy skin)/478.jpg
+exact-0127,exact,,2863a407d0b8b44303d461cb55b5f0fbfd1b51e87f91883dc94cc2575bf229cc,data/DFU/Patches/Normal(Healthy skin)/182.jpg
+exact-0127,exact,,2863a407d0b8b44303d461cb55b5f0fbfd1b51e87f91883dc94cc2575bf229cc,data/DFU/Patches/Normal(Healthy skin)/422.jpg
+exact-0128,exact,,c20d8e177643beb91bb4dda1bc8390073f87035170f8dab9b01c980644d1cf32,data/DFU/Patches/Normal(Healthy skin)/183.jpg
+exact-0128,exact,,c20d8e177643beb91bb4dda1bc8390073f87035170f8dab9b01c980644d1cf32,data/DFU/Patches/Normal(Healthy skin)/464.jpg
+exact-0129,exact,,aa64cfaeee1dabd033f80772d2ffe92e0a43c304443a739914259bf3c23c7092,data/DFU/Patches/Normal(Healthy skin)/184.jpg
+exact-0129,exact,,aa64cfaeee1dabd033f80772d2ffe92e0a43c304443a739914259bf3c23c7092,data/DFU/Patches/Normal(Healthy skin)/474.jpg
+exact-0130,exact,,d96152076475f7b1628b864c5b57a0438c41ee7f60e2e10dcc5e605a1d5d3d88,data/DFU/Patches/Normal(Healthy skin)/185.jpg
+exact-0130,exact,,d96152076475f7b1628b864c5b57a0438c41ee7f60e2e10dcc5e605a1d5d3d88,data/DFU/Patches/Normal(Healthy skin)/456.jpg
+exact-0131,exact,,164a0d77e3204869a235901dc24b94d3fb4c5c76c67414f09e7b1eae619bdd8f,data/DFU/Patches/Normal(Healthy skin)/186.jpg
+exact-0131,exact,,164a0d77e3204869a235901dc24b94d3fb4c5c76c67414f09e7b1eae619bdd8f,data/DFU/Patches/Normal(Healthy skin)/415.jpg
+exact-0132,exact,,9b1f67bd64492384f87af0b187c50638662c2f9d7969bdcbe8a7fee37dfe0ec9,data/DFU/Patches/Normal(Healthy skin)/187.jpg
+exact-0132,exact,,9b1f67bd64492384f87af0b187c50638662c2f9d7969bdcbe8a7fee37dfe0ec9,data/DFU/Patches/Normal(Healthy skin)/463.jpg
+exact-0133,exact,,2be5efc687100138c1c55187753e228b593f6f8d54b99bc0225742d22a0d8c0b,data/DFU/Patches/Normal(Healthy skin)/188.jpg
+exact-0133,exact,,2be5efc687100138c1c55187753e228b593f6f8d54b99bc0225742d22a0d8c0b,data/DFU/Patches/Normal(Healthy skin)/451.jpg
+exact-0134,exact,,ca9a9983b33a1003bf34d815f8057eefc6b6da8ea39c11cea74fc1b9f2ad2885,data/DFU/Patches/Normal(Healthy skin)/190.jpg
+exact-0134,exact,,ca9a9983b33a1003bf34d815f8057eefc6b6da8ea39c11cea74fc1b9f2ad2885,data/DFU/Patches/Normal(Healthy skin)/427.jpg
+exact-0135,exact,,34bb423cd1eacf0c700d5fcae3930c6a91b3f0a0a970edd7ff358aa6bb73e498,data/DFU/Patches/Normal(Healthy skin)/191.jpg
+exact-0135,exact,,34bb423cd1eacf0c700d5fcae3930c6a91b3f0a0a970edd7ff358aa6bb73e498,data/DFU/Patches/Normal(Healthy skin)/457.jpg
+exact-0136,exact,,a2d21e5d03bdfe5b703c416c0c33c950180df5b11cfb5865304780105198a596,data/DFU/Patches/Normal(Healthy skin)/192.jpg
+exact-0136,exact,,a2d21e5d03bdfe5b703c416c0c33c950180df5b11cfb5865304780105198a596,data/DFU/Patches/Normal(Healthy skin)/452.jpg
+exact-0137,exact,,bb1a56f2a27562e1f920addb716b634287a64dec0c44c1485ae2529afe9a912e,data/DFU/Patches/Normal(Healthy skin)/193.jpg
+exact-0137,exact,,bb1a56f2a27562e1f920addb716b634287a64dec0c44c1485ae2529afe9a912e,data/DFU/Patches/Normal(Healthy skin)/447.jpg
+exact-0138,exact,,fe8b267e2411a5a16dacf62518ca3451e9241e279d8a399e6fc64a68be59588e,data/DFU/Patches/Normal(Healthy skin)/194.jpg
+exact-0138,exact,,fe8b267e2411a5a16dacf62518ca3451e9241e279d8a399e6fc64a68be59588e,data/DFU/Patches/Normal(Healthy skin)/430.jpg
+exact-0139,exact,,ff14a84bbb9b42fc2173b139af8d5acc91dae8cda49d097c14c565186efeb7de,data/DFU/Patches/Normal(Healthy skin)/195.jpg
+exact-0139,exact,,ff14a84bbb9b42fc2173b139af8d5acc91dae8cda49d097c14c565186efeb7de,data/DFU/Patches/Normal(Healthy skin)/434.jpg
+exact-0140,exact,,588ba71aa85887c56fc55c25845ef51c2bdde40793e421373e3ba9592dd3798e,data/DFU/Patches/Normal(Healthy skin)/196.jpg
+exact-0140,exact,,588ba71aa85887c56fc55c25845ef51c2bdde40793e421373e3ba9592dd3798e,data/DFU/Patches/Normal(Healthy skin)/428.jpg
+exact-0141,exact,,f6f841cb561f94ef386d06b2cfb54618a9da40a9ca016b961aca6065dad61a3e,data/DFU/Patches/Normal(Healthy skin)/197.jpg
+exact-0141,exact,,f6f841cb561f94ef386d06b2cfb54618a9da40a9ca016b961aca6065dad61a3e,data/DFU/Patches/Normal(Healthy skin)/468.jpg
+exact-0142,exact,,6f054897e45db0d638a003b186af0b07ad24806f2f4d8039e59d4f250be8cfd6,data/DFU/Patches/Normal(Healthy skin)/198.jpg
+exact-0142,exact,,6f054897e45db0d638a003b186af0b07ad24806f2f4d8039e59d4f250be8cfd6,data/DFU/Patches/Normal(Healthy skin)/435.jpg
+exact-0143,exact,,72209810c1f700257523b8f39412b0bbb2d7a980280a83f31702d574b5d4e04e,data/DFU/Patches/Normal(Healthy skin)/199.jpg
+exact-0143,exact,,72209810c1f700257523b8f39412b0bbb2d7a980280a83f31702d574b5d4e04e,data/DFU/Patches/Normal(Healthy skin)/433.jpg
+exact-0144,exact,,9271bf736d01f89a4be6189ee795931d90099b62965c2816556afc3ab41fc12d,data/DFU/Patches/Normal(Healthy skin)/200.jpg
+exact-0144,exact,,9271bf736d01f89a4be6189ee795931d90099b62965c2816556afc3ab41fc12d,data/DFU/Patches/Normal(Healthy skin)/462.jpg
+exact-0145,exact,,3bf6c7fac5871c499b6c13ce39690bfdc1d8b3b2babb96e6a62613a47741c37b,data/DFU/Patches/Normal(Healthy skin)/201.jpg
+exact-0145,exact,,3bf6c7fac5871c499b6c13ce39690bfdc1d8b3b2babb96e6a62613a47741c37b,data/DFU/Patches/Normal(Healthy skin)/436.jpg
+exact-0146,exact,,d090f704f719c0593b08be3b5ffe74e17bdefe8baa41e2b6db0264a9cd6a17df,data/DFU/Patches/Normal(Healthy skin)/202.jpg
+exact-0146,exact,,d090f704f719c0593b08be3b5ffe74e17bdefe8baa41e2b6db0264a9cd6a17df,data/DFU/Patches/Normal(Healthy skin)/498.jpg
+exact-0147,exact,,10bc341214cc2f88e36072471514f141a35fbc31f68aa3ee10a11647a53d1387,data/DFU/Patches/Normal(Healthy skin)/203.jpg
+exact-0147,exact,,10bc341214cc2f88e36072471514f141a35fbc31f68aa3ee10a11647a53d1387,data/DFU/Patches/Normal(Healthy skin)/475.jpg
+exact-0148,exact,,bd6769145640a7219369d1a63b2aba829eba33530b4141364b35f2bf7207aad8,data/DFU/Patches/Normal(Healthy skin)/204.jpg
+exact-0148,exact,,bd6769145640a7219369d1a63b2aba829eba33530b4141364b35f2bf7207aad8,data/DFU/Patches/Normal(Healthy skin)/477.jpg
+exact-0149,exact,,0a3d2bdee1f92e8c393be3f4bdab36cab23611b4f8014eb8770b80a0f9efdaa6,data/DFU/Patches/Normal(Healthy skin)/205.jpg
+exact-0149,exact,,0a3d2bdee1f92e8c393be3f4bdab36cab23611b4f8014eb8770b80a0f9efdaa6,data/DFU/Patches/Normal(Healthy skin)/495.jpg
+exact-0150,exact,,98bfa7b9c477c44c081f937e22a41a9185287e6afdb26ae8bbe026164b801ab1,data/DFU/Patches/Normal(Healthy skin)/206.jpg
+exact-0150,exact,,98bfa7b9c477c44c081f937e22a41a9185287e6afdb26ae8bbe026164b801ab1,data/DFU/Patches/Normal(Healthy skin)/476.jpg
+exact-0151,exact,,4d9ef91bd1664a34d7283f3f188f8cd96f88c0d71986c497e4559785d0b5f73b,data/DFU/Patches/Normal(Healthy skin)/207.jpg
+exact-0151,exact,,4d9ef91bd1664a34d7283f3f188f8cd96f88c0d71986c497e4559785d0b5f73b,data/DFU/Patches/Normal(Healthy skin)/445.jpg
+exact-0152,exact,,7a2037785dd48e138fb9eb295f6405ded2253b309991c111abc539e3558648a9,data/DFU/Patches/Normal(Healthy skin)/208.jpg
+exact-0152,exact,,7a2037785dd48e138fb9eb295f6405ded2253b309991c111abc539e3558648a9,data/DFU/Patches/Normal(Healthy skin)/470.jpg
+exact-0153,exact,,aedd460dff23871b836fbfc40eff158b2a29144081aedbfa5c4ee1de908d9cdc,data/DFU/Patches/Normal(Healthy skin)/209.jpg
+exact-0153,exact,,aedd460dff23871b836fbfc40eff158b2a29144081aedbfa5c4ee1de908d9cdc,data/DFU/Patches/Normal(Healthy skin)/446.jpg
+exact-0154,exact,,1d1765a43debf3b49026544ac7491fa57835430c5ad8d132429ec54ae4f4dc77,data/DFU/Patches/Normal(Healthy skin)/210.jpg
+exact-0154,exact,,1d1765a43debf3b49026544ac7491fa57835430c5ad8d132429ec54ae4f4dc77,data/DFU/Patches/Normal(Healthy skin)/454.jpg
+exact-0155,exact,,c7cafac8dbdcf8808f4fa9745c5155a8ad72e4511fe0f7e15296cc6c9f77ab18,data/DFU/Patches/Normal(Healthy skin)/211.jpg
+exact-0155,exact,,c7cafac8dbdcf8808f4fa9745c5155a8ad72e4511fe0f7e15296cc6c9f77ab18,data/DFU/Patches/Normal(Healthy skin)/449.jpg
+exact-0156,exact,,bcab34d3087e292fae4b5ffe262ca47663697c7211aece3cc3e47146e6124726,data/DFU/Patches/Normal(Healthy skin)/212.jpg
+exact-0156,exact,,bcab34d3087e292fae4b5ffe262ca47663697c7211aece3cc3e47146e6124726,data/DFU/Patches/Normal(Healthy skin)/497.jpg
+exact-0157,exact,,206fb4bdc13d65308f32e99c51d553ebbeb5f7f737dc53d2c57687097b0e4fb9,data/DFU/Patches/Normal(Healthy skin)/213.jpg
+exact-0157,exact,,206fb4bdc13d65308f32e99c51d553ebbeb5f7f737dc53d2c57687097b0e4fb9,data/DFU/Patches/Normal(Healthy skin)/496.jpg
+exact-0158,exact,,a69e299aaba8a7c80495ac7066c1a02b2341b9e927343eca0a166500f5b56d41,data/DFU/Patches/Normal(Healthy skin)/214.jpg
+exact-0158,exact,,a69e299aaba8a7c80495ac7066c1a02b2341b9e927343eca0a166500f5b56d41,data/DFU/Patches/Normal(Healthy skin)/448.jpg
+exact-0159,exact,,c35dd3f5ceb1db08897153fb220d670b8861b237c4b6a15e465da78f4166e726,data/DFU/Patches/Normal(Healthy skin)/216.jpg
+exact-0159,exact,,c35dd3f5ceb1db08897153fb220d670b8861b237c4b6a15e465da78f4166e726,data/DFU/Patches/Normal(Healthy skin)/500.jpg
+exact-0160,exact,,c3001efcbbb36f9f7fab68b1c96e0fc3360b240b6e6bacdd18d13910e905aeae,data/DFU/Patches/Normal(Healthy skin)/217.jpg
+exact-0160,exact,,c3001efcbbb36f9f7fab68b1c96e0fc3360b240b6e6bacdd18d13910e905aeae,data/DFU/Patches/Normal(Healthy skin)/472.jpg
+exact-0161,exact,,1d4ae0988508c1b9ad41c987fe98fa2a5a0d556d7762f0eb775300f52d204a6a,data/DFU/Patches/Normal(Healthy skin)/218.jpg
+exact-0161,exact,,1d4ae0988508c1b9ad41c987fe98fa2a5a0d556d7762f0eb775300f52d204a6a,data/DFU/Patches/Normal(Healthy skin)/466.jpg
+exact-0162,exact,,a133a3cf732fd264040d1c2d8b5936acce228d7dfdd55e0fd1c6f293086ec2b8,data/DFU/Patches/Normal(Healthy skin)/219.jpg
+exact-0162,exact,,a133a3cf732fd264040d1c2d8b5936acce228d7dfdd55e0fd1c6f293086ec2b8,data/DFU/Patches/Normal(Healthy skin)/499.jpg
+exact-0163,exact,,761574f1cbcf5e0c8fccfc7830fbc21083325678434c1fb958fcc044782f7021,data/DFU/Patches/Normal(Healthy skin)/220.jpg
+exact-0163,exact,,761574f1cbcf5e0c8fccfc7830fbc21083325678434c1fb958fcc044782f7021,data/DFU/Patches/Normal(Healthy skin)/467.jpg
+exact-0164,exact,,55ab2e6b11c529abf4e0a932812c6dfe07f0a6061d9c0ee0ae63b75c11639b85,data/DFU/Patches/Normal(Healthy skin)/221.jpg
+exact-0164,exact,,55ab2e6b11c529abf4e0a932812c6dfe07f0a6061d9c0ee0ae63b75c11639b85,data/DFU/Patches/Normal(Healthy skin)/484.jpg
+exact-0165,exact,,58cc255df869fbd4b7253341b76113ed9870b3ee38d04748f8df6692848f7f0a,data/DFU/Patches/Normal(Healthy skin)/222.jpg
+exact-0165,exact,,58cc255df869fbd4b7253341b76113ed9870b3ee38d04748f8df6692848f7f0a,data/DFU/Patches/Normal(Healthy skin)/460.jpg
+exact-0166,exact,,505aa476080fc7ebe8fc227bf842ff68679c782a600786ae183df7300d2a6751,data/DFU/Patches/Normal(Healthy skin)/223.jpg
+exact-0166,exact,,505aa476080fc7ebe8fc227bf842ff68679c782a600786ae183df7300d2a6751,data/DFU/Patches/Normal(Healthy skin)/513.jpg
+exact-0167,exact,,a1202a1ec96a4971e8094df586e5921a53d00015b61d8cab19f089752fda8bb4,data/DFU/Patches/Normal(Healthy skin)/224.jpg
+exact-0167,exact,,a1202a1ec96a4971e8094df586e5921a53d00015b61d8cab19f089752fda8bb4,data/DFU/Patches/Normal(Healthy skin)/485.jpg
+exact-0168,exact,,f56c9a1ba0015ebb0731ddcafe8ef0a68aa5379cdb2f20faaebd0c6ecc6df252,data/DFU/Patches/Normal(Healthy skin)/225.jpg
+exact-0168,exact,,f56c9a1ba0015ebb0731ddcafe8ef0a68aa5379cdb2f20faaebd0c6ecc6df252,data/DFU/Patches/Normal(Healthy skin)/450.jpg
+exact-0169,exact,,8004ddf601aac5478618a629112f7fced10e05234f4fbc3c59388a20b0da2368,data/DFU/Patches/Normal(Healthy skin)/226.jpg
+exact-0169,exact,,8004ddf601aac5478618a629112f7fced10e05234f4fbc3c59388a20b0da2368,data/DFU/Patches/Normal(Healthy skin)/506.jpg
+exact-0170,exact,,2d53f99c3500ee0bf4dca20ceaad359c26b5bd8088111cef09bfe4154e3bf821,data/DFU/Patches/Normal(Healthy skin)/227.jpg
+exact-0170,exact,,2d53f99c3500ee0bf4dca20ceaad359c26b5bd8088111cef09bfe4154e3bf821,data/DFU/Patches/Normal(Healthy skin)/515.jpg
+exact-0171,exact,,5eec55ec3221003c5676e9ff77a392bf4a3908b45a944dfdf960c14b267a28f6,data/DFU/Patches/Normal(Healthy skin)/228.jpg
+exact-0171,exact,,5eec55ec3221003c5676e9ff77a392bf4a3908b45a944dfdf960c14b267a28f6,data/DFU/Patches/Normal(Healthy skin)/461.jpg
+exact-0172,exact,,cb7957124bdb65fc9c066cea31a2332d4f8fb88d60714f811d5e8e61ffed10ef,data/DFU/Patches/Normal(Healthy skin)/229.jpg
+exact-0172,exact,,cb7957124bdb65fc9c066cea31a2332d4f8fb88d60714f811d5e8e61ffed10ef,data/DFU/Patches/Normal(Healthy skin)/479.jpg
+exact-0173,exact,,020267d08f9070c1e9677c1243e32ccc57fed04116e22707984859e601f71b32,data/DFU/Patches/Normal(Healthy skin)/230.jpg
+exact-0173,exact,,020267d08f9070c1e9677c1243e32ccc57fed04116e22707984859e601f71b32,data/DFU/Patches/Normal(Healthy skin)/507.jpg
+exact-0174,exact,,39ef723acbd969c038346d1b3bc06da31ba7da73dd6d9ac695bb7427b4e3d5c6,data/DFU/Patches/Normal(Healthy skin)/231.jpg
+exact-0174,exact,,39ef723acbd969c038346d1b3bc06da31ba7da73dd6d9ac695bb7427b4e3d5c6,data/DFU/Patches/Normal(Healthy skin)/503.jpg
+exact-0175,exact,,54e4980953e78184d675126aff82ba3d2fc21a6dba36a01e4c192b34ea655e98,data/DFU/Patches/Normal(Healthy skin)/232.jpg
+exact-0175,exact,,54e4980953e78184d675126aff82ba3d2fc21a6dba36a01e4c192b34ea655e98,data/DFU/Patches/Normal(Healthy skin)/481.jpg
+exact-0176,exact,,804babd6a9cbd9e610288183f86b3afc7f104acfb818ef89fe96c8a1041f12cd,data/DFU/Patches/Normal(Healthy skin)/233.jpg
+exact-0176,exact,,804babd6a9cbd9e610288183f86b3afc7f104acfb818ef89fe96c8a1041f12cd,data/DFU/Patches/Normal(Healthy skin)/520.jpg
+exact-0177,exact,,06e6438e86e80bc61248c3857ed094c422440025420e071e33ffa4d43c38af86,data/DFU/Patches/Normal(Healthy skin)/234.jpg
+exact-0177,exact,,06e6438e86e80bc61248c3857ed094c422440025420e071e33ffa4d43c38af86,data/DFU/Patches/Normal(Healthy skin)/482.jpg
+exact-0178,exact,,fc7b9ffe32dd4e575bc0bb602921674ee2e26219f772618a216d02d08e41d3c7,data/DFU/Patches/Normal(Healthy skin)/235.jpg
+exact-0178,exact,,fc7b9ffe32dd4e575bc0bb602921674ee2e26219f772618a216d02d08e41d3c7,data/DFU/Patches/Normal(Healthy skin)/519.jpg
+exact-0179,exact,,daa3f4fe02521bc2586e0ac51e8458c1e7d5ee3de5b8d92d576fffebde92fd10,data/DFU/Patches/Normal(Healthy skin)/236.jpg
+exact-0179,exact,,daa3f4fe02521bc2586e0ac51e8458c1e7d5ee3de5b8d92d576fffebde92fd10,data/DFU/Patches/Normal(Healthy skin)/483.jpg
+exact-0180,exact,,403d49f7f0ff84da4dca978a00fbe599c29dbfb5e30c35fafafb415fd465c862,data/DFU/Patches/Normal(Healthy skin)/237.jpg
+exact-0180,exact,,403d49f7f0ff84da4dca978a00fbe599c29dbfb5e30c35fafafb415fd465c862,data/DFU/Patches/Normal(Healthy skin)/508.jpg
+exact-0181,exact,,1d231a771e9744fed90a7422aa8db788c1ab9d9ca2bed3ceb689cb0cc7426e4c,data/DFU/Patches/Normal(Healthy skin)/238.jpg
+exact-0181,exact,,1d231a771e9744fed90a7422aa8db788c1ab9d9ca2bed3ceb689cb0cc7426e4c,data/DFU/Patches/Normal(Healthy skin)/516.jpg
+exact-0182,exact,,75f00640854a2816756d4e0fd11fc76206af2b269f5b21ebe9381d32da8d6955,data/DFU/Patches/Normal(Healthy skin)/239.jpg
+exact-0182,exact,,75f00640854a2816756d4e0fd11fc76206af2b269f5b21ebe9381d32da8d6955,data/DFU/Patches/Normal(Healthy skin)/522.jpg
+exact-0183,exact,,fdb9f88c25eeb86a7d3acda4b1fa7dec64ad643d38d544962e9561311f88f4be,data/DFU/Patches/Normal(Healthy skin)/240.jpg
+exact-0183,exact,,fdb9f88c25eeb86a7d3acda4b1fa7dec64ad643d38d544962e9561311f88f4be,data/DFU/Patches/Normal(Healthy skin)/525.jpg
+exact-0184,exact,,142d53324078779044644f693f28152f28c028d3fd86b4fe8dd689697d18a5d1,data/DFU/Patches/Normal(Healthy skin)/241.jpg
+exact-0184,exact,,142d53324078779044644f693f28152f28c028d3fd86b4fe8dd689697d18a5d1,data/DFU/Patches/Normal(Healthy skin)/523.jpg
+exact-0185,exact,,580fb97b7417006b3c1631443200a2d55aa51364de5f8b2ab647f097c7e5fa6d,data/DFU/Patches/Normal(Healthy skin)/242.jpg
+exact-0185,exact,,580fb97b7417006b3c1631443200a2d55aa51364de5f8b2ab647f097c7e5fa6d,data/DFU/Patches/Normal(Healthy skin)/501.jpg
+exact-0186,exact,,de90fb988b3b8605c55ba9437a0d271ac6a5bc091d3c188f92541fca66fed8a5,data/DFU/Patches/Normal(Healthy skin)/243.jpg
+exact-0186,exact,,de90fb988b3b8605c55ba9437a0d271ac6a5bc091d3c188f92541fca66fed8a5,data/DFU/Patches/Normal(Healthy skin)/294.jpg
+exact-0187,exact,,634a2c98bc2365bd9de6b378b3e341806013720482cf39c0c40ca9fcd088b00b,data/DFU/Patches/Normal(Healthy skin)/244.jpg
+exact-0187,exact,,634a2c98bc2365bd9de6b378b3e341806013720482cf39c0c40ca9fcd088b00b,data/DFU/Patches/Normal(Healthy skin)/509.jpg
+exact-0188,exact,,039d9966507db8953abc9d787b7d53ebbd82b665a25880f15b3c2accb2230d4f,data/DFU/Patches/Normal(Healthy skin)/245.jpg
+exact-0188,exact,,039d9966507db8953abc9d787b7d53ebbd82b665a25880f15b3c2accb2230d4f,data/DFU/Patches/Normal(Healthy skin)/505.jpg
+exact-0189,exact,,7508513f5d1360e38787efcd2e7383d8bb1ce8cca2c2f4f9b82415626462e38d,data/DFU/Patches/Normal(Healthy skin)/246.jpg
+exact-0189,exact,,7508513f5d1360e38787efcd2e7383d8bb1ce8cca2c2f4f9b82415626462e38d,data/DFU/Patches/Normal(Healthy skin)/524.jpg
+exact-0190,exact,,bb8d1baeef767202839c295cb3507f7d0b94370630335a80d663a2ab74f617f5,data/DFU/Patches/Normal(Healthy skin)/247.jpg
+exact-0190,exact,,bb8d1baeef767202839c295cb3507f7d0b94370630335a80d663a2ab74f617f5,data/DFU/Patches/Normal(Healthy skin)/502.jpg
+exact-0191,exact,,b21e8a16fc62fdc222f449e7622fc648166be5dae57e808654ef0137dbdb755c,data/DFU/Patches/Normal(Healthy skin)/248.jpg
+exact-0191,exact,,b21e8a16fc62fdc222f449e7622fc648166be5dae57e808654ef0137dbdb755c,data/DFU/Patches/Normal(Healthy skin)/297.jpg
+exact-0192,exact,,cb3339794adb72aa786d5cff10abf318442e9b6b263ff11a8a6653ea0cb77af7,data/DFU/Patches/Normal(Healthy skin)/249.jpg
+exact-0192,exact,,cb3339794adb72aa786d5cff10abf318442e9b6b263ff11a8a6653ea0cb77af7,data/DFU/Patches/Normal(Healthy skin)/527.jpg
+exact-0193,exact,,9a2111664c9c87480b111fcca6375cb3dd9e65435f2a4288f5e4baea8a8a1a2f,data/DFU/Patches/Normal(Healthy skin)/250.jpg
+exact-0193,exact,,9a2111664c9c87480b111fcca6375cb3dd9e65435f2a4288f5e4baea8a8a1a2f,data/DFU/Patches/Normal(Healthy skin)/469.jpg
+exact-0194,exact,,4a53ec5581c9a567326176830776e3ebd1fe0d0cd301ea58c0fe77fb6cbf6045,data/DFU/Patches/Normal(Healthy skin)/251.jpg
+exact-0194,exact,,4a53ec5581c9a567326176830776e3ebd1fe0d0cd301ea58c0fe77fb6cbf6045,data/DFU/Patches/Normal(Healthy skin)/489.jpg
+exact-0195,exact,,49a76d3036b9f8c4e9e20887b2a7aff0d76498363d46c95fe32da269c5f9499c,data/DFU/Patches/Normal(Healthy skin)/252.jpg
+exact-0195,exact,,49a76d3036b9f8c4e9e20887b2a7aff0d76498363d46c95fe32da269c5f9499c,data/DFU/Patches/Normal(Healthy skin)/504.jpg
+exact-0196,exact,,b261bd033cd52756f245a25347ff85c33c03ed09d8a792983f6a8c41c9a1c0a7,data/DFU/Patches/Normal(Healthy skin)/253.jpg
+exact-0196,exact,,b261bd033cd52756f245a25347ff85c33c03ed09d8a792983f6a8c41c9a1c0a7,data/DFU/Patches/Normal(Healthy skin)/486.jpg
+exact-0197,exact,,1e4ed4ee13e8164d50cbcb3bd5538199a4302fef620492fefdc615ca0dd22ed8,data/DFU/Patches/Normal(Healthy skin)/254.jpg
+exact-0197,exact,,1e4ed4ee13e8164d50cbcb3bd5538199a4302fef620492fefdc615ca0dd22ed8,data/DFU/Patches/Normal(Healthy skin)/531.jpg
+exact-0198,exact,,c03a8ee0b6bd664234a84e42ae6b63ae7cf9b42d336cd20dbb3d93808844e219,data/DFU/Patches/Normal(Healthy skin)/255.jpg
+exact-0198,exact,,c03a8ee0b6bd664234a84e42ae6b63ae7cf9b42d336cd20dbb3d93808844e219,data/DFU/Patches/Normal(Healthy skin)/487.jpg
+exact-0199,exact,,dfb51b43a73bf07dd14897cf27eb5352f4f025d91905b0892f21043936492a84,data/DFU/Patches/Normal(Healthy skin)/256.jpg
+exact-0199,exact,,dfb51b43a73bf07dd14897cf27eb5352f4f025d91905b0892f21043936492a84,data/DFU/Patches/Normal(Healthy skin)/512.jpg
+exact-0200,exact,,3a80b26d3546d6c888f29d2c17a00b64865fa648e830473c5c17a4109dcb6dd1,data/DFU/Patches/Normal(Healthy skin)/257.jpg
+exact-0200,exact,,3a80b26d3546d6c888f29d2c17a00b64865fa648e830473c5c17a4109dcb6dd1,data/DFU/Patches/Normal(Healthy skin)/488.jpg
+exact-0201,exact,,27433d02315bde51ad3c8bd15e537733254e680c1bff770892e244f3048322ea,data/DFU/Patches/Normal(Healthy skin)/258.jpg
+exact-0201,exact,,27433d02315bde51ad3c8bd15e537733254e680c1bff770892e244f3048322ea,data/DFU/Patches/Normal(Healthy skin)/511.jpg
+exact-0202,exact,,283ecbdc1760855326edc8e724d131e1bfecc0781b0829a87c73a73e9bcb054f,data/DFU/Patches/Normal(Healthy skin)/259.jpg
+exact-0202,exact,,283ecbdc1760855326edc8e724d131e1bfecc0781b0829a87c73a73e9bcb054f,data/DFU/Patches/Normal(Healthy skin)/510.jpg
+exact-0203,exact,,c7220f1b9ff2efb0ba455a9c3634be8ead0111e2063595faa492a7ed2dd2abdd,data/DFU/Patches/Normal(Healthy skin)/260.jpg
+exact-0203,exact,,c7220f1b9ff2efb0ba455a9c3634be8ead0111e2063595faa492a7ed2dd2abdd,data/DFU/Patches/Normal(Healthy skin)/514.jpg
+exact-0204,exact,,6df0348c23066b75456087a28e0d7396eeabfde6b559cd9b4b112a4744bc8a96,data/DFU/Patches/Normal(Healthy skin)/261.jpg
+exact-0204,exact,,6df0348c23066b75456087a28e0d7396eeabfde6b559cd9b4b112a4744bc8a96,data/DFU/Patches/Normal(Healthy skin)/470 (2).jpg
+exact-0205,exact,,1962285febfd3336493d625f8778febec2dc0c67533697d089dd9fcb34734d3b,data/DFU/Patches/Normal(Healthy skin)/262.jpg
+exact-0205,exact,,1962285febfd3336493d625f8778febec2dc0c67533697d089dd9fcb34734d3b,data/DFU/Patches/Normal(Healthy skin)/471.jpg
+exact-0206,exact,,f1776d16709196c573a34e53df473ffbbcbc1f6a755d43d6b5f7b67e59a267e2,data/DFU/Patches/Normal(Healthy skin)/263.jpg
+exact-0206,exact,,f1776d16709196c573a34e53df473ffbbcbc1f6a755d43d6b5f7b67e59a267e2,data/DFU/Patches/Normal(Healthy skin)/534.jpg
+exact-0207,exact,,d932b3a33b5867bf2d29afe5d082b53c36254741822928a3d468f20f91afbb95,data/DFU/Patches/Normal(Healthy skin)/264.jpg
+exact-0207,exact,,d932b3a33b5867bf2d29afe5d082b53c36254741822928a3d468f20f91afbb95,data/DFU/Patches/Normal(Healthy skin)/533.jpg
+exact-0208,exact,,f38d204f403e2317eae18a7fad233b6ce638cb1d5a775ef995500ac942d8e67c,data/DFU/Patches/Normal(Healthy skin)/267.jpg
+exact-0208,exact,,f38d204f403e2317eae18a7fad233b6ce638cb1d5a775ef995500ac942d8e67c,data/DFU/Patches/Normal(Healthy skin)/491.jpg
+exact-0209,exact,,f356632b738fc45e5c8e1b011a46e2e03a3ca79004474459f0c3b58120aadc6a,data/DFU/Patches/Normal(Healthy skin)/268.jpg
+exact-0209,exact,,f356632b738fc45e5c8e1b011a46e2e03a3ca79004474459f0c3b58120aadc6a,data/DFU/Patches/Normal(Healthy skin)/528.jpg
+exact-0210,exact,,8156bc0e08c95031f10b358e3cff9b4731b629088fcbaf478883484f6ace095b,data/DFU/Patches/Normal(Healthy skin)/269.jpg
+exact-0210,exact,,8156bc0e08c95031f10b358e3cff9b4731b629088fcbaf478883484f6ace095b,data/DFU/Patches/Normal(Healthy skin)/492.jpg
+exact-0211,exact,,6eb867dba3308c2fba1c4df776c082a4c8d60a47b28fd1620cdefd5cc7741a6b,data/DFU/Patches/Normal(Healthy skin)/27.jpg
+exact-0211,exact,,6eb867dba3308c2fba1c4df776c082a4c8d60a47b28fd1620cdefd5cc7741a6b,data/DFU/Patches/Normal(Healthy skin)/307.jpg
+exact-0212,exact,,99533bf60a61d484959718bf42156765352b9d52754a0d40c83476c183c3b6ea,data/DFU/Patches/Normal(Healthy skin)/270.jpg
+exact-0212,exact,,99533bf60a61d484959718bf42156765352b9d52754a0d40c83476c183c3b6ea,data/DFU/Patches/Normal(Healthy skin)/530.jpg
+exact-0213,exact,,3fb9320cbc80430436917fe92b10439ca7c6f2058dd6526c95cceb011609dc78,data/DFU/Patches/Normal(Healthy skin)/271.jpg
+exact-0213,exact,,3fb9320cbc80430436917fe92b10439ca7c6f2058dd6526c95cceb011609dc78,data/DFU/Patches/Normal(Healthy skin)/493.jpg
+exact-0214,exact,,68a5b1d0b289c4904da105b908d7cea5c8bfbfbc30b57aeec49df43793d823cf,data/DFU/Patches/Normal(Healthy skin)/272.jpg
+exact-0214,exact,,68a5b1d0b289c4904da105b908d7cea5c8bfbfbc30b57aeec49df43793d823cf,data/DFU/Patches/Normal(Healthy skin)/517.jpg
+exact-0215,exact,,153c8ae246e4bf789fa815402abd288bddebdac1b33077caf3887545f2b91b4d,data/DFU/Patches/Normal(Healthy skin)/273.jpg
+exact-0215,exact,,153c8ae246e4bf789fa815402abd288bddebdac1b33077caf3887545f2b91b4d,data/DFU/Patches/Normal(Healthy skin)/521.jpg
+exact-0216,exact,,e92b83e506b5b5bee624e4a2342fece33b682fc3af359a88c43f0bf8d5662bfd,data/DFU/Patches/Normal(Healthy skin)/274.jpg
+exact-0216,exact,,e92b83e506b5b5bee624e4a2342fece33b682fc3af359a88c43f0bf8d5662bfd,data/DFU/Patches/Normal(Healthy skin)/518.jpg
+exact-0217,exact,,806160c6c20cfcdc1d73055809d301d664d312a448a15f7c3d4ac51617620390,data/DFU/Patches/Normal(Healthy skin)/275.jpg
+exact-0217,exact,,806160c6c20cfcdc1d73055809d301d664d312a448a15f7c3d4ac51617620390,data/DFU/Patches/Normal(Healthy skin)/529.jpg
+exact-0218,exact,,d5b8f408221fa31929edccb1af2a65c9831c903ffb8868ba29664a362daefe62,data/DFU/Patches/Normal(Healthy skin)/276.jpg
+exact-0218,exact,,d5b8f408221fa31929edccb1af2a65c9831c903ffb8868ba29664a362daefe62,data/DFU/Patches/Normal(Healthy skin)/532.jpg
+exact-0219,exact,,49594ef2324492d79628876e5fea86064fcced3b504632cdde89e5ead7ac46eb,data/DFU/Patches/Normal(Healthy skin)/277.jpg
+exact-0219,exact,,49594ef2324492d79628876e5fea86064fcced3b504632cdde89e5ead7ac46eb,data/DFU/Patches/Normal(Healthy skin)/537.jpg
+exact-0220,exact,,5ab8feaba7c9b02f2dfa8905110610aa31b1294dc963a7292fc35a1e5a06e8e1,data/DFU/Patches/Normal(Healthy skin)/278.jpg
+exact-0220,exact,,5ab8feaba7c9b02f2dfa8905110610aa31b1294dc963a7292fc35a1e5a06e8e1,data/DFU/Patches/Normal(Healthy skin)/535.jpg
+exact-0221,exact,,f9ba6a574bc1a28342604045b438b255653b944f117d25023f648489c86b6781,data/DFU/Patches/Normal(Healthy skin)/279.jpg
+exact-0221,exact,,f9ba6a574bc1a28342604045b438b255653b944f117d25023f648489c86b6781,data/DFU/Patches/Normal(Healthy skin)/490.jpg
+exact-0222,exact,,818fbb9fc010e99900a22517dc5c489d8f985afa12e862bca62530705a88a7ca,data/DFU/Patches/Normal(Healthy skin)/28.jpg
+exact-0222,exact,,818fbb9fc010e99900a22517dc5c489d8f985afa12e862bca62530705a88a7ca,data/DFU/Patches/Normal(Healthy skin)/306.jpg
+exact-0223,exact,,19a46422edc189de24ce1b88ca85cf1ca2f931ce3bb503034de55ee323c3018d,data/DFU/Patches/Normal(Healthy skin)/280.jpg
+exact-0223,exact,,19a46422edc189de24ce1b88ca85cf1ca2f931ce3bb503034de55ee323c3018d,data/DFU/Patches/Normal(Healthy skin)/536.jpg
+exact-0224,exact,,54222feeac0f858810b5f560920743d849e0db5588a665bc7baeefeddd22741b,data/DFU/Patches/Normal(Healthy skin)/286.jpg
+exact-0224,exact,,54222feeac0f858810b5f560920743d849e0db5588a665bc7baeefeddd22741b,data/DFU/Patches/Normal(Healthy skin)/5.jpg
+exact-0225,exact,,7fda32e6ebbc1ba0557019d26ebb38f4c1b7af314842b908cd550ff0a2d32b4a,data/DFU/Patches/Normal(Healthy skin)/29.jpg
+exact-0225,exact,,7fda32e6ebbc1ba0557019d26ebb38f4c1b7af314842b908cd550ff0a2d32b4a,data/DFU/Patches/Normal(Healthy skin)/309.jpg
+exact-0226,exact,,5324e8f8cef6417214d2a5d79f50a1b3570b0e56dc10b92a9e767f03d8f5312d,data/DFU/Patches/Normal(Healthy skin)/311.jpg
+exact-0226,exact,,5324e8f8cef6417214d2a5d79f50a1b3570b0e56dc10b92a9e767f03d8f5312d,data/DFU/Patches/Normal(Healthy skin)/32.jpg
+exact-0227,exact,,eb2caad5e7122bee38c431fba56a7fb45e19ccd0a179e5d3752096c12a2dcdac,data/DFU/Patches/Normal(Healthy skin)/315 - Copy.jpg
+exact-0227,exact,,eb2caad5e7122bee38c431fba56a7fb45e19ccd0a179e5d3752096c12a2dcdac,data/DFU/Patches/Normal(Healthy skin)/315.jpg
+exact-0227,exact,,eb2caad5e7122bee38c431fba56a7fb45e19ccd0a179e5d3752096c12a2dcdac,data/DFU/Patches/Normal(Healthy skin)/38.jpg
+exact-0228,exact,,31c426f30e621b4a6b8b2335c0af7c0fa1ea66321a2a9c4dfdea1dc2e98b6294,data/DFU/Patches/Normal(Healthy skin)/316 - Copy.jpg
+exact-0228,exact,,31c426f30e621b4a6b8b2335c0af7c0fa1ea66321a2a9c4dfdea1dc2e98b6294,data/DFU/Patches/Normal(Healthy skin)/316.jpg
+exact-0228,exact,,31c426f30e621b4a6b8b2335c0af7c0fa1ea66321a2a9c4dfdea1dc2e98b6294,data/DFU/Patches/Normal(Healthy skin)/37.jpg
+exact-0229,exact,,155680b4505f47d7627b84311ac1b4f2181018a3678ad24bcb956e8d7470552b,data/DFU/Patches/Normal(Healthy skin)/318 - Copy.jpg
+exact-0229,exact,,155680b4505f47d7627b84311ac1b4f2181018a3678ad24bcb956e8d7470552b,data/DFU/Patches/Normal(Healthy skin)/318.jpg
+exact-0229,exact,,155680b4505f47d7627b84311ac1b4f2181018a3678ad24bcb956e8d7470552b,data/DFU/Patches/Normal(Healthy skin)/42.jpg
+exact-0230,exact,,3f0e5f5a88e1c3b45eec437fb5917fc97ee1c51ee6b1bf225996d234b51f1a92,data/DFU/Patches/Normal(Healthy skin)/319.jpg
+exact-0230,exact,,3f0e5f5a88e1c3b45eec437fb5917fc97ee1c51ee6b1bf225996d234b51f1a92,data/DFU/Patches/Normal(Healthy skin)/47.jpg
+exact-0231,exact,,0157cf5e141f81196ebf550986bfd175bf7432483f99ee4a36d20fc91582c0aa,data/DFU/Patches/Normal(Healthy skin)/320.jpg
+exact-0231,exact,,0157cf5e141f81196ebf550986bfd175bf7432483f99ee4a36d20fc91582c0aa,data/DFU/Patches/Normal(Healthy skin)/49.jpg
+exact-0232,exact,,26533daef3d4516c1f50319052c33621c1c80af76448da1e1e32b8f562f9a944,data/DFU/Patches/Normal(Healthy skin)/321 - Copy.jpg
+exact-0232,exact,,26533daef3d4516c1f50319052c33621c1c80af76448da1e1e32b8f562f9a944,data/DFU/Patches/Normal(Healthy skin)/321.jpg
+exact-0232,exact,,26533daef3d4516c1f50319052c33621c1c80af76448da1e1e32b8f562f9a944,data/DFU/Patches/Normal(Healthy skin)/46.jpg
+exact-0233,exact,,4f253e9bdac41792859c081add8f163755362b8594b1e422b97020f3f8e3c589,data/DFU/Patches/Normal(Healthy skin)/322 - Copy.jpg
+exact-0233,exact,,4f253e9bdac41792859c081add8f163755362b8594b1e422b97020f3f8e3c589,data/DFU/Patches/Normal(Healthy skin)/322.jpg
+exact-0233,exact,,4f253e9bdac41792859c081add8f163755362b8594b1e422b97020f3f8e3c589,data/DFU/Patches/Normal(Healthy skin)/50.jpg
+exact-0234,exact,,10f2dc3b7330ef11cf0090bad74809e07ca5b6612f66daf8eb46bdd669ca4aba,data/DFU/Patches/Normal(Healthy skin)/323 - Copy.jpg
+exact-0234,exact,,10f2dc3b7330ef11cf0090bad74809e07ca5b6612f66daf8eb46bdd669ca4aba,data/DFU/Patches/Normal(Healthy skin)/323.jpg
+exact-0234,exact,,10f2dc3b7330ef11cf0090bad74809e07ca5b6612f66daf8eb46bdd669ca4aba,data/DFU/Patches/Normal(Healthy skin)/48.jpg
+exact-0235,exact,,12ba61fe87d4fee55436d800d4f4da7797b80b1d89d29b0698c88d7321ff7ca3,data/DFU/Patches/Normal(Healthy skin)/324.jpg
+exact-0235,exact,,12ba61fe87d4fee55436d800d4f4da7797b80b1d89d29b0698c88d7321ff7ca3,data/DFU/Patches/Normal(Healthy skin)/52.jpg
+exact-0236,exact,,b181f5d280738e60570e71a5d5f55072e9797c7e0a79986b3b3091b41e7ce687,data/DFU/Patches/Normal(Healthy skin)/325 - Copy.jpg
+exact-0236,exact,,b181f5d280738e60570e71a5d5f55072e9797c7e0a79986b3b3091b41e7ce687,data/DFU/Patches/Normal(Healthy skin)/325.jpg
+exact-0236,exact,,b181f5d280738e60570e71a5d5f55072e9797c7e0a79986b3b3091b41e7ce687,data/DFU/Patches/Normal(Healthy skin)/51.jpg
+exact-0237,exact,,eebf6ea05a77627a6ac52c16fb08c7c7889c9874f0624979d1f1e3af0f4e803d,data/DFU/Patches/Normal(Healthy skin)/326.jpg
+exact-0237,exact,,eebf6ea05a77627a6ac52c16fb08c7c7889c9874f0624979d1f1e3af0f4e803d,data/DFU/Patches/Normal(Healthy skin)/53.jpg
+exact-0238,exact,,12a78955073ede88b4dd118a58d0f9ebb37b0c2aaabdb2f2b2273a78d219b8b1,data/DFU/Patches/Normal(Healthy skin)/329.jpg
+exact-0238,exact,,12a78955073ede88b4dd118a58d0f9ebb37b0c2aaabdb2f2b2273a78d219b8b1,data/DFU/Patches/Normal(Healthy skin)/56.jpg
+exact-0239,exact,,2a56cfe576f17db6445613b259fd7be2471c87ebc04da37e91f183e7d103bc5f,data/DFU/Patches/Normal(Healthy skin)/330.jpg
+exact-0239,exact,,2a56cfe576f17db6445613b259fd7be2471c87ebc04da37e91f183e7d103bc5f,data/DFU/Patches/Normal(Healthy skin)/60.jpg
+exact-0240,exact,,3ea63ebce50bcfdfecccb20e91150ecfbf190c3f9bf27b5ff683a138707571ab,data/DFU/Patches/Normal(Healthy skin)/331 - Copy.jpg
+exact-0240,exact,,3ea63ebce50bcfdfecccb20e91150ecfbf190c3f9bf27b5ff683a138707571ab,data/DFU/Patches/Normal(Healthy skin)/331.jpg
+exact-0240,exact,,3ea63ebce50bcfdfecccb20e91150ecfbf190c3f9bf27b5ff683a138707571ab,data/DFU/Patches/Normal(Healthy skin)/58.jpg
+exact-0241,exact,,8ee0b36fa5b3fdc791e116ec6077339c8423105683cd60d76819ae833ba9dac0,data/DFU/Patches/Normal(Healthy skin)/332.jpg
+exact-0241,exact,,8ee0b36fa5b3fdc791e116ec6077339c8423105683cd60d76819ae833ba9dac0,data/DFU/Patches/Normal(Healthy skin)/63.jpg
+exact-0242,exact,,943eef25da4efb6125f53d5a478e2b0bdec2f5b5ffa863fe99225499294d28c7,data/DFU/Patches/Normal(Healthy skin)/336.jpg
+exact-0242,exact,,943eef25da4efb6125f53d5a478e2b0bdec2f5b5ffa863fe99225499294d28c7,data/DFU/Patches/Normal(Healthy skin)/65.jpg
+exact-0243,exact,,8693f10168fe2e89057fb046b54b3d580e08b70786250f4c457b1f678d504277,data/DFU/Patches/Normal(Healthy skin)/337.jpg
+exact-0243,exact,,8693f10168fe2e89057fb046b54b3d580e08b70786250f4c457b1f678d504277,data/DFU/Patches/Normal(Healthy skin)/68.jpg
+exact-0244,exact,,72f4b1656a7da775c7398622348481095bec3309416f27cdc3669287bad19d02,data/DFU/Patches/Normal(Healthy skin)/339.jpg
+exact-0244,exact,,72f4b1656a7da775c7398622348481095bec3309416f27cdc3669287bad19d02,data/DFU/Patches/Normal(Healthy skin)/70.jpg
+exact-0245,exact,,366c3d5fda2fa95eea53ca8d5bfc987b1b2e648e340367e1b1ae4622aef3de12,data/DFU/Patches/Normal(Healthy skin)/341.jpg
+exact-0245,exact,,366c3d5fda2fa95eea53ca8d5bfc987b1b2e648e340367e1b1ae4622aef3de12,data/DFU/Patches/Normal(Healthy skin)/72.jpg
+exact-0246,exact,,953019b4b027b4e8fae7b779752f2e453d3e27c5b7b8d854244c561f848c3171,data/DFU/Patches/Normal(Healthy skin)/342.jpg
+exact-0246,exact,,953019b4b027b4e8fae7b779752f2e453d3e27c5b7b8d854244c561f848c3171,data/DFU/Patches/Normal(Healthy skin)/74.jpg
+exact-0247,exact,,fc975c1af79d0e9e64541db796a9b64a883f438d057961b08647905f60df025c,data/DFU/Patches/Normal(Healthy skin)/343.jpg
+exact-0247,exact,,fc975c1af79d0e9e64541db796a9b64a883f438d057961b08647905f60df025c,data/DFU/Patches/Normal(Healthy skin)/77.jpg
+exact-0248,exact,,d3968a66f2348190b76f7773ae06e8c6dc847c462fadbc9cd517dd87c39d050b,data/DFU/Patches/Normal(Healthy skin)/344.jpg
+exact-0248,exact,,d3968a66f2348190b76f7773ae06e8c6dc847c462fadbc9cd517dd87c39d050b,data/DFU/Patches/Normal(Healthy skin)/71.jpg
+exact-0249,exact,,2d981555598f835a0f19a28c83da20ad63bc63071c51bf9746a39f2b60260a61,data/DFU/Patches/Normal(Healthy skin)/345.jpg
+exact-0249,exact,,2d981555598f835a0f19a28c83da20ad63bc63071c51bf9746a39f2b60260a61,data/DFU/Patches/Normal(Healthy skin)/75.jpg
+exact-0250,exact,,e266ea964cc3dbbce3c111711b848323cb14cbf1472280071cfa9f7a6c7de5fd,data/DFU/Patches/Normal(Healthy skin)/346.jpg
+exact-0250,exact,,e266ea964cc3dbbce3c111711b848323cb14cbf1472280071cfa9f7a6c7de5fd,data/DFU/Patches/Normal(Healthy skin)/86.jpg
+exact-0251,exact,,36ac3310541b34cc7276c4a91e7c5494fcf32e4e1df4868f75a104b39e920ab6,data/DFU/Patches/Normal(Healthy skin)/347.jpg
+exact-0251,exact,,36ac3310541b34cc7276c4a91e7c5494fcf32e4e1df4868f75a104b39e920ab6,data/DFU/Patches/Normal(Healthy skin)/80.jpg
+exact-0252,exact,,6f1c1040893334140ec60c955166911c9703160ea1d14790cffd8ff0f882d168,data/DFU/Patches/Normal(Healthy skin)/349.jpg
+exact-0252,exact,,6f1c1040893334140ec60c955166911c9703160ea1d14790cffd8ff0f882d168,data/DFU/Patches/Normal(Healthy skin)/84.jpg
+exact-0253,exact,,e7e207eb92ff16304b8ae17def40a0fea4630be3ca557780ee85043f7c449f92,data/DFU/Patches/Normal(Healthy skin)/350.jpg
+exact-0253,exact,,e7e207eb92ff16304b8ae17def40a0fea4630be3ca557780ee85043f7c449f92,data/DFU/Patches/Normal(Healthy skin)/91.jpg
+exact-0254,exact,,563fdf4d7db53198981c6cc4174773c4214e4a33925204cd3fb49fa80ff5c72d,data/DFU/Patches/Normal(Healthy skin)/353.jpg
+exact-0254,exact,,563fdf4d7db53198981c6cc4174773c4214e4a33925204cd3fb49fa80ff5c72d,data/DFU/Patches/Normal(Healthy skin)/94.jpg
+exact-0255,exact,,0c4e57818844b0ddf3bc689362dbd4546b66886f7316a211e733dbcd77b83d69,data/DFU/Patches/Normal(Healthy skin)/354.jpg
+exact-0255,exact,,0c4e57818844b0ddf3bc689362dbd4546b66886f7316a211e733dbcd77b83d69,data/DFU/Patches/Normal(Healthy skin)/76.jpg
+exact-0256,exact,,8cdd2d8c81a68fff2d57980040bf65bbda627f52af251863e2febb80d9445d89,data/DFU/Patches/Normal(Healthy skin)/355.jpg
+exact-0256,exact,,8cdd2d8c81a68fff2d57980040bf65bbda627f52af251863e2febb80d9445d89,data/DFU/Patches/Normal(Healthy skin)/73.jpg
+exact-0257,exact,,d87caf2e29f8ea8de6421259df65ec2e3a37a606821b339aea1cb050c5af258e,data/DFU/Patches/Normal(Healthy skin)/358.jpg
+exact-0257,exact,,d87caf2e29f8ea8de6421259df65ec2e3a37a606821b339aea1cb050c5af258e,data/DFU/Patches/Normal(Healthy skin)/83.jpg
+exact-0258,exact,,8fb973a6b5f8599e37c7f0f020f64abe1578a19faf51837ea8b6584bd12305f0,data/DFU/Patches/Normal(Healthy skin)/359.jpg
+exact-0258,exact,,8fb973a6b5f8599e37c7f0f020f64abe1578a19faf51837ea8b6584bd12305f0,data/DFU/Patches/Normal(Healthy skin)/81.jpg
+exact-0259,exact,,22b7ed5b9ab4db3ae65dd77e7b5457c302e6c0b42345c4f684dc8a410f80d6ee,data/DFU/Patches/Normal(Healthy skin)/361.jpg
+exact-0259,exact,,22b7ed5b9ab4db3ae65dd77e7b5457c302e6c0b42345c4f684dc8a410f80d6ee,data/DFU/Patches/Normal(Healthy skin)/78.jpg
+exact-0260,exact,,461a097b83a70b0bc393f60c9ee7cad9ae534cfb8f2d55955ff6c69d45e1b3a9,data/DFU/Patches/Normal(Healthy skin)/362.jpg
+exact-0260,exact,,461a097b83a70b0bc393f60c9ee7cad9ae534cfb8f2d55955ff6c69d45e1b3a9,data/DFU/Patches/Normal(Healthy skin)/93.jpg
+exact-0261,exact,,da42461adbf9485d51faae392f8035ec2e2f7cdcfa9ab3acf48b4b8fde1a72a1,data/DFU/Patches/Normal(Healthy skin)/363.jpg
+exact-0261,exact,,da42461adbf9485d51faae392f8035ec2e2f7cdcfa9ab3acf48b4b8fde1a72a1,data/DFU/Patches/Normal(Healthy skin)/96.jpg
+exact-0262,exact,,2b73d4ba1d095b47854261cae5cad10ddc5f4be2957c480dd558f39687eac05c,data/DFU/Patches/Normal(Healthy skin)/366.jpg
+exact-0262,exact,,2b73d4ba1d095b47854261cae5cad10ddc5f4be2957c480dd558f39687eac05c,data/DFU/Patches/Normal(Healthy skin)/97.jpg
+exact-0263,exact,,ca2a48d7af5226e9e3b140de9432b9a3d0386507a72adb2189ba6d0c02317103,data/DFU/Patches/Normal(Healthy skin)/368.jpg
+exact-0263,exact,,ca2a48d7af5226e9e3b140de9432b9a3d0386507a72adb2189ba6d0c02317103,data/DFU/Patches/Normal(Healthy skin)/92.jpg
+exact-0264,exact,,2c889a6be70f6a793b79f036d20375396c186657f466e13b53d75be5f8748b74,data/DFU/Patches/Normal(Healthy skin)/370.jpg
+exact-0264,exact,,2c889a6be70f6a793b79f036d20375396c186657f466e13b53d75be5f8748b74,data/DFU/Patches/Normal(Healthy skin)/98.jpg
+exact-0265,exact,,aaac83a1deae5832d1fd83de9c87d9142c6b5a493654b0c90f3b618b59638170,data/DFU/TestSet/0.jpg
+exact-0265,exact,,aaac83a1deae5832d1fd83de9c87d9142c6b5a493654b0c90f3b618b59638170,data/DFU/Transfer-Learning images/internetSet/0.jpg
+exact-0266,exact,,525572d57aaabd1f817ea600db6adbad5b08e31e02e53d3f1545b8725766ad64,data/DFU/TestSet/0cbt67mm0fr01.jpg
+exact-0266,exact,,525572d57aaabd1f817ea600db6adbad5b08e31e02e53d3f1545b8725766ad64,data/DFU/Transfer-Learning images/internetSet/0cbt67mm0fr01.jpg
+exact-0267,exact,,9706adb14ca03ef671014638e90d95ad2e55d9026a7a89d85283f749e1004262,data/DFU/TestSet/1.jpg
+exact-0267,exact,,9706adb14ca03ef671014638e90d95ad2e55d9026a7a89d85283f749e1004262,data/DFU/Transfer-Learning images/internetSet/1.jpg
+exact-0268,exact,,2a1251884e6f8495772a0b6b9998d3646925fd55e108637c7bfe865831a5cb03,data/DFU/TestSet/1167 (1).jpg
+exact-0268,exact,,2a1251884e6f8495772a0b6b9998d3646925fd55e108637c7bfe865831a5cb03,data/DFU/Transfer-Learning images/internetSet/1167 (1).jpg
+exact-0269,exact,,b626b1eac48d8e061eeab017737c8860b7212dd6cdf7a4a5e261c501f718d337,data/DFU/TestSet/1167.jpg
+exact-0269,exact,,b626b1eac48d8e061eeab017737c8860b7212dd6cdf7a4a5e261c501f718d337,data/DFU/Transfer-Learning images/internetSet/1167.jpg
+exact-0269,exact,,b626b1eac48d8e061eeab017737c8860b7212dd6cdf7a4a5e261c501f718d337,data/DFU/Transfer-Learning images/samples/1167.jpg
+exact-0269,exact,,b626b1eac48d8e061eeab017737c8860b7212dd6cdf7a4a5e261c501f718d337,data/DFU/Transfer-Learning images/Wound Images2/1167 (1).jpg
+exact-0269,exact,,b626b1eac48d8e061eeab017737c8860b7212dd6cdf7a4a5e261c501f718d337,data/DFU/Transfer-Learning images/Wound Images2/1167.jpg
+exact-0270,exact,,566890c638040bf7048765b1eb6c749d501463d1b3de2d4d913d8967374ada1e,data/DFU/TestSet/1882_19-Effective-Home-Remedies-For-Corns-And-Calluses (1).jpg
+exact-0270,exact,,566890c638040bf7048765b1eb6c749d501463d1b3de2d4d913d8967374ada1e,data/DFU/Transfer-Learning images/internetSet/1882_19-Effective-Home-Remedies-For-Corns-And-Calluses (1).jpg
+exact-0271,exact,,4056b93ae70c7aff59b818ac86bd04e2b2dd65692feba3a43043848dbffa6f5a,data/DFU/TestSet/1882_19-Effective-Home-Remedies-For-Corns-And-Calluses.jpg
+exact-0271,exact,,4056b93ae70c7aff59b818ac86bd04e2b2dd65692feba3a43043848dbffa6f5a,data/DFU/TestSet/calluses.jpg
+exact-0271,exact,,4056b93ae70c7aff59b818ac86bd04e2b2dd65692feba3a43043848dbffa6f5a,data/DFU/Transfer-Learning images/internetSet/1882_19-Effective-Home-Remedies-For-Corns-And-Calluses.jpg
+exact-0271,exact,,4056b93ae70c7aff59b818ac86bd04e2b2dd65692feba3a43043848dbffa6f5a,data/DFU/Transfer-Learning images/internetSet/calluses.jpg
+exact-0271,exact,,4056b93ae70c7aff59b818ac86bd04e2b2dd65692feba3a43043848dbffa6f5a,data/DFU/Transfer-Learning images/Wound Images2/Calluses.jpg
+exact-0272,exact,,423de04b9ac4e7a71c1fef19124346b967a2ed530c4949b0a42ed7b60eb47ff6,data/DFU/TestSet/222748d9f97a36c08da91dc46f6f5200.jpg
+exact-0272,exact,,423de04b9ac4e7a71c1fef19124346b967a2ed530c4949b0a42ed7b60eb47ff6,data/DFU/Transfer-Learning images/internetSet/222748d9f97a36c08da91dc46f6f5200.jpg
+exact-0273,exact,,87ece0f04b91512c05459a6a7f3374b482334dc8c8ed53f0c3b6f5f5c3f27702,data/DFU/TestSet/240_F_214198906_xKY39M1gdfq0dhoyLlik7dSrIRdiacQO.jpg
+exact-0273,exact,,87ece0f04b91512c05459a6a7f3374b482334dc8c8ed53f0c3b6f5f5c3f27702,data/DFU/Transfer-Learning images/internetSet/240_F_214198906_xKY39M1gdfq0dhoyLlik7dSrIRdiacQO.jpg
+exact-0274,exact,,3c4da3a4da5a3ba2bfaedf06d47fb93a0b22897dedfbd98e4878abc362987e88,data/DFU/TestSet/2854.fig.1.png
+exact-0274,exact,,3c4da3a4da5a3ba2bfaedf06d47fb93a0b22897dedfbd98e4878abc362987e88,data/DFU/Transfer-Learning images/internetSet/2854.fig.1.png
+exact-0275,exact,,fdc182aa192d680af7a7967fdcf21f874fe2462565bf63ec08fe77fe410eda60,data/DFU/TestSet/2cyruuzga5e01.jpg
+exact-0275,exact,,fdc182aa192d680af7a7967fdcf21f874fe2462565bf63ec08fe77fe410eda60,data/DFU/Transfer-Learning images/internetSet/2cyruuzga5e01.jpg
+exact-0276,exact,,c21bbf45e894f6d498585da92c476c58f9d6e600315573fc91fe0016cb3ed839,data/DFU/TestSet/3809525079_71eabf91b5_z.jpg
+exact-0276,exact,,c21bbf45e894f6d498585da92c476c58f9d6e600315573fc91fe0016cb3ed839,data/DFU/Transfer-Learning images/internetSet/3809525079_71eabf91b5_z.jpg
+exact-0277,exact,,af1c9e3f07a3b93c00875b024a76f7f0deceed510cc4eb9979ea74cdfcd7a5dc,data/DFU/TestSet/4-Figure3-used.png
+exact-0277,exact,,af1c9e3f07a3b93c00875b024a76f7f0deceed510cc4eb9979ea74cdfcd7a5dc,data/DFU/Transfer-Learning images/internetSet/4-Figure3-used.png
+exact-0278,exact,,69918f6dcf98e99c259ad2de938d4c52902802c8e249a2b11fd0be3ba1da503d,data/DFU/TestSet/4.jpg
+exact-0278,exact,,69918f6dcf98e99c259ad2de938d4c52902802c8e249a2b11fd0be3ba1da503d,data/DFU/Transfer-Learning images/internetSet/4.jpg
+exact-0279,exact,,d5380311cbd615fa13bfbd81d291c50ac90807413ea471bff4572cf951f40ddd,data/DFU/TestSet/46683AFD00000578-5088439-image-a-7_1510827626291.jpg
+exact-0279,exact,,d5380311cbd615fa13bfbd81d291c50ac90807413ea471bff4572cf951f40ddd,data/DFU/Transfer-Learning images/internetSet/46683AFD00000578-5088439-image-a-7_1510827626291.jpg
+exact-0280,exact,,77febb6ae8201a4a0a7aeaf3c605414ae2efc8074b1af2cf8c28b9712e9d8ac2,data/DFU/TestSet/62e0142009a44d1a98f41d8d8874cced.png
+exact-0280,exact,,77febb6ae8201a4a0a7aeaf3c605414ae2efc8074b1af2cf8c28b9712e9d8ac2,data/DFU/Transfer-Learning images/internetSet/62e0142009a44d1a98f41d8d8874cced.png
+exact-0281,exact,,4e0a20f0297e177d6c049287230bb5a37232b680c66badd844414feee67c3bd0,data/DFU/TestSet/642x361_Foot_Corn_SLIDE_2.jpg
+exact-0281,exact,,4e0a20f0297e177d6c049287230bb5a37232b680c66badd844414feee67c3bd0,data/DFU/Transfer-Learning images/internetSet/642x361_Foot_Corn_SLIDE_2.jpg
+exact-0282,exact,,2320ec70042cb81a41b85e8ffcb9c652cdeedcf21817135ffc2f6e0d85568005,data/DFU/TestSet/7527tn.jpg
+exact-0282,exact,,2320ec70042cb81a41b85e8ffcb9c652cdeedcf21817135ffc2f6e0d85568005,data/DFU/Transfer-Learning images/internetSet/7527tn.jpg
+exact-0283,exact,,7cc7f06306338f9ec8198bc3f03e10b4e39e795de97d4fcfc7bf798ecddbf2f0,data/DFU/TestSet/7a5e12fa15.jpg
+exact-0283,exact,,7cc7f06306338f9ec8198bc3f03e10b4e39e795de97d4fcfc7bf798ecddbf2f0,data/DFU/Transfer-Learning images/internetSet/7a5e12fa15.jpg
+exact-0284,exact,,622b422aa81629cca73a0f3efa487e112fd929b33abb37ca23eff160a37f2167,data/DFU/TestSet/7e88c7_71fd61f6ac3d48cab475dfa44ea94017.jpg
+exact-0284,exact,,622b422aa81629cca73a0f3efa487e112fd929b33abb37ca23eff160a37f2167,data/DFU/Transfer-Learning images/internetSet/7e88c7_71fd61f6ac3d48cab475dfa44ea94017.jpg
+exact-0285,exact,,8ea9291b124dbba4c49d395b095f0469a357b3ef341a2569758137809cba98b2,data/DFU/TestSet/A-diabetic-foot-ulcer-presents-significant-morbidity-and-mortality-to-patients-Proper_Q320.jpg
+exact-0285,exact,,8ea9291b124dbba4c49d395b095f0469a357b3ef341a2569758137809cba98b2,data/DFU/Transfer-Learning images/internetSet/A-diabetic-foot-ulcer-presents-significant-morbidity-and-mortality-to-patients-Proper_Q320.jpg
+exact-0286,exact,,b423dda85f7ff325fd15d5b9be96bd5795935b01aa62717e355767035cf689d9,data/DFU/TestSet/B9780323072427000279_f027-008-9780323072427.jpg
+exact-0286,exact,,b423dda85f7ff325fd15d5b9be96bd5795935b01aa62717e355767035cf689d9,data/DFU/Transfer-Learning images/internetSet/B9780323072427000279_f027-008-9780323072427.jpg
+exact-0287,exact,,b30bdaea8a04a8507cecf35cca40e5028b33c57229c943abc477b41e4ea4d5e2,data/DFU/TestSet/C0365633-Diabetic_Heel_Ulcer.jpg
+exact-0287,exact,,b30bdaea8a04a8507cecf35cca40e5028b33c57229c943abc477b41e4ea4d5e2,data/DFU/Transfer-Learning images/internetSet/C0365633-Diabetic_Heel_Ulcer.jpg
+exact-0288,exact,,9b3c46603f83256cebdad655a6a0c77ac766a1661d3cadb1c0a0016035ca6d03,data/DFU/TestSet/C1.jpg
+exact-0288,exact,,9b3c46603f83256cebdad655a6a0c77ac766a1661d3cadb1c0a0016035ca6d03,data/DFU/Transfer-Learning images/internetSet/C1.jpg
+exact-0289,exact,,c6bfa3cac3145fd9a387b8a7e2c3e8363482c6e56f865d877f5cb22034953a5f,data/DFU/TestSet/C2.jpg
+exact-0289,exact,,c6bfa3cac3145fd9a387b8a7e2c3e8363482c6e56f865d877f5cb22034953a5f,data/DFU/Transfer-Learning images/internetSet/C2.jpg
+exact-0290,exact,,442346cb8f9d5ab1110811b7444ee415aea7d9dc46640149b5c878cf5a9db774,data/DFU/TestSet/C3.jpg
+exact-0290,exact,,442346cb8f9d5ab1110811b7444ee415aea7d9dc46640149b5c878cf5a9db774,data/DFU/Transfer-Learning images/internetSet/C3.jpg
+exact-0291,exact,,70c8f1c38b060e46cc2f2cbd20eacb27bf8c2003877857a148f84c8e19abcfa2,data/DFU/TestSet/Callus-Formation1.jpg
+exact-0291,exact,,70c8f1c38b060e46cc2f2cbd20eacb27bf8c2003877857a148f84c8e19abcfa2,data/DFU/Transfer-Learning images/internetSet/Callus-Formation1.jpg
+exact-0292,exact,,d9f8c54817037ba915ab8a260b0a2b07b741a99a447ae886b8ef5516ac9c0eb7,data/DFU/TestSet/Class-1-Foot-at-risk-a-and-b-Foot-with-callus-but-no-ulcer-b-a (1).png
+exact-0292,exact,,d9f8c54817037ba915ab8a260b0a2b07b741a99a447ae886b8ef5516ac9c0eb7,data/DFU/TestSet/Class-1-Foot-at-risk-a-and-b-Foot-with-callus-but-no-ulcer-b-a (2).png
+exact-0292,exact,,d9f8c54817037ba915ab8a260b0a2b07b741a99a447ae886b8ef5516ac9c0eb7,data/DFU/Transfer-Learning images/internetSet/Class-1-Foot-at-risk-a-and-b-Foot-with-callus-but-no-ulcer-b-a (1).png
+exact-0292,exact,,d9f8c54817037ba915ab8a260b0a2b07b741a99a447ae886b8ef5516ac9c0eb7,data/DFU/Transfer-Learning images/internetSet/Class-1-Foot-at-risk-a-and-b-Foot-with-callus-but-no-ulcer-b-a (2).png
+exact-0293,exact,,9c9a37372608e58c9686a11b8ea2786a403d8f49ec585993cde469a4388dda4d,data/DFU/TestSet/DSC00319.jpeg
+exact-0293,exact,,9c9a37372608e58c9686a11b8ea2786a403d8f49ec585993cde469a4388dda4d,data/DFU/Transfer-Learning images/internetSet/DSC00319.jpeg
+exact-0294,exact,,319d4060db0cd740c1cc36b5aaaee0d993ea676c63092da2ae118c96c8db94ed,data/DFU/TestSet/Diabetic foot ulcer.jpg
+exact-0294,exact,,319d4060db0cd740c1cc36b5aaaee0d993ea676c63092da2ae118c96c8db94ed,data/DFU/Transfer-Learning images/internetSet/Diabetic foot ulcer.jpg
+exact-0295,exact,,2c1dd0c76a8264c30a91b5542ac9260f61b242f0e024b92ae0ec3667e2b666b3,data/DFU/TestSet/Diabetic-amputation-rates-continue-to-be-a-problem.jpg
+exact-0295,exact,,2c1dd0c76a8264c30a91b5542ac9260f61b242f0e024b92ae0ec3667e2b666b3,data/DFU/Transfer-Learning images/internetSet/Diabetic-amputation-rates-continue-to-be-a-problem.jpg
+exact-0296,exact,,e4727abc5e10252192420252faf0a7dac1a4d570815dfaa64815e1098d97382e,data/DFU/TestSet/Diabetic-neuropathic-feet-Callus-formation-as-a-presentation-of-neuropathy.png
+exact-0296,exact,,e4727abc5e10252192420252faf0a7dac1a4d570815dfaa64815e1098d97382e,data/DFU/Transfer-Learning images/internetSet/Diabetic-neuropathic-feet-Callus-formation-as-a-presentation-of-neuropathy.png
+exact-0297,exact,,4a9cde0203323ca353a471c097b262e04a4a9dd2b120905299cca4a71cce0a82,data/DFU/TestSet/DiabeticPicture4.jpg
+exact-0297,exact,,4a9cde0203323ca353a471c097b262e04a4a9dd2b120905299cca4a71cce0a82,data/DFU/Transfer-Learning images/internetSet/DiabeticPicture4.jpg
+exact-0298,exact,,1417fe0adc07e642f2187df79f35b7be36f6237d1477350cb2eda69aab6d37b5,data/DFU/TestSet/F3.large.jpg
+exact-0298,exact,,1417fe0adc07e642f2187df79f35b7be36f6237d1477350cb2eda69aab6d37b5,data/DFU/Transfer-Learning images/internetSet/F3.large.jpg
+exact-0299,exact,,66a67244a4a28b55501026938e2876c527b48391f6ec54d48f7631021b4143b6,data/DFU/TestSet/Foot-ulcer-600x399.png
+exact-0299,exact,,66a67244a4a28b55501026938e2876c527b48391f6ec54d48f7631021b4143b6,data/DFU/Transfer-Learning images/internetSet/Foot-ulcer-600x399.png
+exact-0300,exact,,9a8c981b3772b44a8004cd4a93547b2ec4a406e37ea71e4a1d6beecd521dcc12,data/DFU/TestSet/Footpuncture-blog2.jpg
+exact-0300,exact,,9a8c981b3772b44a8004cd4a93547b2ec4a406e37ea71e4a1d6beecd521dcc12,data/DFU/Transfer-Learning images/internetSet/Footpuncture-blog2.jpg
+exact-0301,exact,,9559e6ac5b187617b7c0a3c8d8bc105adf6664678df5d936a0b4ccf71400212f,data/DFU/TestSet/GettyImages-840167308-1-650x450.jpg
+exact-0301,exact,,9559e6ac5b187617b7c0a3c8d8bc105adf6664678df5d936a0b4ccf71400212f,data/DFU/Transfer-Learning images/internetSet/GettyImages-840167308-1-650x450.jpg
+exact-0302,exact,,93749dc7a8c5bc577ac029bb9a0f45b870745421a2e31831a32b40392e6757b4,data/DFU/TestSet/Initial-presentation-of-the-diabetic-ulcer-at-the-left-lateral-foot.png
+exact-0302,exact,,93749dc7a8c5bc577ac029bb9a0f45b870745421a2e31831a32b40392e6757b4,data/DFU/Transfer-Learning images/internetSet/Initial-presentation-of-the-diabetic-ulcer-at-the-left-lateral-foot.png
+exact-0303,exact,,58b776eaf9633318c9f7da53fcdf7106ab5b81d7260a9f67cb2ddab784e64c18,data/DFU/TestSet/M2800025-Diabetic_neuropathy_ulceration_of_sole_of_foot-SPL_popup.jpg
+exact-0303,exact,,58b776eaf9633318c9f7da53fcdf7106ab5b81d7260a9f67cb2ddab784e64c18,data/DFU/Transfer-Learning images/internetSet/M2800025-Diabetic_neuropathy_ulceration_of_sole_of_foot-SPL_popup.jpg
+exact-0304,exact,,994240a1cefeefb22b6933d4f7d2008f750a2c779ba110842f902735853bfa59,data/DFU/TestSet/PRF_071312_FIG1.jpg
+exact-0304,exact,,994240a1cefeefb22b6933d4f7d2008f750a2c779ba110842f902735853bfa59,data/DFU/Transfer-Learning images/internetSet/PRF_071312_FIG1.jpg
+exact-0305,exact,,a9c2392fb6a7c291c8845c3b656928e8d9c9d357bde7d71bfe681e460a166590,data/DFU/TestSet/Painless-ulcer-on-plantar-surface-of-her-right-big-toe.png
+exact-0305,exact,,a9c2392fb6a7c291c8845c3b656928e8d9c9d357bde7d71bfe681e460a166590,data/DFU/Transfer-Learning images/internetSet/Painless-ulcer-on-plantar-surface-of-her-right-big-toe.png
+exact-0306,exact,,95084e792b7494be5db4206482fed1ff724c84fc0caa9b29e2e3c5e3ccc97a18,data/DFU/TestSet/RTEmagicC_017_FP0216_F1.jpg.jpg
+exact-0306,exact,,95084e792b7494be5db4206482fed1ff724c84fc0caa9b29e2e3c5e3ccc97a18,data/DFU/Transfer-Learning images/internetSet/RTEmagicC_017_FP0216_F1.jpg.jpg
+exact-0307,exact,,a3e3c4f6f564b46742a704649bbec241d7a015a9c8a60121e0e292c228a294a5,data/DFU/TestSet/Seed-Corn-under-Ball-of-Foot.jpg
+exact-0307,exact,,a3e3c4f6f564b46742a704649bbec241d7a015a9c8a60121e0e292c228a294a5,data/DFU/Transfer-Learning images/internetSet/Seed-Corn-under-Ball-of-Foot.jpg
+exact-0308,exact,,fa9b8a6d4d1503741247433b7cf6caa0cc35ca8e335abee5ab7ae72fd49cb1bf,data/DFU/TestSet/a-Plantar-hallux-subungual-ulcer-b-ulcer-healing-after-tenotomy-of-the-flexor.png
+exact-0308,exact,,fa9b8a6d4d1503741247433b7cf6caa0cc35ca8e335abee5ab7ae72fd49cb1bf,data/DFU/Transfer-Learning images/internetSet/a-Plantar-hallux-subungual-ulcer-b-ulcer-healing-after-tenotomy-of-the-flexor.png
+exact-0309,exact,,f00e626a2191c66e5b4cb3c490e732288a68fd02bad8c23211c09c805bf21a03,data/DFU/TestSet/a39266877b6897fad51e9383d93daa05--diabetes-weird.jpg
+exact-0309,exact,,f00e626a2191c66e5b4cb3c490e732288a68fd02bad8c23211c09c805bf21a03,data/DFU/Transfer-Learning images/internetSet/a39266877b6897fad51e9383d93daa05--diabetes-weird.jpg
+exact-0310,exact,,b77b06ea9f39a5ecc916c9f4e85a2fa6fa15fcd0f8fbbff5b8ad945a31ed664c,data/DFU/TestSet/afp19980315p1325-f4.jpg
+exact-0310,exact,,b77b06ea9f39a5ecc916c9f4e85a2fa6fa15fcd0f8fbbff5b8ad945a31ed664c,data/DFU/Transfer-Learning images/internetSet/afp19980315p1325-f4.jpg
+exact-0311,exact,,9944163342a7251d410a83b7e387ad89759d8c6010a9ab83aad009119b47afdb,data/DFU/TestSet/b4b2e1341a7bf627a58f6ac32212ed93.jpg
+exact-0311,exact,,9944163342a7251d410a83b7e387ad89759d8c6010a9ab83aad009119b47afdb,data/DFU/Transfer-Learning images/internetSet/b4b2e1341a7bf627a58f6ac32212ed93.jpg
+exact-0312,exact,,a6571eacafab1df5555fb9ae6912c9a64bf18a530c6958e73e326a726b1071a1,data/DFU/TestSet/bleeding-under-callus-preulcerative (1).jpg
+exact-0312,exact,,a6571eacafab1df5555fb9ae6912c9a64bf18a530c6958e73e326a726b1071a1,data/DFU/TestSet/bleeding-under-callus-preulcerative.jpg
+exact-0312,exact,,a6571eacafab1df5555fb9ae6912c9a64bf18a530c6958e73e326a726b1071a1,data/DFU/Transfer-Learning images/internetSet/bleeding-under-callus-preulcerative (1).jpg
+exact-0312,exact,,a6571eacafab1df5555fb9ae6912c9a64bf18a530c6958e73e326a726b1071a1,data/DFU/Transfer-Learning images/internetSet/bleeding-under-callus-preulcerative.jpg
+exact-0313,exact,,7d96a3ab3551940c1334ba8111e1f675cfbe0cf7c005d3aaa7fb2ac2ae67f241,data/DFU/TestSet/complex_wound_management.jpg
+exact-0313,exact,,7d96a3ab3551940c1334ba8111e1f675cfbe0cf7c005d3aaa7fb2ac2ae67f241,data/DFU/Transfer-Learning images/internetSet/complex_wound_management.jpg
+exact-0314,exact,,237b6603958105c2f99c04bbd1857e00ab8369d07c0f160d78309137d6d0fe7a,data/DFU/TestSet/corn-1200x820.jpg
+exact-0314,exact,,237b6603958105c2f99c04bbd1857e00ab8369d07c0f160d78309137d6d0fe7a,data/DFU/Transfer-Learning images/internetSet/corn-1200x820.jpg
+exact-0315,exact,,8165f5f568d107edd72982030f1cfc8f138afb61f9784c8fb27819b48232461c,data/DFU/TestSet/corns.jpg
+exact-0315,exact,,8165f5f568d107edd72982030f1cfc8f138afb61f9784c8fb27819b48232461c,data/DFU/Transfer-Learning images/internetSet/corns.jpg
+exact-0316,exact,,ef9fa0d5438cb8ac6c430aa55f6f21540d72f05beb45c718b59440a7abf13050,data/DFU/TestSet/corns2.gif
+exact-0316,exact,,ef9fa0d5438cb8ac6c430aa55f6f21540d72f05beb45c718b59440a7abf13050,data/DFU/Transfer-Learning images/internetSet/corns2.gif
+exact-0317,exact,,a8368c02406aec278ec1648865bd1b32049e89e03dc5bd701e74ea704c28e0b9,data/DFU/TestSet/diabetic foot ulcer..jpg
+exact-0317,exact,,a8368c02406aec278ec1648865bd1b32049e89e03dc5bd701e74ea704c28e0b9,data/DFU/Transfer-Learning images/internetSet/diabetic foot ulcer..jpg
+exact-0317,exact,,a8368c02406aec278ec1648865bd1b32049e89e03dc5bd701e74ea704c28e0b9,data/DFU/Transfer-Learning images/Wound Images2/diabetic foot ulcer..jpg
+exact-0318,exact,,2c1b176107209df0db7bf0d1b0428a8602d2128a06159336082bafee2e18c44d,data/DFU/TestSet/diabetic-foot-ulcer (1).jpg
+exact-0318,exact,,2c1b176107209df0db7bf0d1b0428a8602d2128a06159336082bafee2e18c44d,data/DFU/Transfer-Learning images/internetSet/diabetic-foot-ulcer (1).jpg
+exact-0319,exact,,8cb50a82deacd16f2722ea7eb1f1f1abbde415b50f4bead22f47080e7ec36bf0,data/DFU/TestSet/diabetic-foot-ulcer-pictures-5 (1).jpg
+exact-0319,exact,,8cb50a82deacd16f2722ea7eb1f1f1abbde415b50f4bead22f47080e7ec36bf0,data/DFU/Transfer-Learning images/internetSet/diabetic-foot-ulcer-pictures-5 (1).jpg
+exact-0320,exact,,19ebd49b1fbd18ede0bb1f0ae8a5763e462974dc6fef1b14299fd5c283f494c6,data/DFU/TestSet/diabetic-foot-ulcer-pictures-5.jpg
+exact-0320,exact,,19ebd49b1fbd18ede0bb1f0ae8a5763e462974dc6fef1b14299fd5c283f494c6,data/DFU/Transfer-Learning images/internetSet/diabetic-foot-ulcer-pictures-5.jpg
+exact-0321,exact,,e2ebb9a43027cdc29000b0e2c30742921dba44a38fa3ddd5e43c5f02515140c1,data/DFU/TestSet/diabetic-foot-ulcer-pictures.jpg
+exact-0321,exact,,e2ebb9a43027cdc29000b0e2c30742921dba44a38fa3ddd5e43c5f02515140c1,data/DFU/Transfer-Learning images/internetSet/diabetic-foot-ulcer-pictures.jpg
+exact-0322,exact,,0af4732d5bb7f3693f9a2cd12afb38e2a93b3a4971dce161ab1cd4c35c892cca,data/DFU/TestSet/diabetic-foot-ulcer.jpg
+exact-0322,exact,,0af4732d5bb7f3693f9a2cd12afb38e2a93b3a4971dce161ab1cd4c35c892cca,data/DFU/Transfer-Learning images/internetSet/diabetic-foot-ulcer.jpg
+exact-0323,exact,,fc626535ffb299febe4d221069433a4f669edec5825fe59d518fdfd0ab8a9a6c,data/DFU/TestSet/diabetic-foot-ulcer_opt.jpg
+exact-0323,exact,,fc626535ffb299febe4d221069433a4f669edec5825fe59d518fdfd0ab8a9a6c,data/DFU/Transfer-Learning images/internetSet/diabetic-foot-ulcer_opt.jpg
+exact-0323,exact,,fc626535ffb299febe4d221069433a4f669edec5825fe59d518fdfd0ab8a9a6c,data/DFU/Transfer-Learning images/Wound Images2/diabetic-foot-ulcer_opt.jpg
+exact-0324,exact,,5cef0ad61b444425d964668e472c657e986182d5f104ae5c681bc33daf8d6fd1,data/DFU/TestSet/diabetic-foot-ulcers-selective-focus-260nw-422934313 (1).webp
+exact-0324,exact,,5cef0ad61b444425d964668e472c657e986182d5f104ae5c681bc33daf8d6fd1,data/DFU/TestSet/diabetic-foot-ulcers-selective-focus-260nw-422934313.webp
+exact-0324,exact,,5cef0ad61b444425d964668e472c657e986182d5f104ae5c681bc33daf8d6fd1,data/DFU/Transfer-Learning images/internetSet/diabetic-foot-ulcers-selective-focus-260nw-422934313 (1).webp
+exact-0324,exact,,5cef0ad61b444425d964668e472c657e986182d5f104ae5c681bc33daf8d6fd1,data/DFU/Transfer-Learning images/internetSet/diabetic-foot-ulcers-selective-focus-260nw-422934313.webp
+exact-0325,exact,,1237b2e6e08607323fda950a1bc8ba7cce2fb8cc40c40496d1433855cb8cf771,data/DFU/TestSet/diabetic-ulcer-diseases-feet-CT3FE6.jpg
+exact-0325,exact,,1237b2e6e08607323fda950a1bc8ba7cce2fb8cc40c40496d1433855cb8cf771,data/DFU/Transfer-Learning images/internetSet/diabetic-ulcer-diseases-feet-CT3FE6.jpg
+exact-0326,exact,,c9baaced5e6ae1b462f6429c5445239c41827c27ed61bf16d80d8c9196581815,data/DFU/TestSet/diabetic_foot_ulcer.jpg
+exact-0326,exact,,c9baaced5e6ae1b462f6429c5445239c41827c27ed61bf16d80d8c9196581815,data/DFU/Transfer-Learning images/internetSet/diabetic_foot_ulcer.jpg
+exact-0327,exact,,6ccd2b9fdec40264a85fdc939a02ec92abb6f7ee2978f18d69789c9fb4902300,data/DFU/TestSet/diabetische.jpg
+exact-0327,exact,,6ccd2b9fdec40264a85fdc939a02ec92abb6f7ee2978f18d69789c9fb4902300,data/DFU/Transfer-Learning images/internetSet/diabetische.jpg
+exact-0328,exact,,258dd860255c33c8be4aba4f8f26f6cfe70a4b7a125c63e7a5827adf84bbc327,data/DFU/TestSet/diabetoc-foot-ulcer.jpg
+exact-0328,exact,,258dd860255c33c8be4aba4f8f26f6cfe70a4b7a125c63e7a5827adf84bbc327,data/DFU/Transfer-Learning images/internetSet/diabetoc-foot-ulcer.jpg
+exact-0329,exact,,eaf9a2a3cfdb721ca94309355b73017e5b39f046070a7c43b987d32fe9f0713e,data/DFU/TestSet/display.jpg
+exact-0329,exact,,eaf9a2a3cfdb721ca94309355b73017e5b39f046070a7c43b987d32fe9f0713e,data/DFU/Transfer-Learning images/internetSet/display.jpg
+exact-0330,exact,,9f702372fdad5b13157f0d1c4bb8134ee380defec83c314fb3bb8f171f77bbf9,data/DFU/TestSet/download (1).jpg
+exact-0330,exact,,9f702372fdad5b13157f0d1c4bb8134ee380defec83c314fb3bb8f171f77bbf9,data/DFU/Transfer-Learning images/internetSet/download (1).jpg
+exact-0331,exact,,05ba4963dae6e48ed8189342b2fc09a0bbedfec8107a84bfce769838981b8692,data/DFU/TestSet/download.jpg
+exact-0331,exact,,05ba4963dae6e48ed8189342b2fc09a0bbedfec8107a84bfce769838981b8692,data/DFU/Transfer-Learning images/internetSet/download.jpg
+exact-0332,exact,,6c49738b16f78604cbabdab7a20aca4dc2f1e418134171f0813c3abfbab4014b,data/DFU/TestSet/e8511b3d622ba7d21d0b7749ff2111b9.jpg
+exact-0332,exact,,6c49738b16f78604cbabdab7a20aca4dc2f1e418134171f0813c3abfbab4014b,data/DFU/Transfer-Learning images/internetSet/e8511b3d622ba7d21d0b7749ff2111b9.jpg
+exact-0333,exact,,8b267360eff7cdd0063529856b85a8c25bb91fe6ed853e141e70229497663df0,data/DFU/TestSet/fca6301733db7bae3970f6a2db215b30.jpg
+exact-0333,exact,,8b267360eff7cdd0063529856b85a8c25bb91fe6ed853e141e70229497663df0,data/DFU/Transfer-Learning images/internetSet/fca6301733db7bae3970f6a2db215b30.jpg
+exact-0334,exact,,52846a427cb780ef49e52f010629a8a555d963e33fd5db11181e579c502ee8b6,data/DFU/TestSet/feat_footulcer_cellul_1110_127752_127753.jpg
+exact-0334,exact,,52846a427cb780ef49e52f010629a8a555d963e33fd5db11181e579c502ee8b6,data/DFU/Transfer-Learning images/internetSet/feat_footulcer_cellul_1110_127752_127753.jpg
+exact-0335,exact,,822a851c5df0907d65b74b86d60dc6b4cc2cc078db2e74ad7c999797493bbc15,data/DFU/TestSet/feat_footulcer_necro_1110_127573.jpg
+exact-0335,exact,,822a851c5df0907d65b74b86d60dc6b4cc2cc078db2e74ad7c999797493bbc15,data/DFU/Transfer-Learning images/internetSet/feat_footulcer_necro_1110_127573.jpg
+exact-0336,exact,,e24ea7c6af4e58d7618b1aa3ed661adfd97776664a21324b97c8eff27aeed2eb,data/DFU/TestSet/fig1.jpg
+exact-0336,exact,,e24ea7c6af4e58d7618b1aa3ed661adfd97776664a21324b97c8eff27aeed2eb,data/DFU/Transfer-Learning images/internetSet/fig1.jpg
+exact-0337,exact,,a2389b441dd41f2b26d375c23e1cab84124a17c124ac1a9c74f006527157ed45,data/DFU/TestSet/foot-doctor-for-corn-callus-treatment.png
+exact-0337,exact,,a2389b441dd41f2b26d375c23e1cab84124a17c124ac1a9c74f006527157ed45,data/DFU/Transfer-Learning images/internetSet/foot-doctor-for-corn-callus-treatment.png
+exact-0338,exact,,1d74cbe1549265f6cd8e7931b2ea478e5d2fc3797f31e1b93b9372d2cc3b7d13,data/DFU/TestSet/foot-ulcer-217x300.jpg
+exact-0338,exact,,1d74cbe1549265f6cd8e7931b2ea478e5d2fc3797f31e1b93b9372d2cc3b7d13,data/DFU/Transfer-Learning images/internetSet/foot-ulcer-217x300.jpg
+exact-0339,exact,,31045672afa0019593dcdad681655c992058ec02dba31ed9432156bdd90e5e75,data/DFU/TestSet/foot-ulcer-pic (1).png
+exact-0339,exact,,31045672afa0019593dcdad681655c992058ec02dba31ed9432156bdd90e5e75,data/DFU/Transfer-Learning images/internetSet/foot-ulcer-pic (1).png
+exact-0340,exact,,648773f0a7d3ea1e52ca597f1c94d76844155c8dd48015d8fa945d65f61f66a8,data/DFU/TestSet/foot-ulcer-pic.png
+exact-0340,exact,,648773f0a7d3ea1e52ca597f1c94d76844155c8dd48015d8fa945d65f61f66a8,data/DFU/Transfer-Learning images/internetSet/foot-ulcer-pic.png
+exact-0341,exact,,2c8e670ec7cbb18cba88c432f6812015f9e459658162a53f023e8c5e998de0fd,data/DFU/TestSet/foot_ulcer_5.jpg
+exact-0341,exact,,2c8e670ec7cbb18cba88c432f6812015f9e459658162a53f023e8c5e998de0fd,data/DFU/Transfer-Learning images/internetSet/foot_ulcer_5.jpg
+exact-0342,exact,,040d0420fd715330027c775da568cc5bf3236491f78a7e068e8bd4c890fb5331,data/DFU/TestSet/hallux-IPJ-ulcer-post1A.jpg
+exact-0342,exact,,040d0420fd715330027c775da568cc5bf3236491f78a7e068e8bd4c890fb5331,data/DFU/Transfer-Learning images/internetSet/hallux-IPJ-ulcer-post1A.jpg
+exact-0343,exact,,f7f9e7b8bc92329ed1e7afec09b96c463f6a3eb27a10fc5eb51d0c3aadb305cf,data/DFU/TestSet/honey1.jpg
+exact-0343,exact,,f7f9e7b8bc92329ed1e7afec09b96c463f6a3eb27a10fc5eb51d0c3aadb305cf,data/DFU/Transfer-Learning images/internetSet/honey1.jpg
+exact-0344,exact,,85cb933e675feed5b9480e3c4f688e32c3a3b826a07156a637081bb26bdc4e10,data/DFU/TestSet/how-to-heal-a-diabetic-foot-ulcer-700393-2.jpg
+exact-0344,exact,,85cb933e675feed5b9480e3c4f688e32c3a3b826a07156a637081bb26bdc4e10,data/DFU/Transfer-Learning images/internetSet/how-to-heal-a-diabetic-foot-ulcer-700393-2.jpg
+exact-0345,exact,,cc59e890dbe25b3ec76ff2cf252589771d22849156a64e59f7a5a71f85450d33,data/DFU/TestSet/image1.jpeg
+exact-0345,exact,,cc59e890dbe25b3ec76ff2cf252589771d22849156a64e59f7a5a71f85450d33,data/DFU/Transfer-Learning images/internetSet/image1.jpeg
+exact-0346,exact,,1b6e8c883537ef9235ee9850d8fe9465e4ad337b36fe407310c9ff07525a8904,data/DFU/TestSet/image3.jpeg
+exact-0346,exact,,1b6e8c883537ef9235ee9850d8fe9465e4ad337b36fe407310c9ff07525a8904,data/DFU/Transfer-Learning images/internetSet/image3.jpeg
+exact-0346,exact,,1b6e8c883537ef9235ee9850d8fe9465e4ad337b36fe407310c9ff07525a8904,data/DFU/Transfer-Learning images/Wound Images2/image3.jpeg
+exact-0347,exact,,995f11fecbb23708fdda1faa1b6f23196c5d56878658db8279e022753a7e21b2,data/DFU/TestSet/image4.jpeg
+exact-0347,exact,,995f11fecbb23708fdda1faa1b6f23196c5d56878658db8279e022753a7e21b2,data/DFU/Transfer-Learning images/internetSet/image4.jpeg
+exact-0348,exact,,527e5466cd2a70de43d79aa6222205526e98a7e950ebd55a4b6af07dfef55580,data/DFU/TestSet/images (1).jpg
+exact-0348,exact,,527e5466cd2a70de43d79aa6222205526e98a7e950ebd55a4b6af07dfef55580,data/DFU/Transfer-Learning images/internetSet/images (1).jpg
+exact-0349,exact,,1de491df298a6a6f75e722759fb7351a9e69188a189089958b47c11d9b0348af,data/DFU/TestSet/images (10).jpg
+exact-0349,exact,,1de491df298a6a6f75e722759fb7351a9e69188a189089958b47c11d9b0348af,data/DFU/Transfer-Learning images/internetSet/images (10).jpg
+exact-0350,exact,,96585c1f4c0e1478e48328bcf5742dc0f3e202c664f3e6b961b4b8084892ba74,data/DFU/TestSet/images (11).jpg
+exact-0350,exact,,96585c1f4c0e1478e48328bcf5742dc0f3e202c664f3e6b961b4b8084892ba74,data/DFU/Transfer-Learning images/internetSet/images (11).jpg
+exact-0351,exact,,6dd35d2b39d1eb2c700e456e9b2e18fe1c960f391abb4b6f6d4bff7d913abfed,data/DFU/TestSet/images (12).jpg
+exact-0351,exact,,6dd35d2b39d1eb2c700e456e9b2e18fe1c960f391abb4b6f6d4bff7d913abfed,data/DFU/Transfer-Learning images/internetSet/images (12).jpg
+exact-0352,exact,,096c0aa33484ca36e275843e99fc8f3ec8478b4afc56dbe684044f2a1259cb67,data/DFU/TestSet/images (13).jpg
+exact-0352,exact,,096c0aa33484ca36e275843e99fc8f3ec8478b4afc56dbe684044f2a1259cb67,data/DFU/Transfer-Learning images/internetSet/images (13).jpg
+exact-0352,exact,,096c0aa33484ca36e275843e99fc8f3ec8478b4afc56dbe684044f2a1259cb67,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T124320.491.jpg
+exact-0353,exact,,3632cc695ed975d4587d36066967f6f8e3829db7f4e2721db46e340735b1ffc4,data/DFU/TestSet/images (14).jpg
+exact-0353,exact,,3632cc695ed975d4587d36066967f6f8e3829db7f4e2721db46e340735b1ffc4,data/DFU/Transfer-Learning images/internetSet/images (14).jpg
+exact-0354,exact,,21b75131d2c173bc6b8e29798398e7eeaed2331066aa41eff679f7c8cde78607,data/DFU/TestSet/images (15).jpg
+exact-0354,exact,,21b75131d2c173bc6b8e29798398e7eeaed2331066aa41eff679f7c8cde78607,data/DFU/Transfer-Learning images/internetSet/images (15).jpg
+exact-0355,exact,,68e99564b680bba6bdd73f34adbf478752c6f49b225b1c2790153adb8955e80f,data/DFU/TestSet/images (16).jpg
+exact-0355,exact,,68e99564b680bba6bdd73f34adbf478752c6f49b225b1c2790153adb8955e80f,data/DFU/Transfer-Learning images/internetSet/images (16).jpg
+exact-0356,exact,,8c6d065ae505f6dbb94f6965f7fb6c9db48f3c5d5c777d9130f46a2a0aabd07b,data/DFU/TestSet/images (17).jpg
+exact-0356,exact,,8c6d065ae505f6dbb94f6965f7fb6c9db48f3c5d5c777d9130f46a2a0aabd07b,data/DFU/Transfer-Learning images/internetSet/images (17).jpg
+exact-0357,exact,,68bde03e4aee13153e2387a54c06d65014c0a3cb6ec2a8c860ea95866037a5b7,data/DFU/TestSet/images (18).jpg
+exact-0357,exact,,68bde03e4aee13153e2387a54c06d65014c0a3cb6ec2a8c860ea95866037a5b7,data/DFU/Transfer-Learning images/internetSet/images (18).jpg
+exact-0358,exact,,106599ca9aea571733f4980d3d4c98d193c33dde6a1c3ddbd0c0669362030741,data/DFU/TestSet/images (19).jpg
+exact-0358,exact,,106599ca9aea571733f4980d3d4c98d193c33dde6a1c3ddbd0c0669362030741,data/DFU/Transfer-Learning images/internetSet/images (19).jpg
+exact-0359,exact,,c4acd4302ec04fa3b9ab0a145b757f969b48ed0982e4b9a0fe1952c9bcea6bb4,data/DFU/TestSet/images (2).jpg
+exact-0359,exact,,c4acd4302ec04fa3b9ab0a145b757f969b48ed0982e4b9a0fe1952c9bcea6bb4,data/DFU/Transfer-Learning images/internetSet/images (2).jpg
+exact-0360,exact,,f1366cd91bfdf4e9ed86396e26be5a706ec9d44873a4396c048f16f3e23b41ee,data/DFU/TestSet/images (20).jpg
+exact-0360,exact,,f1366cd91bfdf4e9ed86396e26be5a706ec9d44873a4396c048f16f3e23b41ee,data/DFU/Transfer-Learning images/internetSet/images (20).jpg
+exact-0361,exact,,00bb36f5da1ed3eb72578dc99171854aee069e2a1aee41f21d5f7a4151d86d09,data/DFU/TestSet/images (21).jpg
+exact-0361,exact,,00bb36f5da1ed3eb72578dc99171854aee069e2a1aee41f21d5f7a4151d86d09,data/DFU/Transfer-Learning images/internetSet/images (21).jpg
+exact-0361,exact,,00bb36f5da1ed3eb72578dc99171854aee069e2a1aee41f21d5f7a4151d86d09,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T115852.811.jpg
+exact-0361,exact,,00bb36f5da1ed3eb72578dc99171854aee069e2a1aee41f21d5f7a4151d86d09,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T122951.897.jpg
+exact-0361,exact,,00bb36f5da1ed3eb72578dc99171854aee069e2a1aee41f21d5f7a4151d86d09,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T125035.330.jpg
+exact-0362,exact,,d123dc4e633b16cc8fe1c305ca7b097e4d8bc8469766617d9768b1416c1baeb6,data/DFU/TestSet/images (22).jpg
+exact-0362,exact,,d123dc4e633b16cc8fe1c305ca7b097e4d8bc8469766617d9768b1416c1baeb6,data/DFU/Transfer-Learning images/internetSet/images (22).jpg
+exact-0363,exact,,2a9de6075c561317f807453b7435972daba7ed4be1404d830af06f300b01d529,data/DFU/TestSet/images (23).jpg
+exact-0363,exact,,2a9de6075c561317f807453b7435972daba7ed4be1404d830af06f300b01d529,data/DFU/Transfer-Learning images/internetSet/images (23).jpg
+exact-0364,exact,,3f2ae4e5c7b6da263d435a83e9d579b8d9704dc3a253e77b6c2a60b1455650e6,data/DFU/TestSet/images (24).jpg
+exact-0364,exact,,3f2ae4e5c7b6da263d435a83e9d579b8d9704dc3a253e77b6c2a60b1455650e6,data/DFU/Transfer-Learning images/internetSet/images (24).jpg
+exact-0364,exact,,3f2ae4e5c7b6da263d435a83e9d579b8d9704dc3a253e77b6c2a60b1455650e6,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T123615.474.jpg
+exact-0365,exact,,412545be75a36b54d07ce0f3eb8b4c8ffe808acb841ebe6a5568e5864ac543c3,data/DFU/TestSet/images (25).jpg
+exact-0365,exact,,412545be75a36b54d07ce0f3eb8b4c8ffe808acb841ebe6a5568e5864ac543c3,data/DFU/Transfer-Learning images/internetSet/images (25).jpg
+exact-0366,exact,,ab2246a3428474979bcf3b1997365b0f3a5f66e3e099a0ed354f91e8bd5799a0,data/DFU/TestSet/images (26).jpg
+exact-0366,exact,,ab2246a3428474979bcf3b1997365b0f3a5f66e3e099a0ed354f91e8bd5799a0,data/DFU/Transfer-Learning images/internetSet/images (26).jpg
+exact-0367,exact,,c3f79664667c93b9cdbdb78022bca9e6080dcacaf3a1b43a714814059933b4d4,data/DFU/TestSet/images (27).jpg
+exact-0367,exact,,c3f79664667c93b9cdbdb78022bca9e6080dcacaf3a1b43a714814059933b4d4,data/DFU/Transfer-Learning images/internetSet/images (27).jpg
+exact-0368,exact,,3f47a10cd7bad01585395cae63083c6e41637324592f7d8d43729b8e6de31a63,data/DFU/TestSet/images (28).jpg
+exact-0368,exact,,3f47a10cd7bad01585395cae63083c6e41637324592f7d8d43729b8e6de31a63,data/DFU/Transfer-Learning images/internetSet/images (28).jpg
+exact-0368,exact,,3f47a10cd7bad01585395cae63083c6e41637324592f7d8d43729b8e6de31a63,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T120437.961.jpg
+exact-0368,exact,,3f47a10cd7bad01585395cae63083c6e41637324592f7d8d43729b8e6de31a63,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T124931.379.jpg
+exact-0369,exact,,b110c663322ef5830fdfb57787aab6680bb16cff9395a6d15da7501c8c791717,data/DFU/TestSet/images (29).jpg
+exact-0369,exact,,b110c663322ef5830fdfb57787aab6680bb16cff9395a6d15da7501c8c791717,data/DFU/Transfer-Learning images/internetSet/images (29).jpg
+exact-0370,exact,,87ad0e05a2c72d507e3331c5a465a91a2969f8124535dcac916827232f27f8d1,data/DFU/TestSet/images (3).jpg
+exact-0370,exact,,87ad0e05a2c72d507e3331c5a465a91a2969f8124535dcac916827232f27f8d1,data/DFU/Transfer-Learning images/internetSet/images (3).jpg
+exact-0371,exact,,0215e9231bff2596579699dbd85cdeb67e40c882cc9614ff598b23680f6660e5,data/DFU/TestSet/images (30).jpg
+exact-0371,exact,,0215e9231bff2596579699dbd85cdeb67e40c882cc9614ff598b23680f6660e5,data/DFU/Transfer-Learning images/internetSet/images (30).jpg
+exact-0372,exact,,171af8d06769d330a9edca509fdf9c4a550a6856397b185a0d69abc9a29fdeb6,data/DFU/TestSet/images (31).jpg
+exact-0372,exact,,171af8d06769d330a9edca509fdf9c4a550a6856397b185a0d69abc9a29fdeb6,data/DFU/Transfer-Learning images/internetSet/images (31).jpg
+exact-0373,exact,,d99534db815a376b461402c81fdf5868c7776c013597bc2828ddee0a458e7acf,data/DFU/TestSet/images (32).jpg
+exact-0373,exact,,d99534db815a376b461402c81fdf5868c7776c013597bc2828ddee0a458e7acf,data/DFU/Transfer-Learning images/internetSet/images (32).jpg
+exact-0374,exact,,2ecacf671635065add4bc6d124aafb8c609bd4682fb82509776656306b4b24fe,data/DFU/TestSet/images (33).jpg
+exact-0374,exact,,2ecacf671635065add4bc6d124aafb8c609bd4682fb82509776656306b4b24fe,data/DFU/Transfer-Learning images/internetSet/images (33).jpg
+exact-0375,exact,,07e795a4b217e5aae46bfed7d59c336b2c2b5d9df7c01fbc468f388554ad53ba,data/DFU/TestSet/images (34).jpg
+exact-0375,exact,,07e795a4b217e5aae46bfed7d59c336b2c2b5d9df7c01fbc468f388554ad53ba,data/DFU/Transfer-Learning images/internetSet/images (34).jpg
+exact-0376,exact,,faac30ed2748f5a7562a2b77b09b1d2414e32988aaf1e6fe71b92661a217480a,data/DFU/TestSet/images (35).jpg
+exact-0376,exact,,faac30ed2748f5a7562a2b77b09b1d2414e32988aaf1e6fe71b92661a217480a,data/DFU/Transfer-Learning images/internetSet/images (35).jpg
+exact-0377,exact,,4be81354f4ae90ca412e4594d4a308ad84a09c57fad365a367cf548ba572abc8,data/DFU/TestSet/images (4).jpg
+exact-0377,exact,,4be81354f4ae90ca412e4594d4a308ad84a09c57fad365a367cf548ba572abc8,data/DFU/Transfer-Learning images/internetSet/images (4).jpg
+exact-0378,exact,,ba42a030bef4b7d1b08b81ccd3491c2c5950c8a3766980aaa675d2a77d35050f,data/DFU/TestSet/images (5).jpg
+exact-0378,exact,,ba42a030bef4b7d1b08b81ccd3491c2c5950c8a3766980aaa675d2a77d35050f,data/DFU/Transfer-Learning images/internetSet/images (5).jpg
+exact-0379,exact,,d72758db2b74745bb77a21d754ec2099aeccec2664192017adac45ad70c9e4cf,data/DFU/TestSet/images (6).jpg
+exact-0379,exact,,d72758db2b74745bb77a21d754ec2099aeccec2664192017adac45ad70c9e4cf,data/DFU/Transfer-Learning images/internetSet/images (6).jpg
+exact-0380,exact,,0448b6365dd7a37711148304d88ee7000defc6d80a4250ca89da93a418cc2b9d,data/DFU/TestSet/images (7).jpg
+exact-0380,exact,,0448b6365dd7a37711148304d88ee7000defc6d80a4250ca89da93a418cc2b9d,data/DFU/Transfer-Learning images/internetSet/images (7).jpg
+exact-0381,exact,,cae295838c76a54f9255f5ec2bbda0d1c6b65b03324b7c673ce2982590bf11b5,data/DFU/TestSet/images (8).jpg
+exact-0381,exact,,cae295838c76a54f9255f5ec2bbda0d1c6b65b03324b7c673ce2982590bf11b5,data/DFU/Transfer-Learning images/internetSet/images (8).jpg
+exact-0382,exact,,ea6b43f50dbc7d1d14b62f46bc37bf963fe857972c1ac33fac526415a1e21233,data/DFU/TestSet/images (9).jpg
+exact-0382,exact,,ea6b43f50dbc7d1d14b62f46bc37bf963fe857972c1ac33fac526415a1e21233,data/DFU/Transfer-Learning images/internetSet/images (9).jpg
+exact-0383,exact,,7c5f34cc5bcfdf163045637fc0cf37f9a32030f1274ad4371292ccd0b674a183,data/DFU/TestSet/images.jpg
+exact-0383,exact,,7c5f34cc5bcfdf163045637fc0cf37f9a32030f1274ad4371292ccd0b674a183,data/DFU/Transfer-Learning images/internetSet/images.jpg
+exact-0384,exact,,6b021c0256962eae63c191afd9e480fd67dd78cd74287fbc4042b09e8ebf1c5c,data/DFU/TestSet/lesioni-piede-diabetico_01.jpg
+exact-0384,exact,,6b021c0256962eae63c191afd9e480fd67dd78cd74287fbc4042b09e8ebf1c5c,data/DFU/Transfer-Learning images/internetSet/lesioni-piede-diabetico_01.jpg
+exact-0385,exact,,eaec9e7890bd9527c7b3902980ea46603d8aa090c2acc99dfe671c89afb88907,data/DFU/TestSet/m5_05.jpg
+exact-0385,exact,,eaec9e7890bd9527c7b3902980ea46603d8aa090c2acc99dfe671c89afb88907,data/DFU/Transfer-Learning images/internetSet/m5_05.jpg
+exact-0386,exact,,beef05b2320224b6d4524d5ece4d8b8ca9645ab8922dbacb8e196e9ccbaa2864,data/DFU/TestSet/maxresdefault.jpg
+exact-0386,exact,,beef05b2320224b6d4524d5ece4d8b8ca9645ab8922dbacb8e196e9ccbaa2864,data/DFU/Transfer-Learning images/internetSet/maxresdefault.jpg
+exact-0387,exact,,20f7a3bd33cdb0bc6e1beb3b5253a69eece74560e14ed3a32f9cffaba64a82d0,data/DFU/TestSet/pre-ulceration (1).jpg
+exact-0387,exact,,20f7a3bd33cdb0bc6e1beb3b5253a69eece74560e14ed3a32f9cffaba64a82d0,data/DFU/TestSet/pre-ulceration.jpg
+exact-0387,exact,,20f7a3bd33cdb0bc6e1beb3b5253a69eece74560e14ed3a32f9cffaba64a82d0,data/DFU/Transfer-Learning images/internetSet/pre-ulceration (1).jpg
+exact-0387,exact,,20f7a3bd33cdb0bc6e1beb3b5253a69eece74560e14ed3a32f9cffaba64a82d0,data/DFU/Transfer-Learning images/internetSet/pre-ulceration.jpg
+exact-0388,exact,,9c210ee6b60aa33bc63cba74c3b23a3f5ed9549125beca9b817f7de345982895,data/DFU/TestSet/pt08cover4_0.jpg
+exact-0388,exact,,9c210ee6b60aa33bc63cba74c3b23a3f5ed9549125beca9b817f7de345982895,data/DFU/Transfer-Learning images/internetSet/pt08cover4_0.jpg
+exact-0389,exact,,94ce02364f98027f9471a91dfad07e052d24936d1d3c3880f2b8cea1f152ccb6,data/DFU/TestSet/pt1114diabetes_1.png
+exact-0389,exact,,94ce02364f98027f9471a91dfad07e052d24936d1d3c3880f2b8cea1f152ccb6,data/DFU/Transfer-Learning images/internetSet/pt1114diabetes_1.png
+exact-0390,exact,,e340b11f84e900092079f73390caffd0c9e690c6a6d151a13bc5a73ac19cb696,data/DFU/TestSet/soft-corn-between-toes.jpg
+exact-0390,exact,,e340b11f84e900092079f73390caffd0c9e690c6a6d151a13bc5a73ac19cb696,data/DFU/Transfer-Learning images/internetSet/soft-corn-between-toes.jpg
+exact-0391,exact,,1d8dc1af2e5b175c76c4d6d3fcf158751bf5806d520f1f954abe2407cf2d107b,data/DFU/TestSet/tungiasis-3.jpg
+exact-0391,exact,,1d8dc1af2e5b175c76c4d6d3fcf158751bf5806d520f1f954abe2407cf2d107b,data/DFU/Transfer-Learning images/internetSet/tungiasis-3.jpg
+exact-0392,exact,,69ea0e54df96f56c91971607644de24e1cc0a32e9a86ed84109c92bbfab93b3a,data/DFU/TestSet/ulcers (1).jpg
+exact-0392,exact,,69ea0e54df96f56c91971607644de24e1cc0a32e9a86ed84109c92bbfab93b3a,data/DFU/Transfer-Learning images/internetSet/ulcers (1).jpg
+exact-0392,exact,,69ea0e54df96f56c91971607644de24e1cc0a32e9a86ed84109c92bbfab93b3a,data/DFU/Transfer-Learning images/internetSet/ulcers.jpg
+exact-0393,exact,,ad20ab9379e207ab1938609aa00b944ddea0213b732540364e228b3387e42822,data/DFU/TestSet/ulcers_before.jpg
+exact-0393,exact,,ad20ab9379e207ab1938609aa00b944ddea0213b732540364e228b3387e42822,data/DFU/Transfer-Learning images/internetSet/ulcers_before.jpg
+exact-0394,exact,,4358ffe5d9f7d0da50f54c0a20674ee0e43f19caaea6230e7fc40210d9a8c561,data/DFU/TestSet/wc_121102_diabetic_foot_ulcer_wound_200x151.jpg
+exact-0394,exact,,4358ffe5d9f7d0da50f54c0a20674ee0e43f19caaea6230e7fc40210d9a8c561,data/DFU/Transfer-Learning images/internetSet/wc_121102_diabetic_foot_ulcer_wound_200x151.jpg
+exact-0395,exact,,c34c486fe420970ca7710df305c36fb316bee63f3151d9055e4078252438efe2,data/DFU/Transfer-Learning images/Wound Images/download (1).jpg
+exact-0395,exact,,c34c486fe420970ca7710df305c36fb316bee63f3151d9055e4078252438efe2,data/DFU/Transfer-Learning images/Wound Images2/images (65).jpg
+exact-0395,exact,,c34c486fe420970ca7710df305c36fb316bee63f3151d9055e4078252438efe2,data/DFU/Transfer-Learning images/Wound Images2/images (84).jpg
+exact-0395,exact,,c34c486fe420970ca7710df305c36fb316bee63f3151d9055e4078252438efe2,data/DFU/Transfer-Learning images/Wound Images2/images (90).jpg
+exact-0396,exact,,77639e95d3969c9c68896043d1d27f2896722c5d1b87043837ff442bce155017,data/DFU/Transfer-Learning images/Wound Images/download (12).jpg
+exact-0396,exact,,77639e95d3969c9c68896043d1d27f2896722c5d1b87043837ff442bce155017,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T110619.996.jpg
+exact-0397,exact,,3fc65cad566e9d3f71983e042143f15a44e2a03f94a39c1ee3d5aba03c9d2f32,data/DFU/Transfer-Learning images/Wound Images/download (19).jpg
+exact-0397,exact,,3fc65cad566e9d3f71983e042143f15a44e2a03f94a39c1ee3d5aba03c9d2f32,data/DFU/Transfer-Learning images/Wound Images2/images (46).jpg
+exact-0397,exact,,3fc65cad566e9d3f71983e042143f15a44e2a03f94a39c1ee3d5aba03c9d2f32,data/DFU/Transfer-Learning images/Wound Images2/images (71).jpg
+exact-0397,exact,,3fc65cad566e9d3f71983e042143f15a44e2a03f94a39c1ee3d5aba03c9d2f32,data/DFU/Transfer-Learning images/Wound Images2/images (81).jpg
+exact-0397,exact,,3fc65cad566e9d3f71983e042143f15a44e2a03f94a39c1ee3d5aba03c9d2f32,data/DFU/Transfer-Learning images/Wound Images2/images (91).jpg
+exact-0397,exact,,3fc65cad566e9d3f71983e042143f15a44e2a03f94a39c1ee3d5aba03c9d2f32,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T110056.948.jpg
+exact-0398,exact,,5b0fa9997db89347340125c3d412a73c0783a4fb9c04c4481aed875cffd8b563,data/DFU/Transfer-Learning images/Wound Images/download (2).jpg
+exact-0398,exact,,5b0fa9997db89347340125c3d412a73c0783a4fb9c04c4481aed875cffd8b563,data/DFU/Transfer-Learning images/Wound Images2/images (47).jpg
+exact-0399,exact,,36ab36a36bc1b7da4b729b901abbcd8e8c2c818cbc70c7330831a82bb629ddf7,data/DFU/Transfer-Learning images/Wound Images/download (20).jpg
+exact-0399,exact,,36ab36a36bc1b7da4b729b901abbcd8e8c2c818cbc70c7330831a82bb629ddf7,data/DFU/Transfer-Learning images/Wound Images2/images (54).jpg
+exact-0400,exact,,5b7e4d702f5ad30510049c040c1ff6f1035aa4cc3d26c927c801f6254cce67a4,data/DFU/Transfer-Learning images/Wound Images/download (3).jpg
+exact-0400,exact,,5b7e4d702f5ad30510049c040c1ff6f1035aa4cc3d26c927c801f6254cce67a4,data/DFU/Transfer-Learning images/Wound Images2/images (93).jpg
+exact-0401,exact,,ebcb80788cf0b78ad8f645b499319b02447299668310b22b4c0954891b7336be,data/DFU/Transfer-Learning images/Wound Images/download (5).jpg
+exact-0401,exact,,ebcb80788cf0b78ad8f645b499319b02447299668310b22b4c0954891b7336be,data/DFU/Transfer-Learning images/Wound Images2/images (50).jpg
+exact-0402,exact,,3aff9e419926686a222e15b80ca60b00ed83425c9e4189b9043dd947d9904929,data/DFU/Transfer-Learning images/Wound Images/download (7).jpg
+exact-0402,exact,,3aff9e419926686a222e15b80ca60b00ed83425c9e4189b9043dd947d9904929,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T110333.490.jpg
+exact-0402,exact,,3aff9e419926686a222e15b80ca60b00ed83425c9e4189b9043dd947d9904929,data/DFU/Transfer-Learning images/Wound Images2/images.jpg
+exact-0403,exact,,c332534242a44c0c3234a9fe436d6661675ba7eb52ac647c4d4991d9f72dd141,data/DFU/Transfer-Learning images/Wound Images/download (9).jpg
+exact-0403,exact,,c332534242a44c0c3234a9fe436d6661675ba7eb52ac647c4d4991d9f72dd141,data/DFU/Transfer-Learning images/Wound Images2/images (56).jpg
+exact-0403,exact,,c332534242a44c0c3234a9fe436d6661675ba7eb52ac647c4d4991d9f72dd141,data/DFU/Transfer-Learning images/Wound Images2/images (97).jpg
+exact-0403,exact,,c332534242a44c0c3234a9fe436d6661675ba7eb52ac647c4d4991d9f72dd141,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T125641.825.jpg
+exact-0404,exact,,3606f7b5c0529a5752b80c43d5419a2d0d3f4968b99ce9ef6aeb7eff21651849,data/DFU/Transfer-Learning images/Wound Images/download.jpg
+exact-0404,exact,,3606f7b5c0529a5752b80c43d5419a2d0d3f4968b99ce9ef6aeb7eff21651849,data/DFU/Transfer-Learning images/Wound Images2/images (88).jpg
+exact-0404,exact,,3606f7b5c0529a5752b80c43d5419a2d0d3f4968b99ce9ef6aeb7eff21651849,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T110611.107.jpg
+exact-0404,exact,,3606f7b5c0529a5752b80c43d5419a2d0d3f4968b99ce9ef6aeb7eff21651849,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T110703.284.jpg
+exact-0404,exact,,3606f7b5c0529a5752b80c43d5419a2d0d3f4968b99ce9ef6aeb7eff21651849,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T113819.740.jpg
+exact-0405,exact,,742a418bf14e6f5fe3c3d9b284bc2e28f6dbc8327a3257cba100cf2e72dfe61c,data/DFU/Transfer-Learning images/Wound Images/images (12).jpg
+exact-0405,exact,,742a418bf14e6f5fe3c3d9b284bc2e28f6dbc8327a3257cba100cf2e72dfe61c,data/DFU/Transfer-Learning images/Wound Images2/images (7).jpg
+exact-0406,exact,,87f31208140405cbd8ec0cf2bf03040e86276cd0c32c2d74ba8bf6988b830a64,data/DFU/Transfer-Learning images/Wound Images/images (20).jpg
+exact-0406,exact,,87f31208140405cbd8ec0cf2bf03040e86276cd0c32c2d74ba8bf6988b830a64,data/DFU/Transfer-Learning images/Wound Images2/download (1).jpg
+exact-0407,exact,,b831d3fd841550f0ca21e27231845d64c7a76ed28d75743d1cc8226c4eff211d,data/DFU/Transfer-Learning images/Wound Images/images (21).jpg
+exact-0407,exact,,b831d3fd841550f0ca21e27231845d64c7a76ed28d75743d1cc8226c4eff211d,data/DFU/Transfer-Learning images/Wound Images2/images (45).jpg
+exact-0407,exact,,b831d3fd841550f0ca21e27231845d64c7a76ed28d75743d1cc8226c4eff211d,data/DFU/Transfer-Learning images/Wound Images2/images (87).jpg
+exact-0408,exact,,ada3df78a7818e7a69071ba4c26c56357e89c9888199620a08c581b54b1f46dd,data/DFU/Transfer-Learning images/Wound Images/images (26).jpg
+exact-0408,exact,,ada3df78a7818e7a69071ba4c26c56357e89c9888199620a08c581b54b1f46dd,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T112133.668.jpg
+exact-0409,exact,,64566f0299185360d14fe6bcabb5dd5815e682caf282f66b942424a24f9e28ad,data/DFU/Transfer-Learning images/Wound Images/images (27).jpg
+exact-0409,exact,,64566f0299185360d14fe6bcabb5dd5815e682caf282f66b942424a24f9e28ad,data/DFU/Transfer-Learning images/Wound Images2/images (100).jpg
+exact-0409,exact,,64566f0299185360d14fe6bcabb5dd5815e682caf282f66b942424a24f9e28ad,data/DFU/Transfer-Learning images/Wound Images2/images (53).jpg
+exact-0409,exact,,64566f0299185360d14fe6bcabb5dd5815e682caf282f66b942424a24f9e28ad,data/DFU/Transfer-Learning images/Wound Images2/images (59).jpg
+exact-0409,exact,,64566f0299185360d14fe6bcabb5dd5815e682caf282f66b942424a24f9e28ad,data/DFU/Transfer-Learning images/Wound Images2/images (86).jpg
+exact-0410,exact,,c4d055504ee6869ee638acd46caeecd6065fa48ff1e14a6df3720b6c1e742c81,data/DFU/Transfer-Learning images/Wound Images/images (29).jpg
+exact-0410,exact,,c4d055504ee6869ee638acd46caeecd6065fa48ff1e14a6df3720b6c1e742c81,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T115317.331.jpg
+exact-0411,exact,,29e3cddfb3ee54319b57aa9f565fcbf79cf85be53b0ed15bce164c7c640341e1,data/DFU/Transfer-Learning images/Wound Images/images (32).jpg
+exact-0411,exact,,29e3cddfb3ee54319b57aa9f565fcbf79cf85be53b0ed15bce164c7c640341e1,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T112149.147.jpg
+exact-0411,exact,,29e3cddfb3ee54319b57aa9f565fcbf79cf85be53b0ed15bce164c7c640341e1,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T112833.891.jpg
+exact-0411,exact,,29e3cddfb3ee54319b57aa9f565fcbf79cf85be53b0ed15bce164c7c640341e1,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T114730.762.jpg
+exact-0412,exact,,4ef0d9dd142d3739a8a5b210639cdc5b80503c6add177eb2aa06ee2df424ac2b,data/DFU/Transfer-Learning images/Wound Images/images (35).jpg
+exact-0412,exact,,4ef0d9dd142d3739a8a5b210639cdc5b80503c6add177eb2aa06ee2df424ac2b,data/DFU/Transfer-Learning images/Wound Images2/images (27).jpg
+exact-0413,exact,,9e96e247599139ec99ceea4b7a038a5181a793f4b005cd28ae939d05e2db5376,data/DFU/Transfer-Learning images/Wound Images/images (39).jpg
+exact-0413,exact,,9e96e247599139ec99ceea4b7a038a5181a793f4b005cd28ae939d05e2db5376,data/DFU/Transfer-Learning images/Wound Images/images (41).jpg
+exact-0413,exact,,9e96e247599139ec99ceea4b7a038a5181a793f4b005cd28ae939d05e2db5376,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T112244.712.jpg
+exact-0413,exact,,9e96e247599139ec99ceea4b7a038a5181a793f4b005cd28ae939d05e2db5376,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T112821.010.jpg
+exact-0413,exact,,9e96e247599139ec99ceea4b7a038a5181a793f4b005cd28ae939d05e2db5376,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T114751.476.jpg
+exact-0414,exact,,50bd3ab9d2c7facda0223df6f5f4017af98d59a138922e35aa3a1e51f967fa46,data/DFU/Transfer-Learning images/Wound Images/images (42).jpg
+exact-0414,exact,,50bd3ab9d2c7facda0223df6f5f4017af98d59a138922e35aa3a1e51f967fa46,data/DFU/Transfer-Learning images/Wound Images2/images (15).jpg
+exact-0415,exact,,68b58685f20c52a36681dd587acf60f6c07869423fe6f0bf00284d172041ecbb,data/DFU/Transfer-Learning images/Wound Images/images (43).jpg
+exact-0415,exact,,68b58685f20c52a36681dd587acf60f6c07869423fe6f0bf00284d172041ecbb,data/DFU/Transfer-Learning images/Wound Images2/images (52).jpg
+exact-0415,exact,,68b58685f20c52a36681dd587acf60f6c07869423fe6f0bf00284d172041ecbb,data/DFU/Transfer-Learning images/Wound Images2/images (94).jpg
+exact-0416,exact,,79a68d3bccbf5cc82fb1c63145370ba245591ad5f1304bae5c0cdb4c94550ce3,data/DFU/Transfer-Learning images/Wound Images/images (48).jpg
+exact-0416,exact,,79a68d3bccbf5cc82fb1c63145370ba245591ad5f1304bae5c0cdb4c94550ce3,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T113924.066.jpg
+exact-0417,exact,,c959e4695ecb35ad6a7e0f09cac06c939ecba8c55ae7676ad71641d14b0784b8,data/DFU/Transfer-Learning images/Wound Images/images (49).jpg
+exact-0417,exact,,c959e4695ecb35ad6a7e0f09cac06c939ecba8c55ae7676ad71641d14b0784b8,data/DFU/Transfer-Learning images/Wound Images2/download.jpg
+exact-0417,exact,,c959e4695ecb35ad6a7e0f09cac06c939ecba8c55ae7676ad71641d14b0784b8,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T115329.387.jpg
+exact-0417,exact,,c959e4695ecb35ad6a7e0f09cac06c939ecba8c55ae7676ad71641d14b0784b8,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T115501.336.jpg
+exact-0418,exact,,0c25d2b765805d978c130a97c333494c1d8eaf66bc71aa8eb0dc408a1baf0a0f,data/DFU/Transfer-Learning images/Wound Images/images (55).jpg
+exact-0418,exact,,0c25d2b765805d978c130a97c333494c1d8eaf66bc71aa8eb0dc408a1baf0a0f,data/DFU/Transfer-Learning images/Wound Images/images (68).jpg
+exact-0419,exact,,669910bd273c97b1ef5edce75e09bf574dc9c1dafed3aa2fb11b5a6fcc7960f3,data/DFU/Transfer-Learning images/Wound Images/images (6).jpg
+exact-0419,exact,,669910bd273c97b1ef5edce75e09bf574dc9c1dafed3aa2fb11b5a6fcc7960f3,data/DFU/Transfer-Learning images/Wound Images/images (9).jpg
+exact-0419,exact,,669910bd273c97b1ef5edce75e09bf574dc9c1dafed3aa2fb11b5a6fcc7960f3,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T112403.138.jpg
+exact-0420,exact,,8a4b56d635e7fc062c47d17ccca6ca0feb0445ab7df8a5797af97a1b30c52e49,data/DFU/Transfer-Learning images/Wound Images/images (61).jpg
+exact-0420,exact,,8a4b56d635e7fc062c47d17ccca6ca0feb0445ab7df8a5797af97a1b30c52e49,data/DFU/Transfer-Learning images/Wound Images/images (73).jpg
+exact-0421,exact,,8a925f62eefe4487a727c0b157c0443e5f4057e9465d2e5a545478a9bc010ed4,data/DFU/Transfer-Learning images/Wound Images/images (69).jpg
+exact-0421,exact,,8a925f62eefe4487a727c0b157c0443e5f4057e9465d2e5a545478a9bc010ed4,data/DFU/Transfer-Learning images/Wound Images2/images (70).jpg
+exact-0422,exact,,c54578602cc048ca275a3745de31e354df28b20ee21503cf1d08f7c562c4ee31,data/DFU/Transfer-Learning images/Wound Images/images (7).jpg
+exact-0422,exact,,c54578602cc048ca275a3745de31e354df28b20ee21503cf1d08f7c562c4ee31,data/DFU/Transfer-Learning images/Wound Images2/images (48).jpg
+exact-0422,exact,,c54578602cc048ca275a3745de31e354df28b20ee21503cf1d08f7c562c4ee31,data/DFU/Transfer-Learning images/Wound Images2/images (95).jpg
+exact-0423,exact,,4187c5a9efcb9eccf401623fa7988b07635a5d987a336bead74a24692bf4c324,data/DFU/Transfer-Learning images/Wound Images/images (71).jpg
+exact-0423,exact,,4187c5a9efcb9eccf401623fa7988b07635a5d987a336bead74a24692bf4c324,data/DFU/Transfer-Learning images/Wound Images2/images (49).jpg
+exact-0423,exact,,4187c5a9efcb9eccf401623fa7988b07635a5d987a336bead74a24692bf4c324,data/DFU/Transfer-Learning images/Wound Images2/images (64).jpg
+exact-0423,exact,,4187c5a9efcb9eccf401623fa7988b07635a5d987a336bead74a24692bf4c324,data/DFU/Transfer-Learning images/Wound Images2/images (69).jpg
+exact-0424,exact,,bdd32bb7d808366b04e5f2b3dcd1ef550d279b6918d9c5c9b38d6589a3cd1797,data/DFU/Transfer-Learning images/Wound Images/images (81).jpg
+exact-0424,exact,,bdd32bb7d808366b04e5f2b3dcd1ef550d279b6918d9c5c9b38d6589a3cd1797,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T112856.546.jpg
+exact-0425,exact,,828b061efb74dfc31da32d939e36420a9df5824ce8a92d9dc7af734389a984c5,data/DFU/Transfer-Learning images/Wound Images2/download (3).jpg
+exact-0425,exact,,828b061efb74dfc31da32d939e36420a9df5824ce8a92d9dc7af734389a984c5,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T111004.597.jpg
+exact-0425,exact,,828b061efb74dfc31da32d939e36420a9df5824ce8a92d9dc7af734389a984c5,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T111049.796.jpg
+exact-0425,exact,,828b061efb74dfc31da32d939e36420a9df5824ce8a92d9dc7af734389a984c5,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T112229.543.jpg
+exact-0425,exact,,828b061efb74dfc31da32d939e36420a9df5824ce8a92d9dc7af734389a984c5,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T112744.755.jpg
+exact-0425,exact,,828b061efb74dfc31da32d939e36420a9df5824ce8a92d9dc7af734389a984c5,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T112900.708.jpg
+exact-0426,exact,,ac0005c4dfe0faba47777de9a7d9994c4dfe6347d2d76c3127b254a29141d0c5,data/DFU/Transfer-Learning images/Wound Images2/download (7).jpg
+exact-0426,exact,,ac0005c4dfe0faba47777de9a7d9994c4dfe6347d2d76c3127b254a29141d0c5,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T110707.381.jpg
+exact-0427,exact,,b2606aa9c0d66be09422f4b2abf750856c9c5192720bee3218669a32a13d2d90,data/DFU/Transfer-Learning images/Wound Images2/images (12).jpg
+exact-0427,exact,,b2606aa9c0d66be09422f4b2abf750856c9c5192720bee3218669a32a13d2d90,data/DFU/Transfer-Learning images/Wound Images2/images (9).jpg
+exact-0428,exact,,c240fdb4d9268849fea9c77560f65f78bd5837ad0375a73d23d0d7553cbf0481,data/DFU/Transfer-Learning images/Wound Images2/images (19).jpg
+exact-0428,exact,,c240fdb4d9268849fea9c77560f65f78bd5837ad0375a73d23d0d7553cbf0481,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T114107.825.jpg
+exact-0429,exact,,27f77bbbc06ccf70b78f0427452c163afc98579779c06c2d76ca656b2f88d74d,data/DFU/Transfer-Learning images/Wound Images2/images (2).jpg
+exact-0429,exact,,27f77bbbc06ccf70b78f0427452c163afc98579779c06c2d76ca656b2f88d74d,data/DFU/Transfer-Learning images/Wound Images2/images (3).jpg
+exact-0430,exact,,11f2227071a1ecb13e1f50d9d1d15ec0038e4e74c210e3d252995b3e3a1a0bf4,data/DFU/Transfer-Learning images/Wound Images2/images (33).jpg
+exact-0430,exact,,11f2227071a1ecb13e1f50d9d1d15ec0038e4e74c210e3d252995b3e3a1a0bf4,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T112816.252.jpg
+exact-0430,exact,,11f2227071a1ecb13e1f50d9d1d15ec0038e4e74c210e3d252995b3e3a1a0bf4,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T114400.603.jpg
+exact-0431,exact,,39a10661ccba424cde7b6cbc114fdae3e028162a4a2b969605b850d877b70686,data/DFU/Transfer-Learning images/Wound Images2/images (5).jpg
+exact-0431,exact,,39a10661ccba424cde7b6cbc114fdae3e028162a4a2b969605b850d877b70686,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T110240.981.jpg
+exact-0432,exact,,d1319bf741580c8c10cf8f927b178e4c2dd5244c9ba70ca2c6374efc3ddde4fe,data/DFU/Transfer-Learning images/Wound Images2/images (57).jpg
+exact-0432,exact,,d1319bf741580c8c10cf8f927b178e4c2dd5244c9ba70ca2c6374efc3ddde4fe,data/DFU/Transfer-Learning images/Wound Images2/images (66).jpg
+exact-0433,exact,,029253b35c7c48b5ffc0bad3fd3aab863169f20913afa47d6591b7f51cf2df81,data/DFU/Transfer-Learning images/Wound Images2/images (58).jpg
+exact-0433,exact,,029253b35c7c48b5ffc0bad3fd3aab863169f20913afa47d6591b7f51cf2df81,data/DFU/Transfer-Learning images/Wound Images2/images (89).jpg
+exact-0434,exact,,9aacfe24cb67b7dbb084231219736907b1673c1684714f728cafdd66a2be1079,data/DFU/Transfer-Learning images/Wound Images2/images (68).jpg
+exact-0434,exact,,9aacfe24cb67b7dbb084231219736907b1673c1684714f728cafdd66a2be1079,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T111115.717.jpg
+exact-0435,exact,,eee9e3798a56f336ca2e19f0b67f22b2a2fd8874594e64933a2c48af4274e9a5,data/DFU/Transfer-Learning images/Wound Images2/images (73).jpg
+exact-0435,exact,,eee9e3798a56f336ca2e19f0b67f22b2a2fd8874594e64933a2c48af4274e9a5,data/DFU/Transfer-Learning images/Wound Images2/images (75).jpg
+exact-0436,exact,,bbcf80db20849aa6cbe586b3ba6310ad329114c1fc9204b05ddc0e08f77fc5a1,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T110052.883.jpg
+exact-0436,exact,,bbcf80db20849aa6cbe586b3ba6310ad329114c1fc9204b05ddc0e08f77fc5a1,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T111937.495.jpg
+exact-0437,exact,,76826bdca4d6bf5ed2e8eb59c201f904caf790707cbb52fbd7780dfa05507a73,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T110159.244.jpg
+exact-0437,exact,,76826bdca4d6bf5ed2e8eb59c201f904caf790707cbb52fbd7780dfa05507a73,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T114026.518.jpg
+exact-0437,exact,,76826bdca4d6bf5ed2e8eb59c201f904caf790707cbb52fbd7780dfa05507a73,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T123518.480.jpg
+exact-0438,exact,,1a954c90b7f3029b45b511c403d60d9a1b3271b1485315c29487684781d406c8,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T110216.166.jpg
+exact-0438,exact,,1a954c90b7f3029b45b511c403d60d9a1b3271b1485315c29487684781d406c8,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T123526.923.jpg
+exact-0439,exact,,c2bfe84a765b50b076663bfbf802dc89d3430bf0e14e72b7dd53773d63544557,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T110245.435.jpg
+exact-0439,exact,,c2bfe84a765b50b076663bfbf802dc89d3430bf0e14e72b7dd53773d63544557,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T113912.370.jpg
+exact-0439,exact,,c2bfe84a765b50b076663bfbf802dc89d3430bf0e14e72b7dd53773d63544557,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T114138.803.jpg
+exact-0439,exact,,c2bfe84a765b50b076663bfbf802dc89d3430bf0e14e72b7dd53773d63544557,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T114324.324.jpg
+exact-0439,exact,,c2bfe84a765b50b076663bfbf802dc89d3430bf0e14e72b7dd53773d63544557,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T114348.812.jpg
+exact-0439,exact,,c2bfe84a765b50b076663bfbf802dc89d3430bf0e14e72b7dd53773d63544557,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T125120.327.jpg
+exact-0440,exact,,379721c97aa72de5c3cb16e16e4a35758692f8abb8a4d7f2c005f65a816a6bbb,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T110251.820.jpg
+exact-0440,exact,,379721c97aa72de5c3cb16e16e4a35758692f8abb8a4d7f2c005f65a816a6bbb,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T113722.776.jpg
+exact-0441,exact,,c33a0859cb958ecad5d3b53f9930d08f291cdb643301372e93bc9518273c0a41,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T110650.828.jpg
+exact-0441,exact,,c33a0859cb958ecad5d3b53f9930d08f291cdb643301372e93bc9518273c0a41,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T113908.034.jpg
+exact-0441,exact,,c33a0859cb958ecad5d3b53f9930d08f291cdb643301372e93bc9518273c0a41,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T123545.620.jpg
+exact-0442,exact,,7dd2f51dbe9e3c0ad619c40192c88ba2a66a6209c8b25706b252dd6c18d2c2b4,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T110711.955.jpg
+exact-0442,exact,,7dd2f51dbe9e3c0ad619c40192c88ba2a66a6209c8b25706b252dd6c18d2c2b4,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T120013.522.jpg
+exact-0443,exact,,3cad41cda93cad123eb19bef952b22a9186066d6eee43e6781d6e1fa650d131e,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T110824.754.jpg
+exact-0443,exact,,3cad41cda93cad123eb19bef952b22a9186066d6eee43e6781d6e1fa650d131e,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T111054.155.jpg
+exact-0443,exact,,3cad41cda93cad123eb19bef952b22a9186066d6eee43e6781d6e1fa650d131e,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T112738.090.jpg
+exact-0444,exact,,ed336b37f08dab100c52b6c1c2d1c43d845cfc301715869485fa26f5f95b8e3d,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T111111.674.jpg
+exact-0444,exact,,ed336b37f08dab100c52b6c1c2d1c43d845cfc301715869485fa26f5f95b8e3d,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T111958.008.jpg
+exact-0444,exact,,ed336b37f08dab100c52b6c1c2d1c43d845cfc301715869485fa26f5f95b8e3d,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T112844.349.jpg
+exact-0444,exact,,ed336b37f08dab100c52b6c1c2d1c43d845cfc301715869485fa26f5f95b8e3d,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T120218.833.jpg
+exact-0445,exact,,85ae6c71bd508b7ae7d059f178c94e6199900c8b9379e5b1c58a968b8ad4c8e3,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T111146.827.jpg
+exact-0445,exact,,85ae6c71bd508b7ae7d059f178c94e6199900c8b9379e5b1c58a968b8ad4c8e3,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T112749.041.jpg
+exact-0446,exact,,2f4ccaf326cc7ad56e316c6a6d9de94d697198b85fa2209e63d4565c2d39500e,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T111904.715.jpg
+exact-0446,exact,,2f4ccaf326cc7ad56e316c6a6d9de94d697198b85fa2209e63d4565c2d39500e,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T112027.587.jpg
+exact-0447,exact,,7e3aba46f50ee699e63ae7efd3ab2a7d30e4343eb012c6646d5eee693987993a,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T112155.484.jpg
+exact-0447,exact,,7e3aba46f50ee699e63ae7efd3ab2a7d30e4343eb012c6646d5eee693987993a,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T112839.843.jpg
+exact-0447,exact,,7e3aba46f50ee699e63ae7efd3ab2a7d30e4343eb012c6646d5eee693987993a,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T114803.242.jpg
+exact-0448,exact,,bbd1fae9872d18edb5357f04ec6081a74e681a91abb23845cf667da8a0ec09b5,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T112812.170.jpg
+exact-0448,exact,,bbd1fae9872d18edb5357f04ec6081a74e681a91abb23845cf667da8a0ec09b5,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T125814.280.jpg
+exact-0449,exact,,1d8fe7d3f99fb4eb9cdd85684991c321c301f8dabf9c9b0910dd1c23dee47d32,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T113556.413.jpg
+exact-0449,exact,,1d8fe7d3f99fb4eb9cdd85684991c321c301f8dabf9c9b0910dd1c23dee47d32,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T113624.138.jpg
+exact-0450,exact,,9e218f1de5817730e92f630bba7ebe544ab4caaa8388f63ceaba025cd7fb48e0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T113916.618.jpg
+exact-0450,exact,,9e218f1de5817730e92f630bba7ebe544ab4caaa8388f63ceaba025cd7fb48e0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T115022.914.jpg
+exact-0450,exact,,9e218f1de5817730e92f630bba7ebe544ab4caaa8388f63ceaba025cd7fb48e0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T123550.529.jpg
+exact-0451,exact,,690562d9667d72eb951acdc15ba22b97fe2d5420f9da6080f8d4709829cf3982,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T114030.316.jpg
+exact-0451,exact,,690562d9667d72eb951acdc15ba22b97fe2d5420f9da6080f8d4709829cf3982,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T114143.242.jpg
+exact-0452,exact,,95abd799023a2224058b164d17eea9e5496fb3d2964a967e9966b71756afbbe5,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T114047.490.jpg
+exact-0452,exact,,95abd799023a2224058b164d17eea9e5496fb3d2964a967e9966b71756afbbe5,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T125111.103.jpg
+exact-0453,exact,,c70adfc067027ed4b6fbdb265a289760204b55b3a72028ac67c4f45e70f26d1d,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T114328.302.jpg
+exact-0453,exact,,c70adfc067027ed4b6fbdb265a289760204b55b3a72028ac67c4f45e70f26d1d,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T114425.019.jpg
+exact-0454,exact,,a0802f0a0ef2fe8eb2ceb4d34f693885bc5c8391541cd7bc3b11e18d2d8c96cd,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T114508.885.jpg
+exact-0454,exact,,a0802f0a0ef2fe8eb2ceb4d34f693885bc5c8391541cd7bc3b11e18d2d8c96cd,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T114833.042.jpg
+exact-0455,exact,,911c0b626b56eef669930638d9ff84f31884de8516ceff935486a1939cd4b57c,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T114636.724.jpg
+exact-0455,exact,,911c0b626b56eef669930638d9ff84f31884de8516ceff935486a1939cd4b57c,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T120306.034.jpg
+exact-0456,exact,,12d840cff0f42d259f04d390a6e98d9991bb6048f42dcc351b213e42701abe0b,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T114640.341.jpg
+exact-0456,exact,,12d840cff0f42d259f04d390a6e98d9991bb6048f42dcc351b213e42701abe0b,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T120301.755.jpg
+exact-0457,exact,,59c6f96a293dbd561d0c4fcf0d2cf2cca1fa3697aa2e683d192887b7c204d2c8,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T114649.143.jpg
+exact-0457,exact,,59c6f96a293dbd561d0c4fcf0d2cf2cca1fa3697aa2e683d192887b7c204d2c8,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T120310.357.jpg
+exact-0458,exact,,50dbfc531ea483e1949c80a23441836da4f8a33ea4c9e16ed60d4b43ba62a5e8,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T114702.280.jpg
+exact-0458,exact,,50dbfc531ea483e1949c80a23441836da4f8a33ea4c9e16ed60d4b43ba62a5e8,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T120319.822.jpg
+exact-0459,exact,,6996609132e03dbd4a8d7a99dc4719156df568e7045c672cc2ff69d79e3aa116,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T114706.614.jpg
+exact-0459,exact,,6996609132e03dbd4a8d7a99dc4719156df568e7045c672cc2ff69d79e3aa116,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T120315.923.jpg
+exact-0460,exact,,747f55730f1205dd9c369eb6d5a7a4a971e1e3745ababa4a01abc3964fd270df,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T115027.681.jpg
+exact-0460,exact,,747f55730f1205dd9c369eb6d5a7a4a971e1e3745ababa4a01abc3964fd270df,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T123237.761.jpg
+exact-0461,exact,,02a7a7c1824b911ce2194c50a0c612f47b4dfef1e111750fcecd17c3c0cfd56a,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T115032.124.jpg
+exact-0461,exact,,02a7a7c1824b911ce2194c50a0c612f47b4dfef1e111750fcecd17c3c0cfd56a,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T115049.331.jpg
+exact-0462,exact,,9e2513eaca2d39649e3f170d04ae2bcb3cd51ac86d5a685a7fa9826092fdf562,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T115037.092.jpg
+exact-0462,exact,,9e2513eaca2d39649e3f170d04ae2bcb3cd51ac86d5a685a7fa9826092fdf562,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T123953.902.jpg
+exact-0463,exact,,82b47de58c0fa57258b1ec3c7ba48cb8daec1859c95a80597012dde81652717d,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T115115.277.jpg
+exact-0463,exact,,82b47de58c0fa57258b1ec3c7ba48cb8daec1859c95a80597012dde81652717d,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T115937.436.jpg
+exact-0464,exact,,0b6987086e133653e353707bca851c0853bf1a27d4d1939b40bccb78d174f282,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T115325.338.jpg
+exact-0464,exact,,0b6987086e133653e353707bca851c0853bf1a27d4d1939b40bccb78d174f282,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T115857.474.jpg
+exact-0465,exact,,2feae605743ae2572d6133b2b35d8d5dbab200dd5a8e2937df847c389bd1b552,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T115405.252.jpg
+exact-0465,exact,,2feae605743ae2572d6133b2b35d8d5dbab200dd5a8e2937df847c389bd1b552,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T123522.793.jpg
+exact-0466,exact,,004ede99a4981be1bc7d80aa91a96729951675650a50a4a3bf006ff61d3cf294,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T115415.097.jpg
+exact-0466,exact,,004ede99a4981be1bc7d80aa91a96729951675650a50a4a3bf006ff61d3cf294,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T123420.307.jpg
+exact-0467,exact,,e5198b0e1888b5674851afb348a7a3abc65ea08cc155790c1dac7e68a164855d,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T115532.208.jpg
+exact-0467,exact,,e5198b0e1888b5674851afb348a7a3abc65ea08cc155790c1dac7e68a164855d,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T120128.025.jpg
+exact-0468,exact,,7d80c0a811fff0f83ae5cdb4e73231d6af64b0d30c6a6b6bd719194173d354ee,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T115847.364.jpg
+exact-0468,exact,,7d80c0a811fff0f83ae5cdb4e73231d6af64b0d30c6a6b6bd719194173d354ee,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T120240.785.jpg
+exact-0469,exact,,8f5430b58e0b838f5976a57a2855502c8421e3907014385b48ee490740fdfff1,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T120001.329.jpg
+exact-0469,exact,,8f5430b58e0b838f5976a57a2855502c8421e3907014385b48ee490740fdfff1,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T120846.658.jpg
+exact-0470,exact,,6519fbcc661431462a84e79d4657c2a7dd252b5fef5ea7cb695ef29cf18c6aeb,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T120017.499.jpg
+exact-0470,exact,,6519fbcc661431462a84e79d4657c2a7dd252b5fef5ea7cb695ef29cf18c6aeb,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T120448.233.jpg
+exact-0470,exact,,6519fbcc661431462a84e79d4657c2a7dd252b5fef5ea7cb695ef29cf18c6aeb,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T124527.958.jpg
+exact-0470,exact,,6519fbcc661431462a84e79d4657c2a7dd252b5fef5ea7cb695ef29cf18c6aeb,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T124950.649.jpg
+exact-0470,exact,,6519fbcc661431462a84e79d4657c2a7dd252b5fef5ea7cb695ef29cf18c6aeb,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T125711.291.jpg
+exact-0471,exact,,7702e7c0bb7a4b157b0f7a66143b9d79c02485a0c4c4cc546b7dcc58bf4b34b6,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T120134.906.jpg
+exact-0471,exact,,7702e7c0bb7a4b157b0f7a66143b9d79c02485a0c4c4cc546b7dcc58bf4b34b6,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T121042.878.jpg
+exact-0472,exact,,1aeb7504b905ce38558b3867e6311a29091c14091d290568d2cd2f989560a81d,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T120441.892.jpg
+exact-0472,exact,,1aeb7504b905ce38558b3867e6311a29091c14091d290568d2cd2f989560a81d,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T124942.258.jpg
+exact-0473,exact,,dcc2909c6e9fedc4b2e5c2037c47086b8db93bb793eafd953f2aa74d3a1fe77e,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T120713.248.jpg
+exact-0473,exact,,dcc2909c6e9fedc4b2e5c2037c47086b8db93bb793eafd953f2aa74d3a1fe77e,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T123342.992.jpg
+exact-0474,exact,,95acea49524544881b47dcfb26a2e1b2bbdf78e25d3a612792133fbb19bc1624,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T120720.127.jpg
+exact-0474,exact,,95acea49524544881b47dcfb26a2e1b2bbdf78e25d3a612792133fbb19bc1624,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T123357.079.jpg
+exact-0475,exact,,12046bbd6ba3f3a3bfa0b2e368e6c23b39c9e44496d745865ee36d22e58762c7,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T120728.545.jpg
+exact-0475,exact,,12046bbd6ba3f3a3bfa0b2e368e6c23b39c9e44496d745865ee36d22e58762c7,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T123353.296.jpg
+exact-0476,exact,,46787f1ca484afd23b5465e40628dd9a125480bb7454fab8844736d10bf95d1b,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T120802.616.jpg
+exact-0476,exact,,46787f1ca484afd23b5465e40628dd9a125480bb7454fab8844736d10bf95d1b,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T123425.443.jpg
+exact-0477,exact,,1ccfdf945a0b1c956eac84b128db74d3a03f2742d1b183d75b597a35762f36c3,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T120813.738.jpg
+exact-0477,exact,,1ccfdf945a0b1c956eac84b128db74d3a03f2742d1b183d75b597a35762f36c3,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T124727.991.jpg
+exact-0478,exact,,5d2e78cd7b0c1c74ea2ea7a4e76c86c4db73cd17eefa041e82839fc016da4351,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T120830.370.jpg
+exact-0478,exact,,5d2e78cd7b0c1c74ea2ea7a4e76c86c4db73cd17eefa041e82839fc016da4351,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T125736.490.jpg
+exact-0479,exact,,4c28408c5756e1296aca7406df79246514168062a3b006a1973b77d7795b6ee6,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T120850.388.jpg
+exact-0479,exact,,4c28408c5756e1296aca7406df79246514168062a3b006a1973b77d7795b6ee6,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T125743.649.jpg
+exact-0480,exact,,88c17fbe0893742e21813dc187f88c8a45b28cd5b6bb4254e1f1d03cd3f87639,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T120900.234.jpg
+exact-0480,exact,,88c17fbe0893742e21813dc187f88c8a45b28cd5b6bb4254e1f1d03cd3f87639,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T123415.689.jpg
+exact-0481,exact,,1dbf7c2b70de58a1ecfdc70e0e2e199cf7c2715cf9dbc21046e1d5548e5217f2,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T123122.922.jpg
+exact-0481,exact,,1dbf7c2b70de58a1ecfdc70e0e2e199cf7c2715cf9dbc21046e1d5548e5217f2,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T125826.018.jpg
+exact-0482,exact,,8c33d95d84d8c9ebd90e74968b3029c0f5f78bf9be53b340b2c977a42ac076a0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T123242.154.jpg
+exact-0482,exact,,8c33d95d84d8c9ebd90e74968b3029c0f5f78bf9be53b340b2c977a42ac076a0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T123255.419.jpg
+exact-0483,exact,,7cbd0add3b31952f387ab9663bef74b5fb8c3dec6ac4aac8c048e7a80f09df39,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T123452.883.jpg
+exact-0483,exact,,7cbd0add3b31952f387ab9663bef74b5fb8c3dec6ac4aac8c048e7a80f09df39,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T124232.332.jpg
+exact-0484,exact,,393394079941240a48e94b3ead16d8292ad7c2d05819e1b7adda3ff497340116,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T124102.785.jpg
+exact-0484,exact,,393394079941240a48e94b3ead16d8292ad7c2d05819e1b7adda3ff497340116,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T124718.792.jpg
+exact-0485,exact,,8cc8d902341fe767f413a6e9e03479406fb9d84f9289621fb67bfc760941fa5f,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T124800.265.jpg
+exact-0485,exact,,8cc8d902341fe767f413a6e9e03479406fb9d84f9289621fb67bfc760941fa5f,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T124916.409.jpg
+exact-0486,exact,,2ed92955e3f457ec20b6aadb5935b9b7bd02e669c255c90a3ddbb1040a0048d8,data/DFU/Transfer-Learning images/samples/1.jpg
+exact-0486,exact,,2ed92955e3f457ec20b6aadb5935b9b7bd02e669c255c90a3ddbb1040a0048d8,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T111059.300.jpg
+exact-0486,exact,,2ed92955e3f457ec20b6aadb5935b9b7bd02e669c255c90a3ddbb1040a0048d8,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T112753.581.jpg
+exact-0487,exact,,e65aee72cd8e789bdd076c7909614a398a4b91e661eb49382fd71bc59c9c4cbb,data/DFU/Transfer-Learning images/samples/images (1).jpg
+exact-0487,exact,,e65aee72cd8e789bdd076c7909614a398a4b91e661eb49382fd71bc59c9c4cbb,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T110212.237.jpg
+exact-0487,exact,,e65aee72cd8e789bdd076c7909614a398a4b91e661eb49382fd71bc59c9c4cbb,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T111011.099.jpg
+exact-0488,exact,,9b4859b3e90c542ee9f8ba4ab928f1eeada37edf6a497e8d49699a8a9dbb2aaf,data/DFU/Transfer-Learning images/samples/images (2).jpg
+exact-0488,exact,,9b4859b3e90c542ee9f8ba4ab928f1eeada37edf6a497e8d49699a8a9dbb2aaf,data/DFU/Transfer-Learning images/samples/images (4).jpg
+exact-0488,exact,,9b4859b3e90c542ee9f8ba4ab928f1eeada37edf6a497e8d49699a8a9dbb2aaf,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T111015.252.jpg
+exact-0488,exact,,9b4859b3e90c542ee9f8ba4ab928f1eeada37edf6a497e8d49699a8a9dbb2aaf,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T112225.543.jpg
+exact-0488,exact,,9b4859b3e90c542ee9f8ba4ab928f1eeada37edf6a497e8d49699a8a9dbb2aaf,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T112852.668.jpg
+exact-0488,exact,,9b4859b3e90c542ee9f8ba4ab928f1eeada37edf6a497e8d49699a8a9dbb2aaf,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T114746.619.jpg
+exact-0489,exact,,d1c0b99cc323bdbfe95fa5ae9aaad8a84467eee3de57c52c63b496fcb5e57614,data/DFU/Transfer-Learning images/samples/images (5).jpg
+exact-0489,exact,,d1c0b99cc323bdbfe95fa5ae9aaad8a84467eee3de57c52c63b496fcb5e57614,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T111447.939.jpg
+exact-0490,exact,,b7becd8961ab2d0f36a8c7df7e99b81344a8e537b92d430876f261cd7628073c,data/DFU/Transfer-Learning images/samples/images (6).jpg
+exact-0490,exact,,b7becd8961ab2d0f36a8c7df7e99b81344a8e537b92d430876f261cd7628073c,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T111452.885.jpg
+exact-0490,exact,,b7becd8961ab2d0f36a8c7df7e99b81344a8e537b92d430876f261cd7628073c,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T111503.307.jpg
+exact-0491,exact,,d3a8c313df24d99a3890138d610edfc70ef71dfdefe1bbf02f2f30ab3ffbb1b7,data/DFU/Transfer-Learning images/samples/images (7).jpg
+exact-0491,exact,,d3a8c313df24d99a3890138d610edfc70ef71dfdefe1bbf02f2f30ab3ffbb1b7,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T125137.127.jpg
+exact-0492,exact,,9cf212bc3f1a1ee83c0c51f90851ac7e00781094ac57f829fc7a49d30ed6ee01,data/DFU/Transfer-Learning images/samples/images (8).jpg
+exact-0492,exact,,9cf212bc3f1a1ee83c0c51f90851ac7e00781094ac57f829fc7a49d30ed6ee01,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T111520.290.jpg
+exact-0493,exact,,e43e17ac68b6b0ffc5f276268a68b37bf0e2b64c61888791ea4a1906560c9195,data/DFU/Transfer-Learning images/samples/images (9).jpg
+exact-0493,exact,,e43e17ac68b6b0ffc5f276268a68b37bf0e2b64c61888791ea4a1906560c9195,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T111510.028.jpg
+exact-0494,exact,,a220521afddb057c432aaf4f262e3f1de5cccfff4466344551323a0ca942e2d4,data/DFU/Transfer-Learning images/samples/images - 2019-12-16T112221.505.jpg
+exact-0494,exact,,a220521afddb057c432aaf4f262e3f1de5cccfff4466344551323a0ca942e2d4,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T112221.505.jpg
+exact-0494,exact,,a220521afddb057c432aaf4f262e3f1de5cccfff4466344551323a0ca942e2d4,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T114738.432.jpg
+exact-0495,exact,,2ba715c756627c112f0b12a970aab65b9f5d1b9a9a7fe70460c0bdb1d2307a24,data/DFU/Transfer-Learning images/samples/images - 2019-12-16T112309.415.jpg
+exact-0495,exact,,2ba715c756627c112f0b12a970aab65b9f5d1b9a9a7fe70460c0bdb1d2307a24,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T112309.415.jpg
+exact-0496,exact,,56c0ea70b22a0db4843a6c3ead166394bcef8c6f104ffdfa623f9239e7803c0b,data/DFU/Transfer-Learning images/samples/images - 2019-12-16T112316.979.jpg
+exact-0496,exact,,56c0ea70b22a0db4843a6c3ead166394bcef8c6f104ffdfa623f9239e7803c0b,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T112316.979.jpg
+exact-0497,exact,,4e713b858d993104d0e89629930105cf9c24f33156fc667cbb0987a6ca196969,data/DFU/Transfer-Learning images/samples/images - 2019-12-16T113445.650.jpg
+exact-0497,exact,,4e713b858d993104d0e89629930105cf9c24f33156fc667cbb0987a6ca196969,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T113445.650.jpg
+exact-0498,exact,,e49ab46e63a9f95006bf8d496917700f12f068df99ea0d3b9cb7a6af2cea717a,data/DFU/Transfer-Learning images/samples/images - 2019-12-16T113859.251.jpg
+exact-0498,exact,,e49ab46e63a9f95006bf8d496917700f12f068df99ea0d3b9cb7a6af2cea717a,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T113859.251.jpg
+exact-0499,exact,,5aee7d7a62f1615396ced5c079e4ac28c8dbfc085d98b32648b57e2cf5c588ec,data/DFU/Transfer-Learning images/samples/images - 2019-12-16T114035.025.jpg
+exact-0499,exact,,5aee7d7a62f1615396ced5c079e4ac28c8dbfc085d98b32648b57e2cf5c588ec,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T114035.025.jpg
+exact-0500,exact,,259ce5a1f724c604d221c482efa805b3d31df99ed6e28df41f10f78b8f6d42ce,data/DFU/Transfer-Learning images/samples/images - 2019-12-16T114755.548.jpg
+exact-0500,exact,,259ce5a1f724c604d221c482efa805b3d31df99ed6e28df41f10f78b8f6d42ce,data/DFU/Transfer-Learning images/Wound Images2/images (25).jpg
+exact-0500,exact,,259ce5a1f724c604d221c482efa805b3d31df99ed6e28df41f10f78b8f6d42ce,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T112239.735.jpg
+exact-0500,exact,,259ce5a1f724c604d221c482efa805b3d31df99ed6e28df41f10f78b8f6d42ce,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T114742.529.jpg
+exact-0500,exact,,259ce5a1f724c604d221c482efa805b3d31df99ed6e28df41f10f78b8f6d42ce,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T114755.548.jpg
+exact-0501,exact,,cde3a899676c2574e869f24b931e3bc5de69f1de3f52bebb7b932d68a82436c6,data/DFU/Transfer-Learning images/samples/images - 2019-12-16T123117.106.jpg
+exact-0501,exact,,cde3a899676c2574e869f24b931e3bc5de69f1de3f52bebb7b932d68a82436c6,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T123117.106.jpg
+exact-0502,exact,,54b41c0d7ed1596f75ead7510f296d26bdf1cec88355f59be2bbf61413d0986c,data/DFU/Transfer-Learning images/samples/images - 2019-12-16T125107.127.jpg
+exact-0502,exact,,54b41c0d7ed1596f75ead7510f296d26bdf1cec88355f59be2bbf61413d0986c,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T125107.127.jpg
+exact-0503,exact,,11471d03d9d357a66e0d006976dd7c7a8fbb964d4acc5f21bed7b5c01791d17f,data/DFU/Transfer-Learning images/samples/images.jpg
+exact-0503,exact,,11471d03d9d357a66e0d006976dd7c7a8fbb964d4acc5f21bed7b5c01791d17f,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T110951.516.jpg
+near-0001,near-nonexact,6,0,data/DFU/Original Images/1.png
+near-0001,near-nonexact,6,0,data/DFU/Original Images/6.jpg
+near-0002,near-nonexact,6,0,data/DFU/Original Images/1054877509612379438.jpg
+near-0002,near-nonexact,6,0,data/DFU/Original Images/51851179_360650897859331_2470243976368619520_n.jpg
+near-0003,near-nonexact,6,0,data/DFU/Original Images/1076771990506636278.jpg
+near-0003,near-nonexact,6,0,data/DFU/Original Images/52545261_2332237320142864_293622299569946624_n.jpg
+near-0004,near-nonexact,6,0,data/DFU/Original Images/1430965400006561945.jpg
+near-0004,near-nonexact,6,0,data/DFU/Original Images/51953792_1193181274178777_1301085618482184192_n.jpg
+near-0005,near-nonexact,6,0,data/DFU/Original Images/2.png
+near-0005,near-nonexact,6,0,data/DFU/Original Images/20.jpg
+near-0006,near-nonexact,6,1,data/DFU/Original Images/2100472819858240689.jpg
+near-0006,near-nonexact,6,1,data/DFU/Original Images/51935341_306287766905193_4977057735246872576_n.jpg
+near-0007,near-nonexact,6,0,data/DFU/Original Images/2120045598224772295.jpg
+near-0007,near-nonexact,6,0,data/DFU/Original Images/51828322_1996656233961387_5287593504359317504_n (1).jpg
+near-0007,near-nonexact,6,0,data/DFU/Original Images/51828322_1996656233961387_5287593504359317504_n.jpg
+near-0008,near-nonexact,6,1,data/DFU/Original Images/2166365910321328840.jpg
+near-0008,near-nonexact,6,1,data/DFU/Original Images/51989112_2386140148273476_2606128847464169472_n.jpg
+near-0009,near-nonexact,6,0,data/DFU/Original Images/2248535364383155415.jpg
+near-0009,near-nonexact,6,0,data/DFU/Original Images/52602678_2035901099812024_4298910114632433664_n.jpg
+near-0010,near-nonexact,6,3,data/DFU/Original Images/2331076783926122268.jpg
+near-0010,near-nonexact,6,3,data/DFU/Original Images/51783571_1934254266684087_6944160535000645632_n.jpg
+near-0011,near-nonexact,6,1,data/DFU/Original Images/3460354257920857474.jpg
+near-0011,near-nonexact,6,1,data/DFU/Original Images/52151480_258969031663450_6318131934501273600_n.jpg
+near-0012,near-nonexact,6,0,data/DFU/Original Images/3849135830295494223.jpg
+near-0012,near-nonexact,6,0,data/DFU/Original Images/52553604_246819646237286_562344848363880448_n.jpg
+near-0013,near-nonexact,6,0,data/DFU/Original Images/4.png
+near-0013,near-nonexact,6,0,data/DFU/Original Images/9.jpg
+near-0014,near-nonexact,6,0,data/DFU/Original Images/4039916766432702719.jpg
+near-0014,near-nonexact,6,0,data/DFU/Original Images/51858111_2120697521351716_1932841652360052736_n.jpg
+near-0015,near-nonexact,6,0,data/DFU/Original Images/4493578528152659698.jpg
+near-0015,near-nonexact,6,0,data/DFU/Original Images/52290072_288278388503662_4626597947310604288_n.jpg
+near-0016,near-nonexact,6,2,data/DFU/Original Images/4682576138405030872.jpg
+near-0016,near-nonexact,6,2,data/DFU/Original Images/51675451_800582506943762_1704939503539453952_n.jpg
+near-0017,near-nonexact,6,0,data/DFU/Original Images/4686223241583583502.jpg
+near-0017,near-nonexact,6,0,data/DFU/Original Images/51964319_390759328325320_311758709510373376_n.jpg
+near-0018,near-nonexact,6,0,data/DFU/Original Images/4916270068439552632.jpg
+near-0018,near-nonexact,6,0,data/DFU/Original Images/51828252_1926211384175067_24937331739852800_n.jpg
+near-0019,near-nonexact,6,0,data/DFU/Original Images/5.jpg
+near-0019,near-nonexact,6,0,data/DFU/Original Images/5.png
+near-0020,near-nonexact,6,0,data/DFU/Original Images/5167991403605347967.jpg
+near-0020,near-nonexact,6,0,data/DFU/Original Images/52274812_306671686705427_2792011626125983744_n.jpg
+near-0021,near-nonexact,6,2,data/DFU/Original Images/51769731_2221636438091228_58097593116262400_n.jpg
+near-0021,near-nonexact,6,2,data/DFU/Original Images/52911754_347594812512424_8160855049753329664_n.jpg
+near-0022,near-nonexact,6,6,data/DFU/Original Images/51781087_412031686046224_3554042230069002240_n.jpg
+near-0022,near-nonexact,6,6,data/DFU/Original Images/52528713_302307793812625_690891179423694848_n.jpg
+near-0023,near-nonexact,6,0,data/DFU/Original Images/51795551_387825175429049_5388304199618396160_n.jpg
+near-0023,near-nonexact,6,0,data/DFU/Original Images/910177778608630611.jpg
+near-0024,near-nonexact,6,1,data/DFU/Original Images/51797944_254790468769500_1401433397594685440_n.jpg
+near-0024,near-nonexact,6,1,data/DFU/Original Images/52365720_652591511824432_1461259560428765184_n.jpg
+near-0025,near-nonexact,6,0,data/DFU/Original Images/51836838_974338649422772_1634626215979515904_n.jpg
+near-0025,near-nonexact,6,0,data/DFU/Original Images/549693149870721240.jpg
+near-0026,near-nonexact,6,0,data/DFU/Original Images/51855821_2291824434475322_7031402762575282176_n.jpg
+near-0026,near-nonexact,6,0,data/DFU/Original Images/5346503271897679863.jpg
+near-0027,near-nonexact,6,1,data/DFU/Original Images/51861080_625329731228854_6781253988831461376_n.jpg
+near-0027,near-nonexact,6,1,data/DFU/Original Images/5783976681780577736.jpg
+near-0028,near-nonexact,6,0,data/DFU/Original Images/51978504_555724031611811_5912875588003037184_n.jpg
+near-0028,near-nonexact,6,0,data/DFU/Original Images/8157352762939970875.jpg
+near-0029,near-nonexact,6,0,data/DFU/Original Images/51984865_422823171787068_6820525851231125504_n.jpg
+near-0029,near-nonexact,6,0,data/DFU/Original Images/6949272499065318324.jpg
+near-0030,near-nonexact,6,1,data/DFU/Original Images/52020587_782464015472470_1572675362888876032_n.jpg
+near-0030,near-nonexact,6,1,data/DFU/Original Images/802875375276942228.jpg
+near-0031,near-nonexact,6,0,data/DFU/Original Images/52038570_377260716185453_3124551839840731136_n.jpg
+near-0031,near-nonexact,6,0,data/DFU/Original Images/9101777786086306111.jpg
+near-0032,near-nonexact,6,0,data/DFU/Original Images/52328256_332029277444667_3976285039078932480_n.jpg
+near-0032,near-nonexact,6,0,data/DFU/Original Images/6002209373847188042.jpg
+near-0033,near-nonexact,6,1,data/DFU/Original Images/52345689_345717262699571_7517594937383190528_n.jpg
+near-0033,near-nonexact,6,1,data/DFU/Original Images/7203658691827770090.jpg
+near-0034,near-nonexact,6,0,data/DFU/Original Images/52392495_2352041565030092_7415485474355019776_n.jpg
+near-0034,near-nonexact,6,0,data/DFU/Original Images/6142943397711757937.jpg
+near-0035,near-nonexact,6,0,data/DFU/Patches/Abnormal(Ulcer)/15.jpg
+near-0035,near-nonexact,6,0,data/DFU/Patches/Abnormal(Ulcer)/39.jpg
+near-0036,near-nonexact,6,0,data/DFU/Patches/Abnormal(Ulcer)/17.jpg
+near-0036,near-nonexact,6,0,data/DFU/Patches/Abnormal(Ulcer)/44.jpg
+near-0037,near-nonexact,6,5,data/DFU/Patches/Abnormal(Ulcer)/172.jpg
+near-0037,near-nonexact,6,5,data/DFU/Patches/Abnormal(Ulcer)/7.jpg
+near-0038,near-nonexact,6,5,data/DFU/Patches/Abnormal(Ulcer)/272.jpg
+near-0038,near-nonexact,6,5,data/DFU/Patches/Abnormal(Ulcer)/445.jpg
+near-0039,near-nonexact,6,6,data/DFU/Patches/Abnormal(Ulcer)/441.jpg
+near-0039,near-nonexact,6,6,data/DFU/Patches/Abnormal(Ulcer)/468.jpg
+near-0040,near-nonexact,6,0,data/DFU/Patches/Normal(Healthy skin)/123.jpg
+near-0040,near-nonexact,6,0,data/DFU/Patches/Normal(Healthy skin)/132.jpg
+near-0040,near-nonexact,6,0,data/DFU/Patches/Normal(Healthy skin)/26.jpg
+near-0040,near-nonexact,6,0,data/DFU/Patches/Normal(Healthy skin)/283.jpg
+near-0040,near-nonexact,6,0,data/DFU/Patches/Normal(Healthy skin)/304.jpg
+near-0040,near-nonexact,6,0,data/DFU/Patches/Normal(Healthy skin)/389.jpg
+near-0040,near-nonexact,6,0,data/DFU/Patches/Normal(Healthy skin)/398.jpg
+near-0040,near-nonexact,6,0,data/DFU/Patches/Normal(Healthy skin)/4.jpg
+near-0041,near-nonexact,6,0,data/DFU/TestSet/1167 (1).jpg
+near-0041,near-nonexact,6,0,data/DFU/TestSet/images (22).jpg
+near-0041,near-nonexact,6,0,data/DFU/Transfer-Learning images/internetSet/1167 (1).jpg
+near-0041,near-nonexact,6,0,data/DFU/Transfer-Learning images/internetSet/images (22).jpg
+near-0041,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T120724.544.jpg
+near-0042,near-nonexact,6,0,data/DFU/TestSet/2854.fig.1.png
+near-0042,near-nonexact,6,0,data/DFU/TestSet/images (19).jpg
+near-0042,near-nonexact,6,0,data/DFU/Transfer-Learning images/internetSet/2854.fig.1.png
+near-0042,near-nonexact,6,0,data/DFU/Transfer-Learning images/internetSet/images (19).jpg
+near-0043,near-nonexact,6,0,data/DFU/TestSet/4-Figure3-used.png
+near-0043,near-nonexact,6,0,data/DFU/Transfer-Learning images/internetSet/4-Figure3-used.png
+near-0043,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T120728.545.jpg
+near-0043,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T123353.296.jpg
+near-0044,near-nonexact,6,0,data/DFU/TestSet/7527tn.jpg
+near-0044,near-nonexact,6,0,data/DFU/Transfer-Learning images/internetSet/7527tn.jpg
+near-0044,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T115847.364.jpg
+near-0044,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T120240.785.jpg
+near-0045,near-nonexact,6,0,data/DFU/TestSet/7e88c7_71fd61f6ac3d48cab475dfa44ea94017.jpg
+near-0045,near-nonexact,6,0,data/DFU/TestSet/images (12).jpg
+near-0045,near-nonexact,6,0,data/DFU/Transfer-Learning images/internetSet/7e88c7_71fd61f6ac3d48cab475dfa44ea94017.jpg
+near-0045,near-nonexact,6,0,data/DFU/Transfer-Learning images/internetSet/images (12).jpg
+near-0046,near-nonexact,6,0,data/DFU/TestSet/PRF_071312_FIG1.jpg
+near-0046,near-nonexact,6,0,data/DFU/Transfer-Learning images/internetSet/PRF_071312_FIG1.jpg
+near-0046,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T120924.794.jpg
+near-0047,near-nonexact,6,0,data/DFU/TestSet/bleeding-under-callus-preulcerative (1).jpg
+near-0047,near-nonexact,6,0,data/DFU/TestSet/bleeding-under-callus-preulcerative.jpg
+near-0047,near-nonexact,6,0,data/DFU/Transfer-Learning images/internetSet/bleeding-under-callus-preulcerative (1).jpg
+near-0047,near-nonexact,6,0,data/DFU/Transfer-Learning images/internetSet/bleeding-under-callus-preulcerative.jpg
+near-0047,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T125716.906.jpg
+near-0048,near-nonexact,6,0,data/DFU/TestSet/corns2.gif
+near-0048,near-nonexact,6,0,data/DFU/Transfer-Learning images/internetSet/corns2.gif
+near-0048,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T114914.051.jpg
+near-0049,near-nonexact,6,0,data/DFU/TestSet/diabetic-foot-ulcer (1).jpg
+near-0049,near-nonexact,6,0,data/DFU/Transfer-Learning images/internetSet/diabetic-foot-ulcer (1).jpg
+near-0049,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images/download (20).jpg
+near-0049,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images (54).jpg
+near-0050,near-nonexact,6,0,data/DFU/TestSet/diabetic-foot-ulcer-pictures.jpg
+near-0050,near-nonexact,6,0,data/DFU/TestSet/image4.jpeg
+near-0050,near-nonexact,6,0,data/DFU/Transfer-Learning images/internetSet/diabetic-foot-ulcer-pictures.jpg
+near-0050,near-nonexact,6,0,data/DFU/Transfer-Learning images/internetSet/image4.jpeg
+near-0050,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T125706.178.jpg
+near-0051,near-nonexact,6,0,data/DFU/TestSet/diabetic-foot-ulcer.jpg
+near-0051,near-nonexact,6,0,data/DFU/Transfer-Learning images/internetSet/diabetic-foot-ulcer.jpg
+near-0051,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T120005.799.jpg
+near-0052,near-nonexact,6,0,data/DFU/TestSet/diabetic-foot-ulcers-selective-focus-260nw-422934313 (1).webp
+near-0052,near-nonexact,6,0,data/DFU/TestSet/diabetic-foot-ulcers-selective-focus-260nw-422934313.webp
+near-0052,near-nonexact,6,0,data/DFU/Transfer-Learning images/internetSet/diabetic-foot-ulcers-selective-focus-260nw-422934313 (1).webp
+near-0052,near-nonexact,6,0,data/DFU/Transfer-Learning images/internetSet/diabetic-foot-ulcers-selective-focus-260nw-422934313.webp
+near-0052,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T120017.499.jpg
+near-0052,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T120448.233.jpg
+near-0052,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T124527.958.jpg
+near-0052,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T124950.649.jpg
+near-0052,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T125711.291.jpg
+near-0053,near-nonexact,6,0,data/DFU/TestSet/feat_footulcer_necro_1110_127573.jpg
+near-0053,near-nonexact,6,0,data/DFU/Transfer-Learning images/internetSet/feat_footulcer_necro_1110_127573.jpg
+near-0053,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T125941.547.jpg
+near-0054,near-nonexact,6,0,data/DFU/TestSet/foot-ulcer-217x300.jpg
+near-0054,near-nonexact,6,0,data/DFU/Transfer-Learning images/internetSet/foot-ulcer-217x300.jpg
+near-0054,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T123452.883.jpg
+near-0054,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T124232.332.jpg
+near-0055,near-nonexact,6,0,data/DFU/TestSet/foot_ulcer_5.jpg
+near-0055,near-nonexact,6,0,data/DFU/Transfer-Learning images/internetSet/foot_ulcer_5.jpg
+near-0055,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T115924.622.jpg
+near-0056,near-nonexact,6,0,data/DFU/TestSet/images (13).jpg
+near-0056,near-nonexact,6,0,data/DFU/TestSet/M2800025-Diabetic_neuropathy_ulceration_of_sole_of_foot-SPL_popup.jpg
+near-0056,near-nonexact,6,0,data/DFU/Transfer-Learning images/internetSet/images (13).jpg
+near-0056,near-nonexact,6,0,data/DFU/Transfer-Learning images/internetSet/M2800025-Diabetic_neuropathy_ulceration_of_sole_of_foot-SPL_popup.jpg
+near-0056,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T124320.491.jpg
+near-0057,near-nonexact,6,0,data/DFU/TestSet/lesioni-piede-diabetico_01.jpg
+near-0057,near-nonexact,6,0,data/DFU/Transfer-Learning images/internetSet/lesioni-piede-diabetico_01.jpg
+near-0057,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T115159.851.jpg
+near-0058,near-nonexact,6,0,data/DFU/TestSet/wc_121102_diabetic_foot_ulcer_wound_200x151.jpg
+near-0058,near-nonexact,6,0,data/DFU/Transfer-Learning images/internetSet/wc_121102_diabetic_foot_ulcer_wound_200x151.jpg
+near-0058,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images (21).jpg
+near-0059,near-nonexact,6,1,data/DFU/Transfer-Learning images/Wound Images/download (13).jpg
+near-0059,near-nonexact,6,1,data/DFU/Transfer-Learning images/Wound Images2/assess_wound_exudate.jpg
+near-0060,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images/download (17).jpg
+near-0060,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T113619.153.jpg
+near-0060,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T113739.210.jpg
+near-0061,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images/images (19).jpg
+near-0061,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/Maggot_debridement_therapy_on_a_diabetic_foot.jpg
+near-0062,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images/images (29).jpg
+near-0062,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/amputation_site_infected_and_sloughy.jpg
+near-0062,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T115317.331.jpg
+near-0063,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images/images (35).jpg
+near-0063,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/350x263_Closeup_Infected.webp
+near-0063,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images (27).jpg
+near-0064,near-nonexact,6,2,data/DFU/Transfer-Learning images/Wound Images/images (58).jpg
+near-0064,near-nonexact,6,2,data/DFU/Transfer-Learning images/Wound Images2/493ss_thinkstock_rf_cleaning_wound_with_tweezers.jpg
+near-0065,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images/images (61).jpg
+near-0065,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images/images (73).jpg
+near-0065,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/screen_shot_2014-10-20_at_1.33.14_pm.jpg
+near-0066,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images/images (70).jpg
+near-0066,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T123200.695.jpg
+near-0066,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/undermining0019.jpg
+near-0067,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/Diabetic-Foot-Wounds-Small-288x300.jpg
+near-0067,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T120352.674.jpg
+near-0068,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/Diabetic-foot-infection-for-insensitive-repetitive-trauma-The-wound-is-close-to-deep.png
+near-0068,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T115325.338.jpg
+near-0068,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T115857.474.jpg
+near-0069,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/FootWound.jpg
+near-0069,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T120755.282.jpg
+near-0070,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/arterial_ulcer_on_foot.jpg
+near-0070,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T113916.618.jpg
+near-0070,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T115022.914.jpg
+near-0070,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T123550.529.jpg
+near-0071,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/e26_Infected_Heel_ulcer.jpg
+near-0071,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T123408.976.jpg
+near-0072,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/graphic-3.large_-346x188.jpg
+near-0072,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T123242.154.jpg
+near-0072,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T123255.419.jpg
+near-0073,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images (12).jpg
+near-0073,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images (9).jpg
+near-0073,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/infected-wound-diabetes-foot-medical-260nw-1020353164.webp
+near-0074,near-nonexact,6,1,data/DFU/Transfer-Learning images/Wound Images2/images (41).jpg
+near-0074,near-nonexact,6,1,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T120326.233.jpg
+near-0075,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images (57).jpg
+near-0075,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images (66).jpg
+near-0075,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T112639.051.jpg
+near-0076,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images (73).jpg
+near-0076,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images (75).jpg
+near-0076,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T111232.636.jpg
+near-0077,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T111106.890.jpg
+near-0077,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/riskfactors.jpg
+near-0078,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T111146.827.jpg
+near-0078,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T111215.859.jpg
+near-0078,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T112749.041.jpg
+near-0079,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T111206.900.jpg
+near-0079,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/septic-leg-wound-and-scab-on-shin-of-middle-aged-man-ANNXAE.jpg
+near-0080,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T111226.619.jpg
+near-0080,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T123016.800.jpg
+near-0081,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T111403.752.jpg
+near-0081,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T124102.785.jpg
+near-0081,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T124718.792.jpg
+near-0082,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T111408.115.jpg
+near-0082,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T112038.978.jpg
+near-0083,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T111418.533.jpg
+near-0083,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/m7_10.jpg
+near-0084,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T113854.651.jpg
+near-0084,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T115037.092.jpg
+near-0084,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T123953.902.jpg
+near-0085,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T120037.290.jpg
+near-0085,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/MRSA_foot_infection-1296x728-Gallery1.jpg
+near-0086,near-nonexact,6,0,data/DFU/Transfer-Learning images/samples/7.jpg
+near-0086,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T112331.531.jpg
+near-0087,near-nonexact,6,0,data/DFU/Transfer-Learning images/samples/Daddys-Foot-at-start-of-honey-treatment-682x1024.jpg
+near-0087,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T124440.526.jpg
+near-0088,near-nonexact,6,0,data/DFU/Transfer-Learning images/samples/images (1).jpg
+near-0088,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images (19).jpg
+near-0088,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T110212.237.jpg
+near-0088,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T111011.099.jpg
+near-0088,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T114107.825.jpg
+near-0089,near-nonexact,6,0,data/DFU/Transfer-Learning images/samples/images (7).jpg
+near-0089,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T125137.127.jpg
+near-0089,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/UlcerLeg-650x450.jpg
+near-0090,near-nonexact,6,0,data/DFU/Transfer-Learning images/samples/images - 2019-12-16T114755.548.jpg
+near-0090,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images (25).jpg
+near-0090,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T112239.735.jpg
+near-0090,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T114104.386.jpg
+near-0090,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T114742.529.jpg
+near-0090,near-nonexact,6,0,data/DFU/Transfer-Learning images/Wound Images2/images - 2019-12-16T114755.548.jpg

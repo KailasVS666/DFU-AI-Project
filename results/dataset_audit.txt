@@ -1,0 +1,48 @@
+Dataset audit: data/DFU
+Generated: read-only audit; no dataset files were changed.
+
+SUMMARY
+- Total readable image files: 2674
+- Patches: 1055 (Abnormal(Ulcer): 512; Normal(Healthy skin): 543)
+- Exact duplicate groups: 503; files in groups: 1182; extra duplicate files: 679
+- Non-exact near-duplicate pHash groups: 90; files in groups: 248; extra group members: 158
+- Patches/TestSet exact hash overlap: 0
+- Patches/TestSet reused filenames: 31 (not content evidence; filenames are mostly numeric)
+
+FOLDER STRUCTURE AND COUNTS
+- data/DFU/Original Images: 493 images; 115 distinct dimensions; common dimensions: 672x1396 (112), 1396x679 (62), 679x1392 (37), 464x960 (25), 1392x672 (23); modes: {'RGB': 493}
+- data/DFU/Patches/Abnormal(Ulcer): 512 images; 7 distinct dimensions; common dimensions: 224x224 (501), 227x227 (6), 432x421 (1), 330x330 (1), 243x246 (1); modes: {'RGB': 512}
+- data/DFU/Patches/Normal(Healthy skin): 543 images; 7 distinct dimensions; common dimensions: 224x224 (524), 227x227 (4), 224x244 (4), 220x220 (4), 304x294 (3); modes: {'RGB': 543}
+- data/DFU/TestSet: 167 images; 146 distinct dimensions; common dimensions: 259x194 (7), 194x259 (4), 3024x4032 (2), 963x1003 (2), 800x600 (2); modes: {'RGB': 157, 'RGBA': 6, 'P': 4}
+- data/DFU/Transfer-Learning images/internetSet: 137 images; 114 distinct dimensions; common dimensions: 259x194 (8), 194x259 (4), 300x225 (3), 3024x4032 (2), 963x1003 (2); modes: {'RGB': 127, 'RGBA': 6, 'P': 4}
+- data/DFU/Transfer-Learning images/samples: 36 images; 24 distinct dimensions; common dimensions: 225x225 (9), 276x183 (2), 256x197 (2), 270x187 (2), 275x183 (2); modes: {'RGB': 36}
+- data/DFU/Transfer-Learning images/Wound Images: 109 images; 51 distinct dimensions; common dimensions: 259x194 (15), 275x183 (13), 265x190 (6), 258x195 (5), 273x185 (4); modes: {'RGB': 109}
+- data/DFU/Transfer-Learning images/Wound Images2: 677 images; 186 distinct dimensions; common dimensions: 224x224 (74), 275x183 (53), 259x194 (51), 265x190 (31), 273x185 (24); modes: {'RGB': 674, 'RGBA': 1, 'P': 2}
+
+FILE FORMATS
+- Extensions: {'.gif': 3, '.jpeg': 9, '.jpg': 2619, '.png': 34, '.webp': 9}
+- All counted files opened successfully with Pillow.
+
+DIMENSION NOTES
+- Patches are predominantly 224x224: Abnormal(Ulcer) 501/512; Normal(Healthy skin) 524/543.
+- Original Images, TestSet, and Transfer-Learning folders contain many varied dimensions; do not assume a common input size before preprocessing.
+
+DUPLICATE CHECKS
+- Exact duplicates use SHA-256 of file bytes; see duplicate_report.csv for every group and filename.
+- Near duplicates use grayscale 32x32 pHash; images are connected when Hamming distance <= 6. Groups containing multiple SHA-256 values are reported as non-exact near duplicates. The threshold is a screening heuristic, not proof of same source image.
+
+PATCH/ORIGINAL RELATIONSHIPS
+- 104 patch files have a case-insensitive stem matching an Original Images stem. This is suggestive only: many names are reused numeric labels, and no patient identity or provenance is inferred.
+- Exact duplicate patches within a class and repeated pHash groups indicate that multiple filenames can represent the same or visually similar patch. Split by duplicate/near-duplicate group before train/validation/test assignment.
+
+PATCHES VS TESTSET
+- No exact SHA-256 content overlap was found between Patches and TestSet.
+- No Patches/TestSet pHash pairs were within Hamming distance 6.
+- 31 filenames occur in both areas: 1.jpg, 10.jpg, 11.jpg, 12.jpg, 13.jpg, 14.jpg, 15.jpg, 16.jpg, 17.jpg, 18.jpg, 19.jpg, 2.jpg, 20.jpg, 21.jpg, 22.jpg, 23.jpg, 25.jpg, 3.jpg, 30.jpg, 36.jpg, 37.jpg, 38.jpg, 4.jpg, 47.jpg, 48.jpg, 5.jpg, 50.jpg, 6.jpg, 7.jpg, 8.jpg, 9.jpg. Because the names are short numeric labels and the corresponding bytes are not identical, this is an ambiguity requiring visual/source review, not confirmed leakage.
+- pHash screening should also be reviewed at the split level; the CSV contains all cross-folder near groups.
+
+RECOMMENDATIONS BEFORE SPLITTING
+- Treat Abnormal(Ulcer) and Normal(Healthy skin) as labels only for the Patches tree; do not infer labels for other folders.
+- Deduplicate exact files and group near duplicates before splitting. Keep all members of a group in one split.
+- Investigate patch-to-original relationships and the 31 reused Patches/TestSet names before using TestSet as an independent evaluation set.
+- This audit makes no assumptions about patient identity or dataset provenance.
