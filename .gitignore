@@ -8,3 +8,4 @@ __pycache__/
 *.tflite
 .env
 .ipynb_checkpoints/
+*.zip
