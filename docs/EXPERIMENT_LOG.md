@@ -305,27 +305,101 @@ This result should be interpreted in the context of the relatively small test se
 
 ## InceptionV3 Baseline
 
-Status: PLANNED - not yet run. Results must be produced on Kaggle GPU before any numbers are reported; nothing below is a measured result.
+Status: COMPLETED
 
-- Model: ImageNet-pretrained InceptionV3 (keras.applications.InceptionV3)
-- Input: 224x224 RGB (uniform with other baselines; 224 is valid for InceptionV3, minimum 75, although its native design size is 299)
-- Split: same fixed deduplicated split as EfficientNet-B0 (no new random split)
+### Purpose
+
+Evaluate InceptionV3 as a CNN baseline using the same final deduplicated dataset split and evaluation protocol.
+
+### Dataset
+
+Final deduplicated split:
+
+- Train: 494 images
+- Validation: 105 images
+- Test: 108 images
+- Test ulcer: 71
+- Test healthy: 37
+
+Class convention:
+
+- 0 = Normal(Healthy skin)
+- 1 = Abnormal(Ulcer)
+
+### Model
+
+- Model: ImageNet-pretrained InceptionV3
+- Input: 224x224 RGB
 - Seed: 42
 - Batch size: 16
-- Preprocessing: `tf.keras.applications.inception_v3.preprocess_input` (Lambda) after augmentation, before the backbone (tf mode: [0, 255] -> [-1, 1])
-- Assumption: keras.applications.InceptionV3 does not embed a Rescaling layer; verify first base-model layer names at runtime
-- Augmentation: horizontal flip, rotation 0.05, zoom 0.10 (same as EfficientNet)
+- Preprocessing: tf.keras.applications.inception_v3.preprocess_input
+- Preprocessing implemented as a Lambda layer after augmentation and before the backbone
+- Augmentation: horizontal flip, rotation 0.05, zoom 0.10
 - Head: GlobalAveragePooling2D -> Dense(128, relu, L2 1e-4) -> Dropout(0.3) -> Dense(1, sigmoid)
-- Stage 1: backbone frozen, Adam 1e-4, max 20 epochs, early stopping patience 5 (val_loss, restore best)
-- Stage 2: last 20 backbone layers unfrozen, Adam 1e-5, max 10 epochs, early stopping patience 3
-- Metrics (test set): accuracy, sensitivity, specificity, precision, F1, confusion matrix, ROC-AUC
 
-Outputs:
+### Training
 
-- results/models/inceptionv3_model.keras
-- results/inceptionv3_results.json
-- results/inceptionv3_y_true.npy
-- results/inceptionv3_y_prob.npy
-- results/inceptionv3_y_pred.npy
+Stage 1:
 
-Results: PENDING - to be filled after running on Kaggle.
+- Backbone frozen
+- Adam learning rate: 1e-4
+- Maximum epochs: 20
+- Early stopping patience: 5
+- Validation monitor: val_loss
+- Restore best weights: yes
+- Completed all 20 epochs
+
+Stage 2:
+
+- Final 20 backbone layers unfrozen
+- Adam learning rate: 1e-5
+- Maximum epochs: 10
+- Early stopping patience: 3
+- Validation monitor: val_loss
+- Restore best weights: yes
+- Completed all 10 epochs
+
+Classification threshold: 0.5
+
+### Test Results
+
+- Accuracy: 99.07%
+- Sensitivity: 100.00%
+- Specificity: 97.30%
+- Precision: 98.61%
+- F1-score: 99.30%
+- ROC-AUC: 1.0000
+
+Confusion matrix:
+
+TN = 36
+
+FP = 1
+
+FN = 0
+
+TP = 71
+
+### Output Files
+
+Model:
+
+`results/models/inceptionv3_model.keras`
+
+Metrics:
+
+`results/metrics/inceptionv3_results.json`
+
+Predictions:
+
+`results/predictions/inceptionv3_y_true.npy`
+
+`results/predictions/inceptionv3_y_prob.npy`
+
+`results/predictions/inceptionv3_y_pred.npy`
+
+### Notes
+
+InceptionV3 produced the same test-set classification metrics as the completed EfficientNet-B0 and ResNet50 experiments on the current 108-image test set.
+
+These results should be interpreted in the context of the relatively small test set and the dataset limitations documented in DATASET_AUDIT.md.
