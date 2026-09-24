@@ -1,0 +1,33 @@
+{
+  "dataset": "Clean Deduplicated Split",
+  "model": "ResNet50",
+  "input_size": [
+    224,
+    224
+  ],
+  "batch_size": 16,
+  "seed": 42,
+  "class_names": [
+    "Normal(Healthy skin)",
+    "Abnormal(Ulcer)"
+  ],
+  "positive_class": "Abnormal(Ulcer)",
+  "confusion_matrix": [
+    [
+      36,
+      1
+    ],
+    [
+      0,
+      71
+    ]
+  ],
+  "accuracy": 0.9907407407407407,
+  "sensitivity": 1.0,
+  "specificity": 0.972972972972973,
+  "precision": 0.9861111111111112,
+  "f1": 0.993006993006993,
+  "roc_auc": 1.0,
+  "threshold": 0.5,
+  "test_images": 108
+}
