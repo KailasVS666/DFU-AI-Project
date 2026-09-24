@@ -6,30 +6,97 @@ Results are recorded only after an experiment has actually been run.
 
 ## ResNet50 Baseline
 
-Status: PLANNED - not yet run. Results must be produced on Kaggle GPU before any
-numbers are reported; nothing below is a measured result.
+Status: COMPLETED
 
-- Model: ImageNet-pretrained ResNet50 (keras.applications.ResNet50)
+### Purpose
+
+Evaluate ResNet50 as a CNN baseline against the primary EfficientNet-B0 model using the same final deduplicated dataset split and evaluation protocol.
+
+### Dataset
+
+Final deduplicated split:
+
+- Train: 494 images
+- Validation: 105 images
+- Test: 108 images
+- Test ulcer: 71
+- Test healthy: 37
+
+Class convention:
+
+- 0 = Normal(Healthy skin)
+- 1 = Abnormal(Ulcer)
+
+### Model
+
+- Model: ImageNet-pretrained ResNet50
 - Input: 224x224 RGB
-- Split: same fixed deduplicated split as EfficientNet-B0 (no new random split)
 - Seed: 42
 - Batch size: 16
-- Preprocessing: `tf.keras.applications.resnet50.preprocess_input` (Lambda) after
-  augmentation, before the backbone (required for ImageNet weights)
-- Augmentation: horizontal flip, rotation 0.05, zoom 0.10 (same as EfficientNet)
+- Preprocessing: tf.keras.applications.resnet50.preprocess_input
+- Augmentation: horizontal flip, rotation 0.05, zoom 0.10
 - Head: GlobalAveragePooling2D -> Dense(128, relu, L2 1e-4) -> Dropout(0.3) -> Dense(1, sigmoid)
-- Stage 1: backbone frozen, Adam 1e-4, max 20 epochs, early stopping patience 5 (val_loss, restore best)
-- Stage 2: last 20 backbone layers unfrozen, Adam 1e-5, max 10 epochs, early stopping patience 3
-- Metrics (test set): accuracy, sensitivity, specificity, precision, F1, confusion matrix, ROC-AUC
 
-Outputs:
-- results/models/resnet50_model.keras
-- results/resnet50_results.json
-- results/resnet50_y_true.npy
-- results/resnet50_y_prob.npy
-- results/resnet50_y_pred.npy
+### Training
 
-Results: PENDING - to be filled after running on Kaggle.
+Stage 1:
+
+- Backbone frozen
+- Adam learning rate: 1e-4
+- Maximum epochs: 20
+- Early stopping patience: 5
+- Validation monitor: val_loss
+- Restore best weights: yes
+
+Stage 2:
+
+- Final 20 backbone layers unfrozen
+- Adam learning rate: 1e-5
+- Maximum epochs: 10
+- Early stopping patience: 3
+- Validation monitor: val_loss
+- Restore best weights: yes
+
+Classification threshold: 0.5
+
+### Test Results
+
+- Accuracy: 99.07%
+- Sensitivity: 100.00%
+- Specificity: 97.30%
+- Precision: 98.61%
+- F1-score: 99.30%
+- ROC-AUC: 1.0000
+
+Confusion matrix:
+
+TN = 36
+FP = 1
+FN = 0
+TP = 71
+
+### Output Files
+
+Model:
+
+results/models/resnet50_model.keras
+
+Metrics:
+
+results/metrics/resnet50_results.json
+
+Predictions:
+
+results/predictions/resnet50_y_true.npy
+results/predictions/resnet50_y_prob.npy
+results/predictions/resnet50_y_pred.npy
+
+### Notes
+
+ResNet50 produced the same test-set classification metrics as the completed EfficientNet-B0 experiment on the current 108-image test set.
+
+These results should be interpreted in the context of the relatively small test set and the dataset limitations documented in DATASET_AUDIT.md.
+
 
 ## VGG16 Baseline
 
@@ -117,3 +184,4 @@ Outputs:
 - results/inceptionv3_y_pred.npy
 
 Results: PENDING - to be filled after running on Kaggle.
+
