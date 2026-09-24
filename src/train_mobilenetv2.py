@@ -1,14 +1,19 @@
+import os
 import json
-
+import random
 import numpy as np
 import tensorflow as tf
-from pathlib import Path
+
+from tensorflow.keras import layers, models, regularizers
+from tensorflow.keras.applications import MobileNetV2
+from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
+from tensorflow.keras.callbacks import EarlyStopping
 from sklearn.metrics import (
     accuracy_score,
+    confusion_matrix,
     precision_score,
     recall_score,
     f1_score,
-    confusion_matrix,
     roc_auc_score,
 )
 
@@ -16,47 +21,58 @@ from sklearn.metrics import (
 # Configuration
 # ============================================================
 
-DATA_DIR = Path("data/DFU_split")
+DATA_DIR = "/kaggle/input/datasets/kailassharji/dfu-ai-split/DFU_split"
+OUTPUT_DIR = "/kaggle/working/results"
+
 IMG_SIZE = (224, 224)
 BATCH_SIZE = 16
 SEED = 42
 
-INITIAL_EPOCHS = 20
-FINETUNE_EPOCHS = 10
+os.makedirs(OUTPUT_DIR, exist_ok=True)
+os.makedirs(os.path.join(OUTPUT_DIR, "models"), exist_ok=True)
 
-INITIAL_LR = 1e-4
-FINETUNE_LR = 1e-5
+# Reproducibility
+random.seed(SEED)
+np.random.seed(SEED)
+tf.random.set_seed(SEED)
 
-RESULT_DIR = Path("results")
-MODEL_DIR = RESULT_DIR / "models"
+print("TensorFlow:", tf.__version__)
+print("GPU devices:", tf.config.list_physical_devices("GPU"))
 
 # ============================================================
-# Load datasets
+# Dataset
 # ============================================================
 
-train_ds = tf.keras.utils.image_dataset_from_directory(
-    DATA_DIR / "train",
-    image_size=IMG_SIZE,
-    batch_size=BATCH_SIZE,
-    shuffle=True,
-    seed=SEED,
-)
+CLASS_NAMES = [
+    "Normal(Healthy skin)",
+    "Abnormal(Ulcer)",
+]
 
-val_ds = tf.keras.utils.image_dataset_from_directory(
-    DATA_DIR / "val",
-    image_size=IMG_SIZE,
-    batch_size=BATCH_SIZE,
-    shuffle=False,
-)
 
-test_ds = tf.keras.utils.image_dataset_from_directory(
-    DATA_DIR / "test",
-    image_size=IMG_SIZE,
-    batch_size=BATCH_SIZE,
-    shuffle=False,
-)
+def load_dataset(split):
+    path = os.path.join(DATA_DIR, split)
 
-print("Classes:", train_ds.class_names)
+    return tf.keras.utils.image_dataset_from_directory(
+        path,
+        labels="inferred",
+        label_mode="binary",
+        class_names=CLASS_NAMES,
+        image_size=IMG_SIZE,
+        batch_size=BATCH_SIZE,
+        shuffle=(split == "train"),
+        seed=SEED,
+    )
+
+
+train_ds = load_dataset("train")
+val_ds = load_dataset("val")
+test_ds = load_dataset("test")
+
+print("\nClasses:", CLASS_NAMES)
+
+# ============================================================
+# Performance settings
+# ============================================================
 
 AUTOTUNE = tf.data.AUTOTUNE
 
@@ -70,106 +86,106 @@ test_ds = test_ds.prefetch(AUTOTUNE)
 
 augmentation = tf.keras.Sequential(
     [
-        tf.keras.layers.RandomFlip("horizontal"),
-        tf.keras.layers.RandomRotation(0.05),
-        tf.keras.layers.RandomZoom(0.10),
+        layers.RandomFlip("horizontal"),
+        layers.RandomRotation(0.05),
+        layers.RandomZoom(0.10),
     ],
     name="augmentation",
 )
 
 # ============================================================
-# MobileNetV2
+# Build MobileNetV2
 # ============================================================
 
-base_model = tf.keras.applications.MobileNetV2(
+base_model = MobileNetV2(
     include_top=False,
     weights="imagenet",
     input_shape=(224, 224, 3),
 )
 
-print("Base model first layers:", [l.name for l in base_model.layers[:3]])
+print("\nMobileNetV2 first layers:")
+for layer in base_model.layers[:5]:
+    print(layer.name, layer.__class__.__name__)
 
+print("\nMobileNetV2 last layers:")
+for layer in base_model.layers[-5:]:
+    print(layer.name, layer.__class__.__name__)
+
+# Freeze backbone for Stage 1
 base_model.trainable = False
 
-inputs = tf.keras.Input(shape=(224, 224, 3))
+inputs = layers.Input(shape=(224, 224, 3))
 
 x = augmentation(inputs)
 
-# MobileNetV2 pretrained weights expect tf-mode inputs scaled to
-# [-1, 1]; the keras.applications model does not embed a Rescaling
-# layer, so preprocess_input must be applied before the backbone.
-x = tf.keras.layers.Lambda(
-    tf.keras.applications.mobilenet_v2.preprocess_input,
-    name="mobilenet_v2_preprocess_input",
+# MobileNetV2 requires preprocessing to [-1, 1].
+# The preprocessing is applied explicitly so the experiment
+# remains clear and reproducible.
+x = layers.Lambda(
+    preprocess_input,
+    name="mobilenetv2_preprocess",
 )(x)
 
 x = base_model(x, training=False)
-x = tf.keras.layers.GlobalAveragePooling2D()(x)
 
-x = tf.keras.layers.Dense(
+x = layers.GlobalAveragePooling2D()(x)
+
+x = layers.Dense(
     128,
     activation="relu",
-    kernel_regularizer=tf.keras.regularizers.l2(1e-4),
+    kernel_regularizer=regularizers.l2(1e-4),
 )(x)
 
-x = tf.keras.layers.Dropout(0.3)(x)
+x = layers.Dropout(0.3)(x)
 
-outputs = tf.keras.layers.Dense(
+outputs = layers.Dense(
     1,
     activation="sigmoid",
 )(x)
 
-model = tf.keras.Model(inputs, outputs)
+model = models.Model(
+    inputs,
+    outputs,
+    name="MobileNetV2_DFU",
+)
+
+model.summary()
 
 # ============================================================
-# Stage 1: Train classifier with frozen backbone
+# Stage 1 — Frozen backbone
 # ============================================================
 
 model.compile(
     optimizer=tf.keras.optimizers.Adam(
-        learning_rate=INITIAL_LR
+        learning_rate=1e-4
     ),
     loss="binary_crossentropy",
-    metrics=[
-        "accuracy",
-        tf.keras.metrics.Precision(name="precision"),
-        tf.keras.metrics.Recall(name="recall"),
-    ],
+    metrics=["accuracy"],
 )
 
-print("\n========== STAGE 1 ==========")
-print("Training classifier with frozen MobileNetV2")
+early_stop_stage1 = EarlyStopping(
+    monitor="val_loss",
+    patience=5,
+    restore_best_weights=True,
+)
 
-stage1_callbacks = [
-    tf.keras.callbacks.EarlyStopping(
-        monitor="val_loss",
-        patience=5,
-        restore_best_weights=True,
-    ),
-    tf.keras.callbacks.ModelCheckpoint(
-        "mobilenetv2_stage1_best.keras",
-        monitor="val_loss",
-        save_best_only=True,
-    ),
-]
+print("\n==============================")
+print("MobileNetV2 Stage 1")
+print("==============================")
 
-model.fit(
+history1 = model.fit(
     train_ds,
     validation_data=val_ds,
-    epochs=INITIAL_EPOCHS,
-    callbacks=stage1_callbacks,
+    epochs=20,
+    callbacks=[early_stop_stage1],
 )
 
 # ============================================================
-# Stage 2: Fine-tune final 20 layers
+# Stage 2 — Fine-tune final 20 layers
 # ============================================================
-
-print("\n========== STAGE 2 ==========")
-print("Fine-tuning final 20 MobileNetV2 layers")
 
 base_model.trainable = True
 
-# Freeze everything except the final 20 layers
 for layer in base_model.layers[:-20]:
     layer.trainable = False
 
@@ -178,131 +194,212 @@ for layer in base_model.layers[-20:]:
 
 model.compile(
     optimizer=tf.keras.optimizers.Adam(
-        learning_rate=FINETUNE_LR
+        learning_rate=1e-5
     ),
     loss="binary_crossentropy",
-    metrics=[
-        "accuracy",
-        tf.keras.metrics.Precision(name="precision"),
-        tf.keras.metrics.Recall(name="recall"),
-    ],
+    metrics=["accuracy"],
 )
 
-stage2_callbacks = [
-    tf.keras.callbacks.EarlyStopping(
-        monitor="val_loss",
-        patience=3,
-        restore_best_weights=True,
-    ),
-    tf.keras.callbacks.ModelCheckpoint(
-        "mobilenetv2_stage2_best.keras",
-        monitor="val_loss",
-        save_best_only=True,
-    ),
-]
+early_stop_stage2 = EarlyStopping(
+    monitor="val_loss",
+    patience=3,
+    restore_best_weights=True,
+)
 
-model.fit(
+print("\n==============================")
+print("MobileNetV2 Stage 2")
+print("==============================")
+
+history2 = model.fit(
     train_ds,
     validation_data=val_ds,
-    epochs=FINETUNE_EPOCHS,
-    callbacks=stage2_callbacks,
+    epochs=10,
+    callbacks=[early_stop_stage2],
 )
 
 # ============================================================
-# Test evaluation
+# Test predictions
 # ============================================================
 
-print("\n========== TEST EVALUATION ==========")
+print("\n==============================")
+print("Evaluating MobileNetV2")
+print("==============================")
 
 y_true = []
 y_prob = []
 
 for images, labels in test_ds:
-    predictions = model.predict(images, verbose=0)
+    probs = model.predict(
+        images,
+        verbose=0,
+    ).ravel()
 
-    y_true.extend(labels.numpy())
-    y_prob.extend(predictions.ravel())
+    y_prob.extend(probs)
+    y_true.extend(
+        labels.numpy().astype(int).ravel()
+    )
 
 y_true = np.array(y_true)
 y_prob = np.array(y_prob)
 
-# 0.5 threshold
 y_pred = (y_prob >= 0.5).astype(int)
 
-# Confusion matrix
-tn, fp, fn, tp = confusion_matrix(
+# ============================================================
+# Metrics
+# ============================================================
+
+accuracy = accuracy_score(
     y_true,
     y_pred,
-    labels=[0, 1],
-).ravel()
+)
 
-accuracy = accuracy_score(y_true, y_pred)
-precision = precision_score(y_true, y_pred, zero_division=0)
-sensitivity = recall_score(y_true, y_pred, zero_division=0)
-f1 = f1_score(y_true, y_pred, zero_division=0)
+sensitivity = recall_score(
+    y_true,
+    y_pred,
+    pos_label=1,
+)
 
-specificity = tn / (tn + fp) if (tn + fp) > 0 else 0.0
+specificity = recall_score(
+    y_true,
+    y_pred,
+    pos_label=0,
+)
 
-roc_auc = roc_auc_score(y_true, y_prob)
+precision = precision_score(
+    y_true,
+    y_pred,
+    zero_division=0,
+)
 
-print(f"Accuracy:     {accuracy:.4f}")
-print(f"Sensitivity:  {sensitivity:.4f}")
-print(f"Specificity:  {specificity:.4f}")
-print(f"Precision:    {precision:.4f}")
-print(f"F1 Score:     {f1:.4f}")
-print(f"ROC-AUC:      {roc_auc:.4f}")
+f1 = f1_score(
+    y_true,
+    y_pred,
+    zero_division=0,
+)
+
+roc_auc = roc_auc_score(
+    y_true,
+    y_prob,
+)
+
+cm = confusion_matrix(
+    y_true,
+    y_pred,
+)
+
+print("\n==============================")
+print("MobileNetV2 TEST RESULTS")
+print("==============================")
+
+print(f"Accuracy:    {accuracy:.4f}")
+print(f"Sensitivity: {sensitivity:.4f}")
+print(f"Specificity: {specificity:.4f}")
+print(f"Precision:   {precision:.4f}")
+print(f"F1-score:    {f1:.4f}")
+print(f"ROC-AUC:     {roc_auc:.4f}")
 
 print("\nConfusion Matrix:")
-print(f"TN: {tn}")
-print(f"FP: {fp}")
-print(f"FN: {fn}")
-print(f"TP: {tp}")
+print(cm)
 
 # ============================================================
-# Save model, predictions and results
+# Save model
 # ============================================================
 
-MODEL_DIR.mkdir(parents=True, exist_ok=True)
+model_path = os.path.join(
+    OUTPUT_DIR,
+    "models",
+    "mobilenetv2_model.keras",
+)
 
-model_path = MODEL_DIR / "mobilenetv2_model.keras"
 model.save(model_path)
 
-np.save(RESULT_DIR / "mobilenetv2_y_true.npy", y_true)
-np.save(RESULT_DIR / "mobilenetv2_y_prob.npy", y_prob)
-np.save(RESULT_DIR / "mobilenetv2_y_pred.npy", y_pred)
-
-class_names = train_ds.class_names
+# ============================================================
+# Save metrics
+# ============================================================
 
 results = {
-    "dataset": "Clean Deduplicated Split",
     "model": "MobileNetV2",
-    "input_size": list(IMG_SIZE),
+    "input_size": [224, 224],
     "batch_size": BATCH_SIZE,
     "seed": SEED,
-    "class_names": list(class_names),
-    "positive_class": class_names[1],
-    "confusion_matrix": [
-        [int(tn), int(fp)],
-        [int(fn), int(tp)],
-    ],
+    "threshold": 0.5,
+    "test_size": int(len(y_true)),
     "accuracy": float(accuracy),
     "sensitivity": float(sensitivity),
     "specificity": float(specificity),
     "precision": float(precision),
-    "f1": float(f1),
+    "f1_score": float(f1),
     "roc_auc": float(roc_auc),
-    "threshold": 0.5,
-    "test_images": int(len(y_true)),
+    "confusion_matrix": cm.tolist(),
 }
 
-result_path = RESULT_DIR / "mobilenetv2_results.json"
+results_path = os.path.join(
+    OUTPUT_DIR,
+    "mobilenetv2_results.json",
+)
 
-with open(result_path, "w") as f:
-    json.dump(results, f, indent=2)
+with open(results_path, "w") as f:
+    json.dump(
+        results,
+        f,
+        indent=2,
+    )
 
-print("\nSaved:")
+# ============================================================
+# Save predictions
+# ============================================================
+
+np.save(
+    os.path.join(
+        OUTPUT_DIR,
+        "mobilenetv2_y_true.npy",
+    ),
+    y_true,
+)
+
+np.save(
+    os.path.join(
+        OUTPUT_DIR,
+        "mobilenetv2_y_prob.npy",
+    ),
+    y_prob,
+)
+
+np.save(
+    os.path.join(
+        OUTPUT_DIR,
+        "mobilenetv2_y_pred.npy",
+    ),
+    y_pred,
+)
+
+# ============================================================
+# Final output
+# ============================================================
+
+print("\n==============================")
+print("FILES SAVED")
+print("==============================")
+
 print(model_path)
-print(result_path)
-print(RESULT_DIR / "mobilenetv2_y_true.npy")
-print(RESULT_DIR / "mobilenetv2_y_prob.npy")
-print(RESULT_DIR / "mobilenetv2_y_pred.npy")
+print(results_path)
+print(
+    os.path.join(
+        OUTPUT_DIR,
+        "mobilenetv2_y_true.npy",
+    )
+)
+print(
+    os.path.join(
+        OUTPUT_DIR,
+        "mobilenetv2_y_prob.npy",
+    )
+)
+print(
+    os.path.join(
+        OUTPUT_DIR,
+        "mobilenetv2_y_pred.npy",
+    )
+)
+
+print("\nMobileNetV2 training and evaluation completed.")
