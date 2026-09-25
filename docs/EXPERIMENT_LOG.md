@@ -1,405 +1,182 @@
-# Experiment Log
+# EXPERIMENT LOG
 
-Each experiment uses the fixed deduplicated split: `data/DFU_split/`
+## 1. Dataset Preparation
 
-(train 494 / val 105 / test 108; abnormal=ulcer is the positive class).
+The working dataset is the DFU dataset associated with Alzubaidi et al., obtained through Kaggle/Google Drive.
 
-Results are recorded only after an experiment has actually been run.
+The dataset is associated with clinical data from Iraq.
 
-## ResNet50 Baseline
+A duplicate/near-duplicate controlled split was created using exact hashing, pHash, and connected-component grouping.
 
-Status: COMPLETED
+### Final split
 
-### Purpose
+| Split | Healthy | Ulcer | Total |
+|---|---:|---:|---:|
+| Train | 167 | 327 | 494 |
+| Validation | 35 | 70 | 105 |
+| Test | 37 | 71 | 108 |
+| Total | 239 | 468 | 707 |
 
-Evaluate ResNet50 as a CNN baseline against the primary EfficientNet-B0 model using the same final deduplicated dataset split and evaluation protocol.
+Cross-split exact/near-duplicate overlap: **0**.
 
-### Dataset
+---
 
-Final deduplicated split:
+## 2. Model Training
 
-- Train: 494 images
-- Validation: 105 images
-- Test: 108 images
-- Test ulcer: 71
-- Test healthy: 37
+Five ImageNet-pretrained CNNs were trained using 224×224 images, batch size 16, augmentation, transfer learning, fine-tuning, Adam optimization, and early stopping.
 
-Class convention:
+Models:
 
-- 0 = Normal(Healthy skin)
-- 1 = Abnormal(Ulcer)
+- EfficientNet-B0
+- ResNet50
+- VGG16
+- MobileNetV2
+- InceptionV3
 
-### Model
+Training environment:
 
-- Model: ImageNet-pretrained ResNet50
-- Input: 224x224 RGB
-- Seed: 42
-- Batch size: 16
-- Preprocessing: tf.keras.applications.resnet50.preprocess_input
-- Augmentation: horizontal flip, rotation 0.05, zoom 0.10
-- Head: GlobalAveragePooling2D -> Dense(128, relu, L2 1e-4) -> Dropout(0.3) -> Dense(1, sigmoid)
+- TensorFlow 2.20.0
+- 2 × Tesla T4 GPUs
+- Kaggle
 
-### Training
+---
 
-Stage 1:
+## 3. Test Results
 
-- Backbone frozen
-- Adam learning rate: 1e-4
-- Maximum epochs: 20
-- Early stopping patience: 5
-- Validation monitor: val_loss
-- Restore best weights: yes
+| Model | Accuracy | Sensitivity | Specificity | Precision | F1 | ROC-AUC |
+|---|---:|---:|---:|---:|---:|---:|
+| EfficientNet-B0 | 99.07% | 100.00% | 97.30% | 98.61% | 99.30% | 1.000 |
+| ResNet50 | 99.07% | 100.00% | 97.30% | 98.61% | 99.30% | 1.000 |
+| VGG16 | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 1.000 |
+| MobileNetV2 | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 1.000 |
+| InceptionV3 | 99.07% | 100.00% | 97.30% | 98.61% | 99.30% | 1.000 |
 
-Stage 2:
+These are results on the current 108-image held-out test set.
 
-- Final 20 backbone layers unfrozen
-- Adam learning rate: 1e-5
-- Maximum epochs: 10
-- Early stopping patience: 3
-- Validation monitor: val_loss
-- Restore best weights: yes
+---
 
-Classification threshold: 0.5
+## 4. Statistical Validation
 
-### Test Results
+Exact binomial confidence intervals:
 
-- Accuracy: 99.07%
-- Sensitivity: 100.00%
-- Specificity: 97.30%
-- Precision: 98.61%
-- F1-score: 99.30%
-- ROC-AUC: 1.0000
+**Sensitivity:**  
+100.00% (95% CI: 94.94–100.00%) for all models.
 
-Confusion matrix:
+**Specificity:**
 
-TN = 36
+- EfficientNet-B0: 97.30% (85.84–99.93%)
+- ResNet50: 97.30% (85.84–99.93%)
+- VGG16: 100.00% (90.51–100.00%)
+- MobileNetV2: 100.00% (90.51–100.00%)
+- InceptionV3: 97.30% (85.84–99.93%)
 
-FP = 1
+Exact pairwise McNemar testing produced **p = 1.0000** for every model pair.
 
-FN = 0
+No statistically significant pairwise difference was detected at α = 0.05.
 
-TP = 71
+---
 
-### Output Files
+## 5. Error and Agreement Analysis
 
-Model:
+EfficientNet-B0 produced one false positive:
 
-`results/models/resnet50_model.keras`
-
-Metrics:
-
-`results/metrics/resnet50_results.json`
-
-Predictions:
-
-`results/predictions/resnet50_y_true.npy`
-
-`results/predictions/resnet50_y_prob.npy`
-
-`results/predictions/resnet50_y_pred.npy`
-
-### Notes
-
-ResNet50 produced the same test-set classification metrics as the completed EfficientNet-B0 experiment on the current 108-image test set.
-
-These results should be interpreted in the context of the relatively small test set and the dataset limitations documented in DATASET_AUDIT.md.
-
-## VGG16 Baseline
-
-Status: COMPLETED
-
-### Purpose
-
-Evaluate VGG16 as a CNN baseline using the same final deduplicated dataset split and evaluation protocol.
-
-### Dataset
-
-Final deduplicated split:
-
-- Train: 494 images
-- Validation: 105 images
-- Test: 108 images
-- Test ulcer: 71
-- Test healthy: 37
-
-Class convention:
-
-- 0 = Normal(Healthy skin)
-- 1 = Abnormal(Ulcer)
-
-### Model
-
-- Model: ImageNet-pretrained VGG16
-- Input: 224x224 RGB
-- Seed: 42
-- Batch size: 16
-- Preprocessing: tf.keras.applications.vgg16.preprocess_input
-- Augmentation: horizontal flip, rotation 0.05, zoom 0.10
-- Head: GlobalAveragePooling2D -> Dense(128, relu, L2 1e-4) -> Dropout(0.3) -> Dense(1, sigmoid)
-
-### Training
-
-Stage 1:
-
-- Backbone frozen
-- Adam learning rate: 1e-4
-- Maximum epochs: 20
-- Early stopping patience: 5
-- Validation monitor: val_loss
-- Restore best weights: yes
-
-Stage 2:
-
-- Final 20 backbone layers unfrozen
-- Adam learning rate: 1e-5
-- Maximum epochs: 10
-- Early stopping patience: 3
-- Validation monitor: val_loss
-- Restore best weights: yes
-
-Classification threshold: 0.5
-
-### Test Results
-
-- Accuracy: 100.00%
-- Sensitivity: 100.00%
-- Specificity: 100.00%
-- Precision: 100.00%
-- F1-score: 100.00%
-- ROC-AUC: 1.0000
+`Normal(Healthy skin)/40.jpg`
 
 Confusion matrix:
 
-TN = 37
+`[[36, 1], [0, 71]]`
 
-FP = 0
+Only three test images were involved in disagreements between the five models:
 
-FN = 0
+- Index 2
+- Index 16
+- Index 33
 
-TP = 71
+All three were true ulcer images.
 
-### Output Files
+Detailed prediction probabilities are stored in the prediction-analysis outputs.
 
-Model:
+---
 
-`results/models/vgg16_model.keras`
+## 6. Grad-CAM
 
-Metrics:
+Grad-CAM was completed for EfficientNet-B0.
 
-`results/metrics/vgg16_results.json`
+Examples are stored in:
 
-Predictions:
+`results/gradcam/`
 
-`results/predictions/vgg16_y_true.npy`
+Generated examples include:
 
-`results/predictions/vgg16_y_prob.npy`
+- False positive
+- True positive
+- True negative
 
-`results/predictions/vgg16_y_pred.npy`
+Because clinician segmentation masks/ROIs are unavailable, Grad-CAM is reported qualitatively only.
 
-### Notes
+---
 
-VGG16 achieved perfect classification on the current 108-image test set.
+## 7. Important Technical Fixes
 
-This result should be interpreted in the context of the relatively small test set and the dataset limitations documented in DATASET_AUDIT.md.
+### Class-label ordering
 
-## MobileNetV2 Baseline
+All training scripts were corrected to explicitly use:
 
-Status: COMPLETED
+`0 = Normal(Healthy skin)`
 
-### Purpose
+`1 = Abnormal(Ulcer)`
 
-Evaluate MobileNetV2 as a lightweight CNN baseline using the same final deduplicated dataset split and evaluation protocol.
+This prevents alphabetical directory ordering from reversing the intended labels.
 
-### Dataset
+### Dataset splitting
 
-Final deduplicated split:
+The original split procedure was corrected to retain only one representative from each duplicate/near-duplicate group.
 
-- Train: 494 images
-- Validation: 105 images
-- Test: 108 images
-- Test ulcer: 71
-- Test healthy: 37
+### Grad-CAM
 
-Class convention:
+The initial Grad-CAM implementation failed because of the nested Keras Functional architecture. The working implementation accesses the EfficientNet backbone and `top_conv` layer directly.
 
-- 0 = Normal(Healthy skin)
-- 1 = Abnormal(Ulcer)
+---
 
-### Model
+## 8. Current Status
 
-- Model: ImageNet-pretrained MobileNetV2
-- Input: 224x224 RGB
-- Seed: 42
-- Batch size: 16
-- Preprocessing: tf.keras.applications.mobilenet_v2.preprocess_input
-- Preprocessing implemented as a Lambda layer after augmentation and before the backbone
-- Augmentation: horizontal flip, rotation 0.05, zoom 0.10
-- Head: GlobalAveragePooling2D -> Dense(128, relu, L2 1e-4) -> Dropout(0.3) -> Dense(1, sigmoid)
+### Completed
 
-### Training
+- Dataset cleaning
+- Leakage checking
+- Five CNN experiments
+- Model comparison
+- Error analysis
+- Confidence intervals
+- McNemar testing
+- Grad-CAM
 
-Stage 1:
+### Pending
 
-- Backbone frozen
-- Adam learning rate: 1e-4
-- Maximum epochs: 20
-- Early stopping patience: 5
-- Validation monitor: val_loss
-- Restore best weights: yes
-- Completed all 20 epochs
+- TensorFlow Lite conversion
+- TFLite prediction verification
+- Model-size measurement
+- CPU latency benchmarking
+- Mobile deployment
+- Final paper methodology
+- Final paper figures/tables
 
-Stage 2:
+---
 
-- Final 20 backbone layers unfrozen
-- Adam learning rate: 1e-5
-- Maximum epochs: 10
-- Early stopping patience: 3
-- Validation monitor: val_loss
-- Restore best weights: yes
-- Stopped after epoch 4
+## 9. Next Experiment
 
-Classification threshold: 0.5
+**TensorFlow Lite/mobile benchmarking**
 
-### Test Results
+1. Convert EfficientNet-B0 to TFLite.
+2. Verify TFLite predictions against Keras.
+3. Measure model size.
+4. Measure CPU inference latency.
+5. Document the conversion and quantization method.
 
-- Accuracy: 100.00%
-- Sensitivity: 100.00%
-- Specificity: 100.00%
-- Precision: 100.00%
-- F1-score: 100.00%
-- ROC-AUC: 1.0000
+Detailed dataset information belongs in `DATASET_AUDIT.md`.
 
-Confusion matrix:
+Detailed methodology belongs in `METHODOLOGY.md`.
 
-TN = 37
+Detailed paper material belongs in `PAPER_NOTES.md`.
 
-FP = 0
-
-FN = 0
-
-TP = 71
-
-### Output Files
-
-Model:
-
-`results/models/mobilenetv2_model.keras`
-
-Metrics:
-
-`results/metrics/mobilenetv2_results.json`
-
-Predictions:
-
-`results/predictions/mobilenetv2_y_true.npy`
-
-`results/predictions/mobilenetv2_y_prob.npy`
-
-`results/predictions/mobilenetv2_y_pred.npy`
-
-### Notes
-
-MobileNetV2 achieved perfect classification on the current 108-image test set.
-
-This result should be interpreted in the context of the relatively small test set and the dataset limitations documented in DATASET_AUDIT.md.
-
-## InceptionV3 Baseline
-
-Status: COMPLETED
-
-### Purpose
-
-Evaluate InceptionV3 as a CNN baseline using the same final deduplicated dataset split and evaluation protocol.
-
-### Dataset
-
-Final deduplicated split:
-
-- Train: 494 images
-- Validation: 105 images
-- Test: 108 images
-- Test ulcer: 71
-- Test healthy: 37
-
-Class convention:
-
-- 0 = Normal(Healthy skin)
-- 1 = Abnormal(Ulcer)
-
-### Model
-
-- Model: ImageNet-pretrained InceptionV3
-- Input: 224x224 RGB
-- Seed: 42
-- Batch size: 16
-- Preprocessing: tf.keras.applications.inception_v3.preprocess_input
-- Preprocessing implemented as a Lambda layer after augmentation and before the backbone
-- Augmentation: horizontal flip, rotation 0.05, zoom 0.10
-- Head: GlobalAveragePooling2D -> Dense(128, relu, L2 1e-4) -> Dropout(0.3) -> Dense(1, sigmoid)
-
-### Training
-
-Stage 1:
-
-- Backbone frozen
-- Adam learning rate: 1e-4
-- Maximum epochs: 20
-- Early stopping patience: 5
-- Validation monitor: val_loss
-- Restore best weights: yes
-- Completed all 20 epochs
-
-Stage 2:
-
-- Final 20 backbone layers unfrozen
-- Adam learning rate: 1e-5
-- Maximum epochs: 10
-- Early stopping patience: 3
-- Validation monitor: val_loss
-- Restore best weights: yes
-- Completed all 10 epochs
-
-Classification threshold: 0.5
-
-### Test Results
-
-- Accuracy: 99.07%
-- Sensitivity: 100.00%
-- Specificity: 97.30%
-- Precision: 98.61%
-- F1-score: 99.30%
-- ROC-AUC: 1.0000
-
-Confusion matrix:
-
-TN = 36
-
-FP = 1
-
-FN = 0
-
-TP = 71
-
-### Output Files
-
-Model:
-
-`results/models/inceptionv3_model.keras`
-
-Metrics:
-
-`results/metrics/inceptionv3_results.json`
-
-Predictions:
-
-`results/predictions/inceptionv3_y_true.npy`
-
-`results/predictions/inceptionv3_y_prob.npy`
-
-`results/predictions/inceptionv3_y_pred.npy`
-
-### Notes
-
-InceptionV3 produced the same test-set classification metrics as the completed EfficientNet-B0 and ResNet50 experiments on the current 108-image test set.
-
-These results should be interpreted in the context of the relatively small test set and the dataset limitations documented in DATASET_AUDIT.md.
+A separate `MODEL_ANALYSIS.md` can be created later for detailed model comparisons, prediction probabilities, confidence intervals, and statistical analysis if needed.
