@@ -6,6 +6,7 @@ __pycache__/
 *.pth
 *.pt
 *.tflite
+!android/DFU-AI-App/app/src/main/assets/*.tflite
 .env
 .ipynb_checkpoints/
 *.zip
