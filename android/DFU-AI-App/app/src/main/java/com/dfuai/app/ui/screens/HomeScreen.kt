@@ -6,6 +6,8 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -23,11 +25,10 @@ fun HomeScreen(
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .padding(24.dp),
+            .verticalScroll(rememberScrollState())
+            .padding(horizontal = 24.dp, vertical = 20.dp),
         verticalArrangement = Arrangement.Top
     ) {
-        Spacer(Modifier.height(24.dp))
-
         Text(
             text = "DFU AI",
             style = MaterialTheme.typography.displaySmall
@@ -48,7 +49,7 @@ fun HomeScreen(
             style = MaterialTheme.typography.bodyLarge
         )
 
-        Spacer(Modifier.height(28.dp))
+        Spacer(Modifier.height(24.dp))
 
         StatusCard(
             title = "AI model",
@@ -72,7 +73,8 @@ fun HomeScreen(
             Text(
                 text = "Select a clear foot image and let the on-device " +
                         "AI model screen it for features associated with " +
-                        "a diabetic foot ulcer."
+                        "a diabetic foot ulcer.",
+                style = MaterialTheme.typography.bodyMedium
             )
 
             Spacer(Modifier.height(18.dp))
@@ -92,5 +94,7 @@ fun HomeScreen(
                     "assessment or diagnosis.",
             style = MaterialTheme.typography.bodySmall
         )
+
+        Spacer(Modifier.height(24.dp))
     }
 }

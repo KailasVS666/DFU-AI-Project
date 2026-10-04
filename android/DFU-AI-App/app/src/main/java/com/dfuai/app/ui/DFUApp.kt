@@ -3,9 +3,15 @@ package com.dfuai.app.ui
 import android.graphics.Bitmap
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.padding
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Folder
+import androidx.compose.material.icons.filled.Home
+import androidx.compose.material.icons.filled.Info
+import androidx.compose.material.icons.filled.Search
 import androidx.compose.material3.NavigationBar
 import androidx.compose.material3.NavigationBarItem
 import androidx.compose.material3.Scaffold
+import androidx.compose.material3.Icon
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -23,7 +29,9 @@ import com.dfuai.app.ui.screens.InfoScreen
 import com.dfuai.app.ui.screens.ResultScreen
 import com.dfuai.app.ui.screens.ScanScreen
 
-private enum class AppScreen(val label: String) {
+private enum class AppScreen(
+    val label: String
+) {
     HOME("Home"),
     SCAN("Scan"),
     HISTORY("History"),
@@ -41,15 +49,30 @@ private val bottomScreens = listOf(
 @Composable
 fun DFUApp(model: DFUModel) {
     val context = LocalContext.current
+
     val repository = remember(context) {
         ScanRepository(context)
     }
 
-    var screen by remember { mutableStateOf(AppScreen.HOME) }
-    var selectedBitmap by remember { mutableStateOf<Bitmap?>(null) }
-    var isUlcer by remember { mutableStateOf<Boolean?>(null) }
-    var confidence by remember { mutableStateOf<Float?>(null) }
-    var history by remember { mutableStateOf(repository.getAll()) }
+    var screen by remember {
+        mutableStateOf(AppScreen.HOME)
+    }
+
+    var selectedBitmap by remember {
+        mutableStateOf<Bitmap?>(null)
+    }
+
+    var isUlcer by remember {
+        mutableStateOf<Boolean?>(null)
+    }
+
+    var confidence by remember {
+        mutableStateOf<Float?>(null)
+    }
+
+    var history by remember {
+        mutableStateOf(repository.getAll())
+    }
 
     Scaffold(
         bottomBar = {
@@ -61,10 +84,14 @@ fun DFUApp(model: DFUModel) {
                             if (item == AppScreen.HISTORY) {
                                 history = repository.getAll()
                             }
+
                             screen = item
                         },
                         icon = {
-                            Text(item.label.first().toString())
+                            Icon(
+                                imageVector = item.icon(),
+                                contentDescription = item.label
+                            )
                         },
                         label = {
                             Text(item.label)
@@ -145,4 +172,12 @@ fun DFUApp(model: DFUModel) {
             }
         }
     }
+}
+
+private fun AppScreen.icon() = when (this) {
+    AppScreen.HOME -> Icons.Default.Home
+    AppScreen.SCAN -> Icons.Default.Search
+    AppScreen.HISTORY -> Icons.Default.Folder
+    AppScreen.INFO -> Icons.Default.Info
+    AppScreen.RESULT -> Icons.Default.Search
 }
