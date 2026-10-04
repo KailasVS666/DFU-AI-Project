@@ -9,6 +9,9 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.Card
+import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -32,20 +35,35 @@ fun ResultScreen(
         verticalArrangement = Arrangement.Top
     ) {
         Text(
-            text = "Analysis Result",
+            text = "Screening Result",
             style = MaterialTheme.typography.headlineMedium
+        )
+
+        Spacer(Modifier.height(6.dp))
+
+        Text(
+            text = "AI-assisted analysis of the selected image.",
+            style = MaterialTheme.typography.bodyLarge
         )
 
         Spacer(Modifier.height(20.dp))
 
         bitmap?.let {
-            Image(
-                bitmap = it.asImageBitmap(),
-                contentDescription = "Analyzed foot image",
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .height(260.dp)
-            )
+            Card(
+                modifier = Modifier.fillMaxWidth(),
+                shape = RoundedCornerShape(24.dp),
+                elevation = CardDefaults.cardElevation(
+                    defaultElevation = 2.dp
+                )
+            ) {
+                Image(
+                    bitmap = it.asImageBitmap(),
+                    contentDescription = "Analyzed foot image",
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .height(260.dp)
+                )
+            }
         }
 
         Spacer(Modifier.height(20.dp))
@@ -73,9 +91,19 @@ fun ResultScreen(
 
             Text(
                 text = when (isUlcer) {
-                    true -> "The AI model detected features associated with a diabetic foot ulcer."
-                    false -> "The AI model did not detect features associated with a diabetic foot ulcer."
-                    null -> "No analysis has been completed."
+                    true -> {
+                        "The AI model detected image features associated " +
+                                "with a diabetic foot ulcer."
+                    }
+
+                    false -> {
+                        "The AI model did not detect image features " +
+                                "associated with a diabetic foot ulcer."
+                    }
+
+                    null -> {
+                        "No analysis has been completed."
+                    }
                 },
                 style = MaterialTheme.typography.bodyMedium
             )
@@ -84,7 +112,9 @@ fun ResultScreen(
         Spacer(Modifier.height(16.dp))
 
         Text(
-            text = "This AI screening result does not replace evaluation by a qualified healthcare professional.",
+            text = "This result is intended for research and screening support " +
+                    "only. It does not replace examination or diagnosis by a " +
+                    "qualified healthcare professional.",
             style = MaterialTheme.typography.bodySmall
         )
 
