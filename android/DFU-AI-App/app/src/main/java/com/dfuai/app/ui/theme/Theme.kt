@@ -1,58 +1,50 @@
 package com.dfuai.app.ui.theme
 
-import android.app.Activity
-import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.darkColorScheme
-import androidx.compose.material3.dynamicDarkColorScheme
-import androidx.compose.material3.dynamicLightColorScheme
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.graphics.Color
 
-private val DarkColorScheme = darkColorScheme(
-    primary = Purple80,
-    secondary = PurpleGrey80,
-    tertiary = Pink80
+private val LightColors = lightColorScheme(
+    primary = DFUPrimary,
+    onPrimary = DFUSurface,
+    primaryContainer = Color(0xFFD4EEF5),
+    onPrimaryContainer = DFUPrimaryDark,
+    secondary = DFUSecondary,
+    onSecondary = DFUSurface,
+    background = DFUBackground,
+    onBackground = DFUTextPrimary,
+    surface = DFUSurface,
+    onSurface = DFUTextPrimary,
+    error = DFUDanger,
+    onError = DFUSurface
 )
 
-private val LightColorScheme = lightColorScheme(
-    primary = Purple40,
-    secondary = PurpleGrey40,
-    tertiary = Pink40
-
-    /* Other default colors to override
-    background = Color(0xFFFFFBFE),
-    surface = Color(0xFFFFFBFE),
-    onPrimary = Color.White,
-    onSecondary = Color.White,
-    onTertiary = Color.White,
-    onBackground = Color(0xFF1C1B1F),
-    onSurface = Color(0xFF1C1B1F),
-    */
+private val DarkColors = darkColorScheme(
+    primary = Color(0xFF8DD4E8),
+    onPrimary = DFUPrimaryDark,
+    primaryContainer = Color(0xFF145A70),
+    onPrimaryContainer = Color(0xFFD4EEF5),
+    secondary = Color(0xFFA5D6D6),
+    onSecondary = Color(0xFF123536),
+    background = Color(0xFF10171C),
+    onBackground = Color(0xFFE7EEF2),
+    surface = Color(0xFF182127),
+    onSurface = Color(0xFFE7EEF2),
+    error = Color(0xFFFFB4AB),
+    onError = Color(0xFF690005)
 )
 
 @Composable
 fun DFUAITheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
-    // Dynamic color is available on Android 12+
-    dynamicColor: Boolean = true,
     content: @Composable () -> Unit
 ) {
-    val colorScheme = when {
-        dynamicColor && Build.VERSION.SDK_INT >= Build.VERSION_CODES.S -> {
-            val context = LocalContext.current
-            if (darkTheme) dynamicDarkColorScheme(context) else dynamicLightColorScheme(context)
-        }
-
-        darkTheme -> DarkColorScheme
-        else -> LightColorScheme
-    }
-
     MaterialTheme(
-        colorScheme = colorScheme,
-        typography = Typography,
+        colorScheme = if (darkTheme) DarkColors else LightColors,
+        typography = DFUTypography,
         content = content
     )
 }
