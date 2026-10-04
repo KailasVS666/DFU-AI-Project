@@ -21,6 +21,8 @@ fun InfoScreen() {
             .padding(24.dp),
         verticalArrangement = Arrangement.spacedBy(16.dp)
     ) {
+        Spacer(Modifier.height(8.dp))
+
         Text(
             text = "About DFU AI",
             style = MaterialTheme.typography.headlineMedium
@@ -30,8 +32,6 @@ fun InfoScreen() {
             text = "AI-assisted diabetic foot ulcer screening.",
             style = MaterialTheme.typography.bodyLarge
         )
-
-        Spacer(Modifier.height(4.dp))
 
         SectionCard {
             Text(
@@ -50,7 +50,7 @@ fun InfoScreen() {
 
         SectionCard {
             Text(
-                text = "Privacy",
+                text = "On-device privacy",
                 style = MaterialTheme.typography.titleLarge
             )
 
@@ -58,8 +58,23 @@ fun InfoScreen() {
 
             Text(
                 text = "Image analysis is performed locally on the device. " +
-                        "The application does not require an online AI service " +
-                        "for inference."
+                        "The application does not require an online AI " +
+                        "service for inference."
+            )
+        }
+
+        SectionCard {
+            Text(
+                text = "Research model",
+                style = MaterialTheme.typography.titleLarge
+            )
+
+            Spacer(Modifier.height(8.dp))
+
+            Text(
+                text = "DFU AI is based on a machine-learning model developed " +
+                        "for research into automated diabetic foot ulcer " +
+                        "screening from images."
             )
         }
 
@@ -74,7 +89,7 @@ fun InfoScreen() {
             Text(
                 text = "DFU AI is a research prototype and screening aid. " +
                         "Its output should not be used as a standalone " +
-                        "clinical diagnosis."
+                        "clinical diagnosis or treatment decision."
             )
         }
     }
