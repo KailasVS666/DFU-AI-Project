@@ -4,7 +4,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import com.dfuai.app.ml.DFUModel
-import com.dfuai.app.ui.DFUApp
+import com.dfuai.app.navigation.AppNavigation
 import com.dfuai.app.ui.theme.DFUAITheme
 
 class MainActivity : ComponentActivity() {
@@ -19,10 +19,10 @@ class MainActivity : ComponentActivity() {
 
             setContent {
                 DFUAITheme {
-                    DFUApp(model = dfuModel!!)
+                    AppNavigation(model = dfuModel!!)
                 }
             }
-        } catch (e: Exception) {
+        } catch (_: Exception) {
             setContent {
                 DFUAITheme {
                     androidx.compose.material3.Text(
