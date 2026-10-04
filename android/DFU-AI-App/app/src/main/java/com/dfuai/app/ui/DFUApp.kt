@@ -13,6 +13,9 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
+import com.dfuai.app.data.ScanRecord
+import com.dfuai.app.data.ScanRepository
 import com.dfuai.app.ml.DFUModel
 import com.dfuai.app.ui.screens.HistoryScreen
 import com.dfuai.app.ui.screens.HomeScreen
@@ -24,8 +27,8 @@ private enum class AppScreen(val label: String) {
     HOME("Home"),
     SCAN("Scan"),
     HISTORY("History"),
-    RESULT("Result"),
-    INFO("Info")
+    INFO("Info"),
+    RESULT("Result")
 }
 
 private val bottomScreens = listOf(
@@ -37,10 +40,16 @@ private val bottomScreens = listOf(
 
 @Composable
 fun DFUApp(model: DFUModel) {
+    val context = LocalContext.current
+    val repository = remember(context) {
+        ScanRepository(context)
+    }
+
     var screen by remember { mutableStateOf(AppScreen.HOME) }
     var selectedBitmap by remember { mutableStateOf<Bitmap?>(null) }
     var isUlcer by remember { mutableStateOf<Boolean?>(null) }
     var confidence by remember { mutableStateOf<Float?>(null) }
+    var history by remember { mutableStateOf(repository.getAll()) }
 
     Scaffold(
         bottomBar = {
@@ -48,7 +57,12 @@ fun DFUApp(model: DFUModel) {
                 bottomScreens.forEach { item ->
                     NavigationBarItem(
                         selected = screen == item,
-                        onClick = { screen = item },
+                        onClick = {
+                            if (item == AppScreen.HISTORY) {
+                                history = repository.getAll()
+                            }
+                            screen = item
+                        },
                         icon = {
                             Text(item.label.first().toString())
                         },
@@ -90,6 +104,16 @@ fun DFUApp(model: DFUModel) {
                             confidence = result.confidence
                             selectedBitmap = bitmap
 
+                            repository.save(
+                                ScanRecord(
+                                    id = System.currentTimeMillis(),
+                                    timestamp = System.currentTimeMillis(),
+                                    isUlcer = result.isUlcer,
+                                    confidence = result.confidence
+                                )
+                            )
+
+                            history = repository.getAll()
                             screen = AppScreen.RESULT
                         }
                     )
@@ -108,6 +132,7 @@ fun DFUApp(model: DFUModel) {
 
                 AppScreen.HISTORY -> {
                     HistoryScreen(
+                        records = history,
                         onOpenLatest = {
                             screen = AppScreen.SCAN
                         }
