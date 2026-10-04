@@ -15,6 +15,7 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Card
+import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -24,6 +25,7 @@ import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import com.dfuai.app.ui.components.PrimaryButton
+import com.dfuai.app.ui.components.SectionCard
 
 @Composable
 fun ScanScreen(
@@ -47,22 +49,22 @@ fun ScanScreen(
         modifier = Modifier
             .fillMaxSize()
             .padding(24.dp),
-        horizontalAlignment = Alignment.CenterHorizontally,
+        horizontalAlignment = Alignment.Start,
         verticalArrangement = Arrangement.Top
     ) {
         Text(
-            text = "New Scan",
+            text = "New Screening",
             style = MaterialTheme.typography.headlineMedium
         )
 
-        Spacer(Modifier.height(8.dp))
+        Spacer(Modifier.height(6.dp))
 
         Text(
-            text = "Select a clear image of the foot.",
-            style = MaterialTheme.typography.bodyMedium
+            text = "Select a clear image of the foot for AI-assisted screening.",
+            style = MaterialTheme.typography.bodyLarge
         )
 
-        Spacer(Modifier.height(24.dp))
+        Spacer(Modifier.height(20.dp))
 
         if (bitmap == null) {
             EmptyImageCard(
@@ -71,27 +73,14 @@ fun ScanScreen(
                 }
             )
         } else {
-            val selectedBitmap = bitmap
+            SelectedImageCard(bitmap)
 
-            Card(
-                modifier = Modifier.fillMaxWidth(),
-                shape = RoundedCornerShape(24.dp)
-            ) {
-                Image(
-                    bitmap = selectedBitmap.asImageBitmap(),
-                    contentDescription = "Selected foot image",
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .height(320.dp)
-                )
-            }
-
-            Spacer(Modifier.height(20.dp))
+            Spacer(Modifier.height(16.dp))
 
             PrimaryButton(
                 text = "Analyze Image",
                 onClick = {
-                    onAnalyze(selectedBitmap)
+                    onAnalyze(bitmap)
                 }
             )
 
@@ -102,6 +91,22 @@ fun ScanScreen(
                 onClick = {
                     picker.launch("image/*")
                 }
+            )
+        }
+
+        Spacer(Modifier.height(20.dp))
+
+        SectionCard {
+            Text(
+                text = "Image guidance",
+                style = MaterialTheme.typography.titleMedium
+            )
+
+            Spacer(Modifier.height(8.dp))
+
+            Text(
+                text = "Use a clear, well-lit image with the foot visible " +
+                        "and the area of concern unobstructed."
             )
         }
     }
@@ -115,7 +120,10 @@ private fun EmptyImageCard(
         modifier = Modifier
             .fillMaxWidth()
             .height(300.dp),
-        shape = RoundedCornerShape(24.dp)
+        shape = RoundedCornerShape(24.dp),
+        elevation = CardDefaults.cardElevation(
+            defaultElevation = 2.dp
+        )
     ) {
         Column(
             modifier = Modifier
@@ -125,14 +133,14 @@ private fun EmptyImageCard(
             verticalArrangement = Arrangement.Center
         ) {
             Text(
-                text = "No image selected",
+                text = "Select a foot image",
                 style = MaterialTheme.typography.titleLarge
             )
 
             Spacer(Modifier.height(8.dp))
 
             Text(
-                text = "Choose a foot image from your gallery."
+                text = "Choose an image from your device gallery."
             )
 
             Spacer(Modifier.height(20.dp))
@@ -142,5 +150,24 @@ private fun EmptyImageCard(
                 onClick = onChooseImage
             )
         }
+    }
+}
+
+@Composable
+private fun SelectedImageCard(bitmap: Bitmap) {
+    Card(
+        modifier = Modifier.fillMaxWidth(),
+        shape = RoundedCornerShape(24.dp),
+        elevation = CardDefaults.cardElevation(
+            defaultElevation = 2.dp
+        )
+    ) {
+        Image(
+            bitmap = bitmap.asImageBitmap(),
+            contentDescription = "Selected foot image",
+            modifier = Modifier
+                .fillMaxWidth()
+                .height(320.dp)
+        )
     }
 }
