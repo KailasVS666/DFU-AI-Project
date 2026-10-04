@@ -9,10 +9,10 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.dfuai.app.ui.components.PrimaryButton
+import com.dfuai.app.ui.components.SectionCard
 import com.dfuai.app.ui.components.StatusCard
 
 @Composable
@@ -24,9 +24,10 @@ fun HomeScreen(
         modifier = Modifier
             .fillMaxSize()
             .padding(24.dp),
-        verticalArrangement = Arrangement.Center,
-        horizontalAlignment = Alignment.Start
+        verticalArrangement = Arrangement.Top
     ) {
+        Spacer(Modifier.height(24.dp))
+
         Text(
             text = "DFU AI",
             style = MaterialTheme.typography.displaySmall
@@ -39,10 +40,11 @@ fun HomeScreen(
             style = MaterialTheme.typography.titleLarge
         )
 
-        Spacer(Modifier.height(10.dp))
+        Spacer(Modifier.height(12.dp))
 
         Text(
-            text = "AI-assisted screening from a foot image.",
+            text = "AI-assisted screening from a foot image, " +
+                    "performed directly on your device.",
             style = MaterialTheme.typography.bodyLarge
         )
 
@@ -51,24 +53,43 @@ fun HomeScreen(
         StatusCard(
             title = "AI model",
             message = if (modelReady) {
-                "Ready for image analysis"
+                "Ready for screening"
             } else {
                 "Model unavailable"
             }
         )
 
-        Spacer(Modifier.height(20.dp))
-
-        PrimaryButton(
-            text = "Start a New Scan",
-            onClick = onScan
-        )
-
         Spacer(Modifier.height(16.dp))
+
+        SectionCard {
+            Text(
+                text = "Start a screening",
+                style = MaterialTheme.typography.titleLarge
+            )
+
+            Spacer(Modifier.height(8.dp))
+
+            Text(
+                text = "Select a clear foot image and let the on-device " +
+                        "AI model screen it for features associated with " +
+                        "a diabetic foot ulcer."
+            )
+
+            Spacer(Modifier.height(18.dp))
+
+            PrimaryButton(
+                text = "Start New Screening",
+                onClick = onScan,
+                enabled = modelReady
+            )
+        }
+
+        Spacer(Modifier.height(20.dp))
 
         Text(
             text = "For research and screening support only. " +
-                    "This application does not replace clinical diagnosis.",
+                    "The result does not replace professional clinical " +
+                    "assessment or diagnosis.",
             style = MaterialTheme.typography.bodySmall
         )
     }
