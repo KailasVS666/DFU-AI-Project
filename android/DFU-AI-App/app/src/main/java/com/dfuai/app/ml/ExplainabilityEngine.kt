@@ -39,7 +39,12 @@ class ExplainabilityEngine {
 
         val targetSize = ImagePreprocessor.IMAGE_SIZE
         val resizedOriginal = Bitmap.createScaledBitmap(original, targetSize, targetSize, true)
-        val originalProb = model.computeProbability(ImagePreprocessor.prepare(resizedOriginal))
+        val originalProb = try {
+            model.computeProbability(ImagePreprocessor.prepare(resizedOriginal))
+        } catch (e: Exception) {
+            android.util.Log.e("OcclusionDebug", "Failed to compute original prob", e)
+            throw e
+        }
         val originalIsUlcer = originalProb >= THRESHOLD
         val originalUlcerProb = originalProb
         val originalHealthyProb = 1f - originalProb
@@ -64,10 +69,15 @@ class ExplainabilityEngine {
                 val top = row * cellHeight
                 val right = if (col == gridSize - 1) targetSize else (col + 1) * cellWidth
                 val bottom = if (row == gridSize - 1) targetSize else (row + 1) * cellHeight
-                val occluded = Bitmap.createBitmap(resizedOriginal)
+                val occluded = resizedOriginal.copy(Bitmap.Config.ARGB_8888, true)
                 val canvas = Canvas(occluded)
                 canvas.drawRect(Rect(left, top, right, bottom), fillPaint)
-                val occludedProb = model.computeProbability(ImagePreprocessor.prepare(occluded))
+                val occludedProb = try {
+                    model.computeProbability(ImagePreprocessor.prepare(occluded))
+                } catch (e: Exception) {
+                    android.util.Log.e("OcclusionDebug", "Failed at cell $row,$col", e)
+                    throw e
+                }
                 val importance = computeImportance(
                     originalIsUlcer = originalIsUlcer,
                     originalUlcerProb = originalUlcerProb,

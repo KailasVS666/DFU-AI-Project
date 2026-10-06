@@ -174,10 +174,11 @@ fun ResultScreen(
                             )
                             heatmap = result
                             explanationState = ExplanationState.Ready(result)
-                        } catch (_: Exception) {
+                        } catch (e: Exception) {
                             if (explanationState is ExplanationState.Generating) {
                                 explanationState = ExplanationState.Idle
                             }
+                            android.util.Log.e("OcclusionDebug", "Occlusion failed", e)
                         }
                     }
                 },
