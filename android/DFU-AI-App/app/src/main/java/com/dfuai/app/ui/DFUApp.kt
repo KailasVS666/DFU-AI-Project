@@ -151,6 +151,7 @@ fun DFUApp(model: DFUModel) {
                         bitmap = selectedBitmap,
                         isUlcer = isUlcer,
                         confidence = confidence,
+                        model = model,
                         onScanAgain = {
                             screen = AppScreen.SCAN
                         }

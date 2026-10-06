@@ -13,14 +13,20 @@ class DFUModel(context: Context) : AutoCloseable {
         CompiledModel.Options(Accelerator.CPU)
     )
 
-    fun analyze(bitmap: Bitmap): Prediction {
-        val input = ImagePreprocessor.prepare(bitmap)
-
+    fun computeProbability(input: FloatArray): Float {
         val inputs = model.createInputBuffers()
         inputs[0].writeFloat(input)
-
         val outputs = model.run(inputs)
-        val probability = outputs[0].readFloat()[0]
+        return outputs[0].readFloat()[0]
+    }
+
+    fun analyzeProbability(bitmap: Bitmap): Float {
+        val input = ImagePreprocessor.prepare(bitmap)
+        return computeProbability(input)
+    }
+
+    fun analyze(bitmap: Bitmap): Prediction {
+        val probability = analyzeProbability(bitmap)
 
         return Prediction(
             isUlcer = probability >= 0.5f,
